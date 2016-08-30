@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "XLsn0wKit"
-  s.version      = "1.1.2"
+  s.version      = "1.1.3"
   s.summary      = 'A collection of iOS components from XLsn0wKit.'
   s.description  = "Copyright © 2016年 XLsn0w Create A collection of iOS components from XLsn0wKit."
   s.homepage     = "https://github.com/XLsn0w/XLsn0wKit"
@@ -31,6 +31,6 @@ Pod::Spec.new do |s|
 
   s.libraries = 'z', 'sqlite3'
   s.frameworks = 'UIKit', 'CoreFoundation', 'CoreText', 'CoreGraphics', 'CoreImage', 'QuartzCore', 'ImageIO', 'AssetsLibrary', 'Accelerate', 'MobileCoreServices', 'SystemConfiguration'
-  s.ios.vendored_frameworks = 'Vendor/WebP.framework'
+  s.ios.vendored_frameworks = 'XLsn0w/Frameworks/WebP.framework'
 
 end
