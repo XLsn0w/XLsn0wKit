@@ -398,10 +398,10 @@
 		35F4AB881D752E0300B641FE /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				35F4ABC41D752E0300B641FE /* YYKitMacro.h */,
 				35F4AB891D752E0300B641FE /* Foundation */,
 				35F4ABA21D752E0300B641FE /* Quartz */,
 				35F4ABA71D752E0300B641FE /* UIKit */,
-				35F4ABC41D752E0300B641FE /* YYKitMacro.h */,
 			);
 			path = Base;
 			sourceTree = "<group>";
