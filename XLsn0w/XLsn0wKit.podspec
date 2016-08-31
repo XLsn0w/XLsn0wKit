@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  non_arc_files = 'XLsn0w/no-arc/NSObject+YYAddForARC.{h,m}', 'XLsn0w/no-arc/NSThread+YYAdd.{h,m}'
+  non_arc_files = 'XLsn0w/no-arc/NSObject+XLsn0wAddForARC.{h,m}', 'XLsn0w/no-arc/NSThread+XLsn0wAdd.{h,m}'
   s.ios.exclude_files = non_arc_files
   s.subspec 'no-arc' do |sna|
     sna.requires_arc = false

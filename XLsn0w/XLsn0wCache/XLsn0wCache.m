@@ -1,19 +1,9 @@
-//
-//  YYCache.m
-//  YYKit <https://github.com/ibireme/YYKit>
-//
-//  Created by ibireme on 15/2/13.
-//  Copyright (c) 2015 ibireme.
-//
-//  This source code is licensed under the MIT-style license found in the
-//  LICENSE file in the root directory of this source tree.
-//
 
-#import "YYCache.h"
-#import "YYMemoryCache.h"
-#import "YYDiskCache.h"
+#import "XLsn0wCache.h"
+#import "XLsn0wMemoryCache.h"
+#import "XLsn0wDiskCache.h"
 
-@implementation YYCache
+@implementation XLsn0wCache
 
 - (instancetype) init {
     NSLog(@"Use \"initWithName\" or \"initWithPath\" to create YYCache instance.");
@@ -29,10 +19,10 @@
 
 - (instancetype)initWithPath:(NSString *)path {
     if (path.length == 0) return nil;
-    YYDiskCache *diskCache = [[YYDiskCache alloc] initWithPath:path];
+    XLsn0wDiskCache *diskCache = [[XLsn0wDiskCache alloc] initWithPath:path];
     if (!diskCache) return nil;
     NSString *name = [path lastPathComponent];
-    YYMemoryCache *memoryCache = [YYMemoryCache new];
+    XLsn0wMemoryCache *memoryCache = [XLsn0wMemoryCache new];
     memoryCache.name = name;
     
     self = [super init];
@@ -43,11 +33,11 @@
 }
 
 + (instancetype)cacheWithName:(NSString *)name {
-	return [[YYCache alloc] initWithName:name];
+	return [[XLsn0wCache alloc] initWithName:name];
 }
 
 + (instancetype)cacheWithPath:(NSString *)path {
-    return [[YYCache alloc] initWithPath:path];
+    return [[XLsn0wCache alloc] initWithPath:path];
 }
 
 - (BOOL)containsObjectForKey:(NSString *)key {

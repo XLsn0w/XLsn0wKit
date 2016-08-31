@@ -1,15 +1,6 @@
-//
-//  YYDiskCache.m
-//  YYKit <https://github.com/ibireme/YYKit>
-//
-//  Created by ibireme on 15/2/11.
-//  Copyright (c) 2015 ibireme.
-//
-//  This source code is licensed under the MIT-style license found in the
-//  LICENSE file in the root directory of this source tree.
-//
 
-#import "YYDiskCache.h"
+#import "XLsn0wDiskCache.h"
+
 #import "YYKVStorage.h"
 #import "NSString+YYAdd.h"
 #import "UIDevice+YYAdd.h"
@@ -44,7 +35,7 @@ static void _YYDiskCacheInitGlobal() {
     });
 }
 
-static YYDiskCache *_YYDiskCacheGetGlobal(NSString *path) {
+static XLsn0wDiskCache *_YYDiskCacheGetGlobal(NSString *path) {
     if (path.length == 0) return nil;
     _YYDiskCacheInitGlobal();
     dispatch_semaphore_wait(_globalInstancesLock, DISPATCH_TIME_FOREVER);
@@ -53,7 +44,7 @@ static YYDiskCache *_YYDiskCacheGetGlobal(NSString *path) {
     return cache;
 }
 
-static void _YYDiskCacheSetGlobal(YYDiskCache *cache) {
+static void _YYDiskCacheSetGlobal(XLsn0wDiskCache *cache) {
     if (cache.path.length == 0) return;
     _YYDiskCacheInitGlobal();
     dispatch_semaphore_wait(_globalInstancesLock, DISPATCH_TIME_FOREVER);
@@ -63,7 +54,7 @@ static void _YYDiskCacheSetGlobal(YYDiskCache *cache) {
 
 
 
-@implementation YYDiskCache {
+@implementation XLsn0wDiskCache {
     YYKVStorage *_kv;
     dispatch_semaphore_t _lock;
     dispatch_queue_t _queue;
@@ -162,7 +153,7 @@ static void _YYDiskCacheSetGlobal(YYDiskCache *cache) {
     self = [super init];
     if (!self) return nil;
     
-    YYDiskCache *globalCache = _YYDiskCacheGetGlobal(path);
+    XLsn0wDiskCache *globalCache = _YYDiskCacheGetGlobal(path);
     if (globalCache) return globalCache;
     
     YYKVStorageType type;
@@ -232,7 +223,7 @@ static void _YYDiskCacheSetGlobal(YYDiskCache *cache) {
         }
     }
     if (object && item.extendedData) {
-        [YYDiskCache setExtendedData:item.extendedData toObject:object];
+        [XLsn0wDiskCache setExtendedData:item.extendedData toObject:object];
     }
     return object;
 }
@@ -254,7 +245,7 @@ static void _YYDiskCacheSetGlobal(YYDiskCache *cache) {
         return;
     }
     
-    NSData *extendedData = [YYDiskCache getExtendedDataFromObject:object];
+    NSData *extendedData = [XLsn0wDiskCache getExtendedDataFromObject:object];
     NSData *value = nil;
     if (_customArchiveBlock) {
         value = _customArchiveBlock(object);

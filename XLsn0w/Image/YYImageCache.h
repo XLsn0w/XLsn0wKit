@@ -11,7 +11,7 @@
 
 #import <UIKit/UIKit.h>
 
-@class YYMemoryCache, YYDiskCache;
+@class XLsn0wMemoryCache, XLsn0wDiskCache;
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -57,10 +57,10 @@ typedef NS_OPTIONS(NSUInteger, YYImageCacheType) {
 @property (nullable, copy) NSString *name;
 
 /** The underlying memory cache. see `YYMemoryCache` for more information.*/
-@property (strong, readonly) YYMemoryCache *memoryCache;
+@property (strong, readonly) XLsn0wMemoryCache *memoryCache;
 
 /** The underlying disk cache. see `YYDiskCache` for more information.*/
-@property (strong, readonly) YYDiskCache *diskCache;
+@property (strong, readonly) XLsn0wDiskCache *diskCache;
 
 /**
  Whether decode animated image when fetch image from disk cache. Default is YES.

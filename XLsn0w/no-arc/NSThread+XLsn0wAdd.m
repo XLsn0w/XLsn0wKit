@@ -1,9 +1,15 @@
 
-#import "NSThread+YYAdd.h"
+#import "NSThread+XLsn0wAdd.h"
+
 #import <CoreFoundation/CoreFoundation.h>
 
-@interface NSThread_YYAdd : NSObject @end
-@implementation NSThread_YYAdd @end
+@interface NSThread_Add : NSObject
+
+@end
+
+@implementation NSThread_Add
+
+@end
 
 #if __has_feature(objc_arc)
 #error This file must be compiled without ARC. Specify the -fno-objc-arc flag to this file.
@@ -19,7 +25,6 @@ static const void *PoolStackRetainCallBack(CFAllocatorRef allocator, const void 
 static void PoolStackReleaseCallBack(CFAllocatorRef allocator, const void *value) {
     CFRelease((CFTypeRef)value);
 }
-
 
 static inline void YYAutoreleasePoolPush() {
     NSMutableDictionary *dic =  [NSThread currentThread].threadDictionary;
@@ -83,7 +88,7 @@ static void YYRunloopAutoreleasePoolSetup() {
     CFRelease(popObserver);
 }
 
-@implementation NSThread (YYAdd)
+@implementation NSThread (XLsn0wAdd)
 
 + (void)addAutoreleasePoolToCurrentRunloop {
     if ([NSThread isMainThread]) return; // The main thread already has autorelease pool.

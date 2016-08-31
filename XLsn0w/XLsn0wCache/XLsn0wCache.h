@@ -1,17 +1,7 @@
-//
-//  YYCache.h
-//  YYKit <https://github.com/ibireme/YYKit>
-//
-//  Created by ibireme on 15/2/13.
-//  Copyright (c) 2015 ibireme.
-//
-//  This source code is licensed under the MIT-style license found in the
-//  LICENSE file in the root directory of this source tree.
-//
 
 #import <Foundation/Foundation.h>
 
-@class YYMemoryCache, YYDiskCache;
+@class XLsn0wMemoryCache, XLsn0wDiskCache;
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -22,16 +12,16 @@ NS_ASSUME_NONNULL_BEGIN
  and use `YYDiskCache` to persisting objects to a large and slow disk cache.
  See `YYMemoryCache` and `YYDiskCache` for more information.
  */
-@interface YYCache : NSObject
+@interface XLsn0wCache : NSObject
 
 /** The name of the cache, readonly. */
 @property (copy, readonly) NSString *name;
 
 /** The underlying memory cache. see `YYMemoryCache` for more information.*/
-@property (strong, readonly) YYMemoryCache *memoryCache;
+@property (strong, readonly) XLsn0wMemoryCache *memoryCache;
 
 /** The underlying disk cache. see `YYDiskCache` for more information.*/
-@property (strong, readonly) YYDiskCache *diskCache;
+@property (strong, readonly) XLsn0wDiskCache *diskCache;
 
 /**
  Create a new instance with the specified name.

@@ -1,7 +1,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSThread (YYAdd)
+@interface NSThread (XLsn0wAdd)
 
 /**
  Add an autorelease pool to current runloop for current thread.

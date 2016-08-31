@@ -2,9 +2,9 @@
 #import <Foundation/Foundation.h>
 
 /**
- Debug method for NSObject when using ARC.
+ Debug mode method for NSObject when using ARC.
  */
-@interface NSObject (YYAddForARC)
+@interface NSObject (XLsn0wAddForARC)
 
 /// Same as `retain`
 - (instancetype)arcDebugRetain;

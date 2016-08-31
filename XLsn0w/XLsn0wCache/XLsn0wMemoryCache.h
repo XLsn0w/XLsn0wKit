@@ -1,13 +1,3 @@
-//
-//  YYMemoryCache.h
-//  YYKit <https://github.com/ibireme/YYKit>
-//
-//  Created by ibireme on 15/2/7.
-//  Copyright (c) 2015 ibireme.
-//
-//  This source code is licensed under the MIT-style license found in the
-//  LICENSE file in the root directory of this source tree.
-//
 
 #import <Foundation/Foundation.h>
 
@@ -28,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
  
  The time of `Access Methods` in YYMemoryCache is typically in constant time (O(1)).
  */
-@interface YYMemoryCache : NSObject
+@interface XLsn0wMemoryCache : NSObject
 
 #pragma mark - Attribute
 ///=============================================================================
@@ -101,13 +91,13 @@ NS_ASSUME_NONNULL_BEGIN
  A block to be executed when the app receives a memory warning.
  The default value is nil.
  */
-@property (nullable, copy) void(^didReceiveMemoryWarningBlock)(YYMemoryCache *cache);
+@property (nullable, copy) void(^didReceiveMemoryWarningBlock)(XLsn0wMemoryCache *cache);
 
 /**
  A block to be executed when the app enter background.
  The default value is nil.
  */
-@property (nullable, copy) void(^didEnterBackgroundBlock)(YYMemoryCache *cache);
+@property (nullable, copy) void(^didEnterBackgroundBlock)(XLsn0wMemoryCache *cache);
 
 /**
  If `YES`, the key-value pair will be released on main thread, otherwise on

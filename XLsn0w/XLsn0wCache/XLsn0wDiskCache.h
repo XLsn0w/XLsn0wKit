@@ -1,13 +1,3 @@
-//
-//  YYDiskCache.h
-//  YYKit <https://github.com/ibireme/YYKit>
-//
-//  Created by ibireme on 15/2/11.
-//  Copyright (c) 2015 ibireme.
-//
-//  This source code is licensed under the MIT-style license found in the
-//  LICENSE file in the root directory of this source tree.
-//
 
 #import <Foundation/Foundation.h>
 
@@ -28,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
  You may compile the latest version of sqlite and ignore the libsqlite3.dylib in
  iOS system to get 2x~4x speed up.
  */
-@interface YYDiskCache : NSObject
+@interface XLsn0wDiskCache : NSObject
 
 #pragma mark - Attribute
 ///=============================================================================
