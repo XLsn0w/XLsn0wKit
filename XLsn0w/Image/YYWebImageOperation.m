@@ -15,7 +15,8 @@
 #import "YYWeakProxy.h"
 #import "UIImage+YYAdd.h"
 #import <ImageIO/ImageIO.h>
-#import "YYKitMacro.h"
+
+#import "XLsn0wKitMacro.h"
 
 #if __has_include("YYDispatchQueuePool.h")
 #import "YYDispatchQueuePool.h"

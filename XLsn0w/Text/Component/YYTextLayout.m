@@ -10,7 +10,8 @@
 //
 
 #import "YYTextLayout.h"
-#import "YYKitMacro.h"
+
+#import "XLsn0wKitMacro.h"
 #import "YYCGUtilities.h"
 #import "YYTextUtilities.h"
 #import "YYTextAttribute.h"

@@ -1,18 +1,9 @@
-//
-//  CALayer+YYWebImage.m
-//  YYKit <https://github.com/ibireme/YYKit>
-//
-//  Created by ibireme on 15/2/23.
-//  Copyright (c) 2015 ibireme.
-//
-//  This source code is licensed under the MIT-style license found in the
-//  LICENSE file in the root directory of this source tree.
-//
 
 #import "CALayer+YYWebImage.h"
 #import "YYWebImageOperation.h"
 #import "_YYWebImageSetter.h"
-#import "YYKitMacro.h"
+
+#import "XLsn0wKitMacro.h"
 #import <objc/runtime.h>
 
 YYSYNTH_DUMMY_CLASS(CALayer_YYWebImage)

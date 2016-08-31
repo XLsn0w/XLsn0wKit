@@ -1,8 +1,8 @@
 
-
 #import "NSNotificationCenter+YYAdd.h"
+
 #include <pthread.h>
-#import "YYKitMacro.h"
+#import "XLsn0wKitMacro.h"
 
 YYSYNTH_DUMMY_CLASS(NSNotificationCenter_YYAdd)
 

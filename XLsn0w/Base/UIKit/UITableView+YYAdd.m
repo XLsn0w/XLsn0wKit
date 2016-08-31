@@ -1,16 +1,7 @@
-//
-//  UITableView+YYAdd.m
-//  YYKit <https://github.com/ibireme/YYKit>
-//
-//  Created by ibireme on 14/5/12.
-//  Copyright (c) 2015 ibireme.
-//
-//  This source code is licensed under the MIT-style license found in the
-//  LICENSE file in the root directory of this source tree.
-//
+
 
 #import "UITableView+YYAdd.h"
-#import "YYKitMacro.h"
+#import "XLsn0wKitMacro.h"
 
 YYSYNTH_DUMMY_CLASS(UITableView_YYAdd)
 

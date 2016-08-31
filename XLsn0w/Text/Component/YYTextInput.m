@@ -10,7 +10,8 @@
 //
 
 #import "YYTextInput.h"
-#import "YYKitMacro.h"
+
+#import "XLsn0wKitMacro.h"
 
 @implementation YYTextPosition
 

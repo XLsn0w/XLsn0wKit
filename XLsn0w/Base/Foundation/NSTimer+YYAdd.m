@@ -10,7 +10,8 @@
 //
 
 #import "NSTimer+YYAdd.h"
-#import "YYKitMacro.h"
+
+#import "XLsn0wKitMacro.h"
 
 YYSYNTH_DUMMY_CLASS(NSTimer_YYAdd)
 

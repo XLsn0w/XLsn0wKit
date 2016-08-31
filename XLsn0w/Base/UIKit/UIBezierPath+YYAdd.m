@@ -12,7 +12,7 @@
 #import "UIBezierPath+YYAdd.h"
 #import "UIFont+YYAdd.h"
 #import <CoreText/CoreText.h>
-#import "YYKitMacro.h"
+#import "XLsn0wKitMacro.h"
 
 YYSYNTH_DUMMY_CLASS(UIBezierPath_YYAdd)
 

@@ -12,7 +12,7 @@
 #import "UIApplication+YYAdd.h"
 #import "NSArray+YYAdd.h"
 #import "NSObject+YYAdd.h"
-#import "YYKitMacro.h"
+#import "XLsn0wKitMacro.h"
 #import "UIDevice+YYAdd.h"
 #import <sys/sysctl.h>
 #import <mach/mach.h>

@@ -20,7 +20,7 @@
 #import <pthread.h>
 #import <zlib.h>
 #import "YYImage.h"
-#import "YYKitMacro.h"
+#import "XLsn0wKitMacro.h"
 
 #ifndef YYIMAGE_WEBP_ENABLED
 #if __has_include(<webp/decode.h>) && __has_include(<webp/encode.h>) && \

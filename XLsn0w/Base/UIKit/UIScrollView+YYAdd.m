@@ -10,7 +10,7 @@
 //
 
 #import "UIScrollView+YYAdd.h"
-#import "YYKitMacro.h"
+#import "XLsn0wKitMacro.h"
 
 YYSYNTH_DUMMY_CLASS(UIScrollView_YYAdd)
 

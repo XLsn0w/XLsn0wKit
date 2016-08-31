@@ -11,7 +11,7 @@
 
 #import "YYTextLine.h"
 #import "YYTextUtilities.h"
-#import "YYKitMacro.h"
+#import "XLsn0wKitMacro.h"
 
 @implementation YYTextLine {
     CGFloat _firstGlyphPos; // first glyph position for baseline, typically 0.

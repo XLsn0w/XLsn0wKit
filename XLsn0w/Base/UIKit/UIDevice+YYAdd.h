@@ -28,7 +28,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (double)systemVersion;
 
 /// Whether the device is iPad/iPad mini.
-@property (nonatomic, readonly) BOOL isPad;
+//@property (nonatomic, readonly) BOOL isPad;
 
 /// Whether the device is a simulator.
 @property (nonatomic, readonly) BOOL isSimulator;

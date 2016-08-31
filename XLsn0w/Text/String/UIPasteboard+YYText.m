@@ -10,7 +10,8 @@
 //
 
 #import "UIPasteboard+YYText.h"
-#import "YYKitMacro.h"
+
+#import "XLsn0wKitMacro.h"
 #import "YYImage.h"
 #import "NSAttributedString+YYText.h"
 #import <MobileCoreServices/MobileCoreServices.h>

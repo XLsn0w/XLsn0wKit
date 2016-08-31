@@ -13,7 +13,7 @@
 #import "YYWeakProxy.h"
 #import "UIDevice+YYAdd.h"
 #import "YYImageCoder.h"
-#import "YYKitMacro.h"
+#import "XLsn0wKitMacro.h"
 
 #define BUFFER_SIZE (10 * 1024 * 1024) // 10MB (minimum memory buffer size)
 

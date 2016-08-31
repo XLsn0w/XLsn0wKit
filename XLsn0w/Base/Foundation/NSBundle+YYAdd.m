@@ -2,7 +2,7 @@
 
 #import "NSBundle+YYAdd.h"
 #import "NSString+YYAdd.h"
-#import "YYKitMacro.h"
+#import "XLsn0wKitMacro.h"
 
 YYSYNTH_DUMMY_CLASS(NSBundle_YYAdd)
 

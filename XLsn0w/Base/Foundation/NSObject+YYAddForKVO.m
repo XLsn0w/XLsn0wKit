@@ -10,7 +10,8 @@
 //
 
 #import "NSObject+YYAddForKVO.h"
-#import "YYKitMacro.h"
+
+#import "XLsn0wKitMacro.h"
 #import <objc/objc.h>
 #import <objc/runtime.h>
 

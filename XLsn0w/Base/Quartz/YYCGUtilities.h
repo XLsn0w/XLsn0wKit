@@ -15,7 +15,7 @@
 #if __has_include(<YYKit/YYKit.h>)
 #import <YYKit/YYKitMacro.h>
 #else
-#import "YYKitMacro.h"
+#import "XLsn0wKitMacro.h"
 #endif
 
 YY_EXTERN_C_BEGIN

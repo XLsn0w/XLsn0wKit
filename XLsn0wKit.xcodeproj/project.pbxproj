@@ -123,7 +123,7 @@
 		35A154E41D76A9FF0079084D /* YYKVStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYKVStorage.m; sourceTree = "<group>"; };
 		35A154E51D76A9FF0079084D /* XLsn0wMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wMemoryCache.h; sourceTree = "<group>"; };
 		35A154E61D76A9FF0079084D /* XLsn0wMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wMemoryCache.m; sourceTree = "<group>"; };
-		35A1556A1D76BB8A0079084D /* XLsn0wImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wImport.h; sourceTree = "<group>"; };
+		35A1556B1D76D53E0079084D /* XLsn0wImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wImport.h; sourceTree = "<group>"; };
 		35F4AA0D1D750ED200B641FE /* XLsn0wKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLsn0wKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35F4AA111D750ED200B641FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		35F4AA131D750ED200B641FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -190,7 +190,7 @@
 		35F4ABC11D752E0300B641FE /* UITextField+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+YYAdd.m"; sourceTree = "<group>"; };
 		35F4ABC21D752E0300B641FE /* UIView+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYAdd.h"; sourceTree = "<group>"; };
 		35F4ABC31D752E0300B641FE /* UIView+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYAdd.m"; sourceTree = "<group>"; };
-		35F4ABC41D752E0300B641FE /* YYKitMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKitMacro.h; sourceTree = "<group>"; };
+		35F4ABC41D752E0300B641FE /* XLsn0wKitMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wKitMacro.h; sourceTree = "<group>"; };
 		35F4ABCF1D752E0300B641FE /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebP.framework; sourceTree = "<group>"; };
 		35F4ABD21D752E0300B641FE /* _YYWebImageSetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _YYWebImageSetter.h; sourceTree = "<group>"; };
 		35F4ABD31D752E0300B641FE /* _YYWebImageSetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _YYWebImageSetter.m; sourceTree = "<group>"; };
@@ -399,7 +399,7 @@
 			children = (
 				35F4AC991D7532A500B641FE /* XLsn0wKit.podspec */,
 				35F4AC3A1D752E0300B641FE /* XLsn0wKit.h */,
-				35A1556A1D76BB8A0079084D /* XLsn0wImport.h */,
+				35A1556B1D76D53E0079084D /* XLsn0wImport.h */,
 				35A154DE1D76A9FF0079084D /* XLsn0wCache */,
 				35F4ABF11D752E0300B641FE /* no-arc */,
 				35F4AB881D752E0300B641FE /* Base */,
@@ -415,7 +415,7 @@
 		35F4AB881D752E0300B641FE /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				35F4ABC41D752E0300B641FE /* YYKitMacro.h */,
+				35F4ABC41D752E0300B641FE /* XLsn0wKitMacro.h */,
 				35F4AB891D752E0300B641FE /* Foundation */,
 				35F4ABA21D752E0300B641FE /* Quartz */,
 				35F4ABA71D752E0300B641FE /* UIKit */,

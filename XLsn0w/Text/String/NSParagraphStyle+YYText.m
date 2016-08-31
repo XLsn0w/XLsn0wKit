@@ -11,7 +11,8 @@
 
 
 #import "NSParagraphStyle+YYText.h"
-#import "YYKitMacro.h"
+
+#import "XLsn0wKitMacro.h"
 #import "YYTextAttribute.h"
 #import <CoreText/CoreText.h>
 

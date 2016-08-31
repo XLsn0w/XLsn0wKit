@@ -10,7 +10,8 @@
 //
 
 #import "UIScreen+YYAdd.h"
-#import "YYKitMacro.h"
+
+#import "XLsn0wKitMacro.h"
 #import "UIDevice+YYAdd.h"
 
 YYSYNTH_DUMMY_CLASS(UIScreen_YYAdd);

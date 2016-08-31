@@ -1,6 +1,7 @@
 
 #import "NSArray+YYAdd.h"
-#import "YYKitMacro.h"
+
+#import "XLsn0wKitMacro.h"
 #import "NSData+YYAdd.h"
 
 YYSYNTH_DUMMY_CLASS(NSArray_YYAdd)

@@ -12,7 +12,7 @@
 #import "MKAnnotationView+YYWebImage.h"
 #import "YYWebImageOperation.h"
 #import "_YYWebImageSetter.h"
-#import "YYKitMacro.h"
+#import "XLsn0wKitMacro.h"
 #import <objc/runtime.h>
 
 YYSYNTH_DUMMY_CLASS(MKAnnotationView_YYWebImage)

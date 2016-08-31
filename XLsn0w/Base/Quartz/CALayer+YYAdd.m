@@ -10,7 +10,8 @@
 //
 
 #import "CALayer+YYAdd.h"
-#import "YYKitMacro.h"
+
+#import "XLsn0wKitMacro.h"
 #import "YYCGUtilities.h"
 
 YYSYNTH_DUMMY_CLASS(CALayer_YYAdd)

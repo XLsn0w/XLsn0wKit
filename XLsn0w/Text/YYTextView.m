@@ -10,7 +10,9 @@
 //
 
 #import "YYTextView.h"
-#import "YYKitMacro.h"
+
+#import "XLsn0wKitMacro.h"
+
 #import "YYTextInput.h"
 #import "YYTextContainerView.h"
 #import "YYTextSelectionView.h"

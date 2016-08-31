@@ -10,7 +10,8 @@
 //
 
 #import "UIGestureRecognizer+YYAdd.h"
-#import "YYKitMacro.h"
+
+#import "XLsn0wKitMacro.h"
 #import <objc/runtime.h>
 
 static const int block_key;

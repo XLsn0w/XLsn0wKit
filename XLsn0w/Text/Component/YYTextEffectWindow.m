@@ -11,7 +11,8 @@
 
 #import "YYTextEffectWindow.h"
 #import "YYTextKeyboardManager.h"
-#import "YYKitMacro.h"
+
+#import "XLsn0wKitMacro.h"
 #import "YYCGUtilities.h"
 #import "UIView+YYAdd.h"
 #import "UIApplication+YYAdd.h"

@@ -10,7 +10,8 @@
 //
 
 #import "UITextField+YYAdd.h"
-#import "YYKitMacro.h"
+
+#import "XLsn0wKitMacro.h"
 
 YYSYNTH_DUMMY_CLASS(UITextField_YYAdd)
 

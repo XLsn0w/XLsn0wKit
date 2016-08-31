@@ -1,7 +1,7 @@
 
-
 #import "NSDate+YYAdd.h"
-#import "YYKitMacro.h"
+
+#import "XLsn0wKitMacro.h"
 #import <time.h>
 
 YYSYNTH_DUMMY_CLASS(NSDate_YYAdd)

@@ -10,7 +10,8 @@
 //
 
 #import "NSAttributedString+YYText.h"
-#import "YYKitMacro.h"
+
+#import "XLsn0wKitMacro.h"
 #import "UIDevice+YYAdd.h"
 #import "UIFont+YYAdd.h"
 #import "NSParagraphStyle+YYText.h"
