@@ -16,6 +16,7 @@ FOUNDATION_EXPORT double YYKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char YYKitVersionString[];
 
 #import <XLsn0wKitMacro.h>
+
 #import <NSObject+YYAdd.h>
 #import <NSObject+YYAddForKVO.h>
 #import <NSObject+XLsn0wAddForARC.h>

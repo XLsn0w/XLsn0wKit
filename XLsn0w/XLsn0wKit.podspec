@@ -1,9 +1,9 @@
 
 Pod::Spec.new do |s|
 
-  s.version      = "2.1.0"
-  s.name         = "XLsn0wKit"
+  s.version      = "2.1.1"
 
+  s.name         = "XLsn0wKit"
   s.summary      = 'A collection of iOS components from XLsn0wKit.'
   s.description  = "Copyright © 2016年 XLsn0w Create A collection of iOS components from XLsn0wKit."
   s.homepage     = "https://github.com/XLsn0w/XLsn0wKit"
