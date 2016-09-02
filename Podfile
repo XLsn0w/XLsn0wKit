@@ -1,4 +1,2 @@
 
-pod 'AFNetworking'
-pod 'FMDB'
 

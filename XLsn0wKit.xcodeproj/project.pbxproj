@@ -11,8 +11,6 @@
 		35A154E81D76A9FF0079084D /* XLsn0wDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A154E21D76A9FF0079084D /* XLsn0wDiskCache.m */; };
 		35A154E91D76A9FF0079084D /* YYKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A154E41D76A9FF0079084D /* YYKVStorage.m */; };
 		35A154EA1D76A9FF0079084D /* XLsn0wMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A154E61D76A9FF0079084D /* XLsn0wMemoryCache.m */; };
-		35AF3B391D770F6800CD8525 /* SPHttpWithYYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AF3B381D770F6800CD8525 /* SPHttpWithYYCache.m */; };
-		35AF3B3C1D77103000CD8525 /* SPHttp.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AF3B3B1D77103000CD8525 /* SPHttp.m */; };
 		35AF3B401D7712EA00CD8525 /* KeyBoardHepler.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AF3B3F1D7712EA00CD8525 /* KeyBoardHepler.m */; };
 		35B080C51D795FB8009CC1C5 /* UIButton+XLsn0wBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B080C41D795FB8009CC1C5 /* UIButton+XLsn0wBadge.m */; };
 		35F4AA121D750ED200B641FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F4AA111D750ED200B641FE /* main.m */; };
@@ -129,10 +127,6 @@
 		35A154E41D76A9FF0079084D /* YYKVStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYKVStorage.m; sourceTree = "<group>"; };
 		35A154E51D76A9FF0079084D /* XLsn0wMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wMemoryCache.h; sourceTree = "<group>"; };
 		35A154E61D76A9FF0079084D /* XLsn0wMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wMemoryCache.m; sourceTree = "<group>"; };
-		35AF3B371D770F6800CD8525 /* SPHttpWithYYCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPHttpWithYYCache.h; sourceTree = "<group>"; };
-		35AF3B381D770F6800CD8525 /* SPHttpWithYYCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPHttpWithYYCache.m; sourceTree = "<group>"; };
-		35AF3B3A1D77103000CD8525 /* SPHttp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPHttp.h; sourceTree = "<group>"; };
-		35AF3B3B1D77103000CD8525 /* SPHttp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPHttp.m; sourceTree = "<group>"; };
 		35AF3B3E1D7712EA00CD8525 /* KeyBoardHepler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyBoardHepler.h; sourceTree = "<group>"; };
 		35AF3B3F1D7712EA00CD8525 /* KeyBoardHepler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyBoardHepler.m; sourceTree = "<group>"; };
 		35B080C11D795F37009CC1C5 /* XLsn0wMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wMethods.h; sourceTree = "<group>"; };
@@ -371,17 +365,6 @@
 			path = XLsn0wCache;
 			sourceTree = "<group>";
 		};
-		35AF3B361D770F5B00CD8525 /* XLsn0wNetwork */ = {
-			isa = PBXGroup;
-			children = (
-				35AF3B3A1D77103000CD8525 /* SPHttp.h */,
-				35AF3B3B1D77103000CD8525 /* SPHttp.m */,
-				35AF3B371D770F6800CD8525 /* SPHttpWithYYCache.h */,
-				35AF3B381D770F6800CD8525 /* SPHttpWithYYCache.m */,
-			);
-			path = XLsn0wNetwork;
-			sourceTree = "<group>";
-		};
 		35AF3B3D1D7712DB00CD8525 /* XLsn0wTools */ = {
 			isa = PBXGroup;
 			children = (
@@ -459,7 +442,6 @@
 				35F4AC3A1D752E0300B641FE /* XLsn0wKit.h */,
 				35B080C01D795F12009CC1C5 /* XLsn0wMethods */,
 				35AF3B3D1D7712DB00CD8525 /* XLsn0wTools */,
-				35AF3B361D770F5B00CD8525 /* XLsn0wNetwork */,
 				35A154DE1D76A9FF0079084D /* XLsn0wCache */,
 				35F4AB881D752E0300B641FE /* Base */,
 				35F4ABD01D752E0300B641FE /* Image */,
@@ -916,7 +898,6 @@
 				35F4AC441D752E0300B641FE /* NSObject+YYAddForKVO.m in Sources */,
 				35F4AC751D752E0300B641FE /* YYTextSelectionView.m in Sources */,
 				35F4AC7F1D752E0300B641FE /* YYLabel.m in Sources */,
-				35AF3B391D770F6800CD8525 /* SPHttpWithYYCache.m in Sources */,
 				35F4AC661D752E0300B641FE /* YYSpriteSheetImage.m in Sources */,
 				35F4AC4A1D752E0300B641FE /* UIBarButtonItem+YYAdd.m in Sources */,
 				35F4AC561D752E0300B641FE /* UIView+YYAdd.m in Sources */,
@@ -929,7 +910,6 @@
 				35F4AC841D752E0300B641FE /* YYGestureRecognizer.m in Sources */,
 				35F4AC8A1D752E0300B641FE /* YYTimer.m in Sources */,
 				35F4AC4F1D752E0300B641FE /* UIFont+YYAdd.m in Sources */,
-				35AF3B3C1D77103000CD8525 /* SPHttp.m in Sources */,
 				35F4AC651D752E0300B641FE /* YYImageCoder.m in Sources */,
 				35F4AC501D752E0300B641FE /* UIGestureRecognizer+YYAdd.m in Sources */,
 				35F4AC7E1D752E0300B641FE /* YYTextUtilities.m in Sources */,
