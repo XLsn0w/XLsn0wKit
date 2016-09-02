@@ -1,10 +1,3 @@
-//
-//  KeyBoardHepler.m
-//  KeyBoard
-//
-//  Created by 换一换 on 16/2/25.
-//  Copyright © 2016年 张洋. All rights reserved.
-//
 
 #import "KeyBoardHepler.h"
 
