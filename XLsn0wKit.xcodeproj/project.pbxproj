@@ -17,6 +17,10 @@
 		358D3F001D7AE31600ADE778 /* UIButton+XLsn0wBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 358D3EFA1D7AE31600ADE778 /* UIButton+XLsn0wBadge.m */; };
 		358D3F011D7AE31600ADE778 /* YYViewHierarchy3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 358D3EFD1D7AE31600ADE778 /* YYViewHierarchy3D.m */; };
 		358D3F041D7AE31C00ADE778 /* XLsn0wKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 358D3F031D7AE31C00ADE778 /* XLsn0wKit.podspec */; };
+		35AD86A81D7AE4D300E00A23 /* bpg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35AD86A11D7AE4D300E00A23 /* bpg.framework */; };
+		35AD86A91D7AE4D300E00A23 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35AD86A21D7AE4D300E00A23 /* WebP.framework */; };
+		35AD86AA1D7AE4D300E00A23 /* NSObject+XLsn0wAddForARC.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AD86A51D7AE4D300E00A23 /* NSObject+XLsn0wAddForARC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		35AD86AB1D7AE4D300E00A23 /* NSThread+XLsn0wAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AD86A71D7AE4D300E00A23 /* NSThread+XLsn0wAdd.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +45,12 @@
 		358D3F051D7AE38000ADE778 /* XLsn0wObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wObject.h; sourceTree = "<group>"; };
 		358D3F061D7AE39A00ADE778 /* XLsn0wButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wButton.h; sourceTree = "<group>"; };
 		358D3F071D7AE3B200ADE778 /* XLsn0wWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wWindow.h; sourceTree = "<group>"; };
+		35AD86A11D7AE4D300E00A23 /* bpg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = bpg.framework; sourceTree = "<group>"; };
+		35AD86A21D7AE4D300E00A23 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebP.framework; sourceTree = "<group>"; };
+		35AD86A41D7AE4D300E00A23 /* NSObject+XLsn0wAddForARC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+XLsn0wAddForARC.h"; sourceTree = "<group>"; };
+		35AD86A51D7AE4D300E00A23 /* NSObject+XLsn0wAddForARC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XLsn0wAddForARC.m"; sourceTree = "<group>"; };
+		35AD86A61D7AE4D300E00A23 /* NSThread+XLsn0wAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSThread+XLsn0wAdd.h"; sourceTree = "<group>"; };
+		35AD86A71D7AE4D300E00A23 /* NSThread+XLsn0wAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSThread+XLsn0wAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35AD86A91D7AE4D300E00A23 /* WebP.framework in Frameworks */,
+				35AD86A81D7AE4D300E00A23 /* bpg.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +112,8 @@
 			children = (
 				358D3F031D7AE31C00ADE778 /* XLsn0wKit.podspec */,
 				358D3F021D7AE31C00ADE778 /* XLsn0wKit.h */,
+				35AD86A01D7AE4D300E00A23 /* Frameworks */,
+				35AD86A31D7AE4D300E00A23 /* no-arc */,
 				358D3EF51D7AE31600ADE778 /* NSObject */,
 				358D3EF81D7AE31600ADE778 /* UIButton */,
 				358D3EFB1D7AE31600ADE778 /* UIWindow */,
@@ -135,6 +149,26 @@
 				358D3EFD1D7AE31600ADE778 /* YYViewHierarchy3D.m */,
 			);
 			path = UIWindow;
+			sourceTree = "<group>";
+		};
+		35AD86A01D7AE4D300E00A23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35AD86A11D7AE4D300E00A23 /* bpg.framework */,
+				35AD86A21D7AE4D300E00A23 /* WebP.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		35AD86A31D7AE4D300E00A23 /* no-arc */ = {
+			isa = PBXGroup;
+			children = (
+				35AD86A41D7AE4D300E00A23 /* NSObject+XLsn0wAddForARC.h */,
+				35AD86A51D7AE4D300E00A23 /* NSObject+XLsn0wAddForARC.m */,
+				35AD86A61D7AE4D300E00A23 /* NSThread+XLsn0wAdd.h */,
+				35AD86A71D7AE4D300E00A23 /* NSThread+XLsn0wAdd.m */,
+			);
+			path = "no-arc";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,11 +242,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35AD86AB1D7AE4D300E00A23 /* NSThread+XLsn0wAdd.m in Sources */,
 				358D3EFF1D7AE31600ADE778 /* KeyBoardHepler.m in Sources */,
 				358D3EE51D7AE27E00ADE778 /* ViewController.m in Sources */,
 				358D3EE21D7AE27E00ADE778 /* AppDelegate.m in Sources */,
 				358D3EDF1D7AE27E00ADE778 /* main.m in Sources */,
 				358D3F001D7AE31600ADE778 /* UIButton+XLsn0wBadge.m in Sources */,
+				35AD86AA1D7AE4D300E00A23 /* NSObject+XLsn0wAddForARC.m in Sources */,
 				358D3F011D7AE31600ADE778 /* YYViewHierarchy3D.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,6 +363,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XLsn0wClass/Frameworks",
+				);
 				INFOPLIST_FILE = XLsn0wKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xlsn0w.XLsn0wKit;
@@ -338,6 +378,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XLsn0wClass/Frameworks",
+				);
 				INFOPLIST_FILE = XLsn0wKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xlsn0w.XLsn0wKit;
@@ -364,6 +408,7 @@
 				358D3EF31D7AE27E00ADE778 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
