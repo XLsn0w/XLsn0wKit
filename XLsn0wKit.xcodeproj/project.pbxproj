@@ -21,6 +21,7 @@
 		35AD86A91D7AE4D300E00A23 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35AD86A21D7AE4D300E00A23 /* WebP.framework */; };
 		35AD86AA1D7AE4D300E00A23 /* NSObject+XLsn0wAddForARC.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AD86A51D7AE4D300E00A23 /* NSObject+XLsn0wAddForARC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		35AD86AB1D7AE4D300E00A23 /* NSThread+XLsn0wAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AD86A71D7AE4D300E00A23 /* NSThread+XLsn0wAdd.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		35FF1FD51D7AF88C009F5C62 /* UIButton+ImageTitleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FF1FD41D7AF88C009F5C62 /* UIButton+ImageTitleLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,8 @@
 		35AD86A51D7AE4D300E00A23 /* NSObject+XLsn0wAddForARC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XLsn0wAddForARC.m"; sourceTree = "<group>"; };
 		35AD86A61D7AE4D300E00A23 /* NSThread+XLsn0wAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSThread+XLsn0wAdd.h"; sourceTree = "<group>"; };
 		35AD86A71D7AE4D300E00A23 /* NSThread+XLsn0wAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSThread+XLsn0wAdd.m"; sourceTree = "<group>"; };
+		35FF1FD31D7AF88C009F5C62 /* UIButton+ImageTitleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleLayout.h"; sourceTree = "<group>"; };
+		35FF1FD41D7AF88C009F5C62 /* UIButton+ImageTitleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleLayout.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +138,8 @@
 			isa = PBXGroup;
 			children = (
 				358D3F061D7AE39A00ADE778 /* XLsn0wButton.h */,
+				35FF1FD31D7AF88C009F5C62 /* UIButton+ImageTitleLayout.h */,
+				35FF1FD41D7AF88C009F5C62 /* UIButton+ImageTitleLayout.m */,
 				358D3EF91D7AE31600ADE778 /* UIButton+XLsn0wBadge.h */,
 				358D3EFA1D7AE31600ADE778 /* UIButton+XLsn0wBadge.m */,
 			);
@@ -249,6 +254,7 @@
 				358D3EDF1D7AE27E00ADE778 /* main.m in Sources */,
 				358D3F001D7AE31600ADE778 /* UIButton+XLsn0wBadge.m in Sources */,
 				35AD86AA1D7AE4D300E00A23 /* NSObject+XLsn0wAddForARC.m in Sources */,
+				35FF1FD51D7AF88C009F5C62 /* UIButton+ImageTitleLayout.m in Sources */,
 				358D3F011D7AE31600ADE778 /* YYViewHierarchy3D.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

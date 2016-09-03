@@ -10,3 +10,4 @@
  *********************************************************************************************/
 
 #import "UIButton+XLsn0wBadge.h"
+#import "UIButton+ImageTitleLayout.h"
