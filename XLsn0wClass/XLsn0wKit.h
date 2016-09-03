@@ -9,6 +9,9 @@
  *                                                                                           *
  *********************************************************************************************/
 
-#import "UIButton+XLsn0wBadge.h"
-#import "UIButton+XLsn0wButton.h"
-#import "UIButton+XLsn0wWindow.h"
+#import "XLsn0wObject.h"
+
+#import "XLsn0wButton.h"
+
+#import "XLsn0wWindow.h"
+

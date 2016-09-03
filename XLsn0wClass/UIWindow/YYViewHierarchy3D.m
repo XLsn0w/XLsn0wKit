@@ -1,11 +1,6 @@
-//
-//  YYViewHierarchy3D.m
-//
-//  Created by ibireme on 13-3-8.
-//  2013 ibireme.
-//
 
 #import "YYViewHierarchy3D.h"
+
 #import <QuartzCore/QuartzCore.h>
 #import <CoreImage/CoreImage.h>
 
