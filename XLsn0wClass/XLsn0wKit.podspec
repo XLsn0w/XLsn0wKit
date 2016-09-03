@@ -14,8 +14,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/XLsn0w/XLsn0wKit.git", :tag => s.version.to_s }
   s.source_files = "XLsn0wClass/**/*.{h,m}"
-
-  s.public_header_files = 'XLsn0wKit/**/*.{h}'
+  s.public_header_files = 'XLsn0wClass/**/*.{h}'
 
   s.requires_arc = true
 
