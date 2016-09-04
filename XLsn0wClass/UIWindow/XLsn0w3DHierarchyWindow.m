@@ -1,5 +1,5 @@
 
-#import "YYViewHierarchy3D.h"
+#import "XLsn0w3DHierarchyWindow.h"
 
 #import <QuartzCore/QuartzCore.h>
 #import <CoreImage/CoreImage.h>
@@ -12,13 +12,13 @@
 #define DEGREES_TO_RADIANS(d) ((d) * M_PI / 180)
 #endif
 
-@interface YYViewHierarchy3D () {
+@interface XLsn0w3DHierarchyWindow () {
     float rotateX;
     float rotateY;
     float dist;
     BOOL isAnimatimg;
 }
-+ (YYViewHierarchy3D *)sharedInstance;
++ (XLsn0w3DHierarchyWindow *)sharedInstance;
 - (void)toggleShow;
 @property (nonatomic, retain) NSMutableArray *holders;
 @end
@@ -57,7 +57,7 @@
         btn.layer.shadowOffset = CGSizeMake(0, 0);
         UIPanGestureRecognizer *g = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(pan:)];
         [btn addGestureRecognizer:g];
-        [btn addTarget:[YYViewHierarchy3D sharedInstance] action:@selector(toggleShow) forControlEvents:UIControlEventTouchUpInside];
+        [btn addTarget:[XLsn0w3DHierarchyWindow sharedInstance] action:@selector(toggleShow) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:btn];
     }
     return self;
@@ -129,13 +129,13 @@
 
 
 
-@implementation YYViewHierarchy3D
+@implementation XLsn0w3DHierarchyWindow
 @synthesize holders = _holders;
-+ (YYViewHierarchy3D *)sharedInstance {
++ (XLsn0w3DHierarchyWindow *)sharedInstance {
     static dispatch_once_t once;
-    static YYViewHierarchy3D *singleton;
+    static XLsn0w3DHierarchyWindow *singleton;
     dispatch_once(&once, ^{
-        singleton = [[YYViewHierarchy3D alloc] init];
+        singleton = [[XLsn0w3DHierarchyWindow alloc] init];
     });
     return singleton;
 }
@@ -216,12 +216,12 @@
 
 + (void)show {
     [YYViewHierarchy3DTop sharedInstance].hidden = NO;
-    [YYViewHierarchy3D sharedInstance].hidden = YES;
+    [XLsn0w3DHierarchyWindow sharedInstance].hidden = YES;
 }
 
 + (void)hide {
     [YYViewHierarchy3DTop sharedInstance].hidden = YES;
-    [YYViewHierarchy3D sharedInstance].hidden = YES;
+    [XLsn0w3DHierarchyWindow sharedInstance].hidden = YES;
 }
 
 - (UIImage *)renderImageFromView:(UIView *)view {

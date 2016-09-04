@@ -1,7 +1,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface YYViewHierarchy3D : UIWindow
+@interface XLsn0w3DHierarchyWindow : UIWindow
 
 + (void)show;
 + (void)hide;
