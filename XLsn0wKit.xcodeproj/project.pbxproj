@@ -24,6 +24,7 @@
 		357270B01D7BEB6D00886F4A /* UIButton+ImageTitleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 357270A81D7BEB6D00886F4A /* UIButton+ImageTitleLayout.m */; };
 		357270B11D7BEB6D00886F4A /* UIButton+XLsn0wBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 357270AA1D7BEB6D00886F4A /* UIButton+XLsn0wBadge.m */; };
 		357270B21D7BEB6D00886F4A /* XLsn0w3DHierarchyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 357270AE1D7BEB6D00886F4A /* XLsn0w3DHierarchyWindow.m */; };
+		358C35F71D7D1DC900B04408 /* XLsn0wMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 358C35F61D7D1DC900B04408 /* XLsn0wMethods.m */; };
 		358D3EDF1D7AE27E00ADE778 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 358D3EDE1D7AE27E00ADE778 /* main.m */; };
 		358D3EE21D7AE27E00ADE778 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 358D3EE11D7AE27E00ADE778 /* AppDelegate.m */; };
 		358D3EE51D7AE27E00ADE778 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 358D3EE41D7AE27E00ADE778 /* ViewController.m */; };
@@ -67,6 +68,8 @@
 		357270AA1D7BEB6D00886F4A /* UIButton+XLsn0wBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+XLsn0wBadge.m"; sourceTree = "<group>"; };
 		357270AD1D7BEB6D00886F4A /* XLsn0w3DHierarchyWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0w3DHierarchyWindow.h; sourceTree = "<group>"; };
 		357270AE1D7BEB6D00886F4A /* XLsn0w3DHierarchyWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0w3DHierarchyWindow.m; sourceTree = "<group>"; };
+		358C35F51D7D1DC900B04408 /* XLsn0wMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wMethods.h; sourceTree = "<group>"; };
+		358C35F61D7D1DC900B04408 /* XLsn0wMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wMethods.m; sourceTree = "<group>"; };
 		358D3EDA1D7AE27E00ADE778 /* XLsn0wKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLsn0wKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		358D3EDE1D7AE27E00ADE778 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		358D3EE01D7AE27E00ADE778 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -179,6 +182,15 @@
 			path = UIWindow;
 			sourceTree = "<group>";
 		};
+		358C35F41D7D1DB400B04408 /* XLsn0wMethods */ = {
+			isa = PBXGroup;
+			children = (
+				358C35F51D7D1DC900B04408 /* XLsn0wMethods.h */,
+				358C35F61D7D1DC900B04408 /* XLsn0wMethods.m */,
+			);
+			path = XLsn0wMethods;
+			sourceTree = "<group>";
+		};
 		358D3ED11D7AE27E00ADE778 = {
 			isa = PBXGroup;
 			children = (
@@ -225,6 +237,7 @@
 			children = (
 				358D3F031D7AE31C00ADE778 /* XLsn0wKit.podspec */,
 				358D3F021D7AE31C00ADE778 /* XLsn0wKit.h */,
+				358C35F41D7D1DB400B04408 /* XLsn0wMethods */,
 				358D3EF51D7AE31600ADE778 /* NSObject */,
 				357270A51D7BEB6D00886F4A /* UIView */,
 				351430BC1D7BAF9400AC2A2E /* XLsn0wAsyncLayer */,
@@ -343,6 +356,7 @@
 				357270A01D7BE9DB00886F4A /* YYAnimatedImageView.m in Sources */,
 				351430C31D7BAF9400AC2A2E /* XLsn0wAsyncLayer.m in Sources */,
 				357270B01D7BEB6D00886F4A /* UIButton+ImageTitleLayout.m in Sources */,
+				358C35F71D7D1DC900B04408 /* XLsn0wMethods.m in Sources */,
 				353B4A331D7CFE8E00E077FA /* KeyBoardHepler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
