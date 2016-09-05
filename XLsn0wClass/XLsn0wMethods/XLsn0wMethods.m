@@ -16,10 +16,11 @@
 + (void)initNavigationControllerWithRootViewController:(UIViewController *)viewController
                                        tabBarItemTitle:(NSString *)title
                                    tabBarItemImageName:(NSString *)imageName
-                           tabBarItemSelectedImageName:(NSString *)selectedImageName {
+                           tabBarItemSelectedImageName:(NSString *)selectedImageName
+                                           currentSelf:(UIViewController *)currentSelf {
     UINavigationController *childNC = [[UINavigationController alloc] initWithRootViewController:viewController];
     childNC.tabBarItem = [[UITabBarItem alloc] initWithTitle:title image:[[UIImage imageNamed:imageName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] selectedImage:[[UIImage imageNamed:selectedImageName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
-    [viewController addChildViewController:childNC];
+    [currentSelf addChildViewController:childNC];
 }
 
 @end

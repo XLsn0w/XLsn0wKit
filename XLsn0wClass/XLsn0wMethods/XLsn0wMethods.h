@@ -22,5 +22,5 @@
 + (void)initNavigationControllerWithRootViewController:(UIViewController *)viewController
                                        tabBarItemTitle:(NSString *)title
                                    tabBarItemImageName:(NSString *)imageName
-                           tabBarItemSelectedImageName:(NSString *)selectedImageName;
+                           tabBarItemSelectedImageName:(NSString *)selectedImageName currentSelf:(UIViewController *)currentSelf;
 @end
