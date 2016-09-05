@@ -9,6 +9,8 @@
  *                                                                                           *
  *********************************************************************************************/
 
+#import "XLsn0wKitLog.h"
+
 #import "XLsn0wMethods.h"
 
 #import "XLsn0wObject.h"

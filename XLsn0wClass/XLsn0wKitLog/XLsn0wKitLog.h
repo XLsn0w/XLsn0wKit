@@ -9,19 +9,31 @@
  *                                                                                           *
  *********************************************************************************************/
 
-#import "XLsn0wMethods.h"
+#import <Foundation/Foundation.h>
 
-@implementation XLsn0wMethods
+void ExtendNSLog(const char *file, int lineNumber, const char *functionName, NSString *format, ...);
 
-+ (void)initNavigationControllerWithRootViewController:(UIViewController *)viewController
-                                       tabBarItemTitle:(NSString *)title
-                                   tabBarItemImageName:(NSString *)imageName
-                           tabBarItemSelectedImageName:(NSString *)selectedImageName
-                                           currentSelf:(UIViewController *)currentSelf {
-    UINavigationController *childNC = [[UINavigationController alloc] initWithRootViewController:viewController];
-    childNC.tabBarItem = [[UITabBarItem alloc] initWithTitle:title image:[[UIImage imageNamed:imageName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] selectedImage:[[UIImage imageNamed:selectedImageName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
-    [currentSelf addChildViewController:childNC];
-}
+@interface XLsn0wKitLog : NSObject
 
+/*! XLsn0wKitLog 仅在调试模式 */
+#ifdef DEBUG
+#define XLsn0wKitLog(args ...) ExtendNSLog(__FILE__, __LINE__, __PRETTY_FUNCTION__, args);
+#define XLsn0wKitLogString [SDLog logString]
+#define XLsn0wKitLogClear [SDLog clearLog]
+#else
+#define XLsn0wKitLog(args ...)
+#define XLsn0wKitLogString
+#define XLsn0wKitLogClear
+#endif
+
+/**
+*  清除日志字符串.
+*/
++ (void)clearLog;
+
+/**
+ *  获取日志字符串.
+ */
++ (NSString *)logString;
 
 @end
