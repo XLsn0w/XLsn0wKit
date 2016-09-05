@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "AC23B18C8000AF6352EBD1C690281D7E91FE8B58",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D2AC64603137AAF82DE334A615FFC6B66238791A" : 0,
+    "AC23B18C8000AF6352EBD1C690281D7E91FE8B58" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F3C219B2-597E-4E24-ADE4-EC67B94B4BA0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D2AC64603137AAF82DE334A615FFC6B66238791A" : "XLsn0wKit\/XLsn0wClass\/XLsn0wRefresh\/",
+    "AC23B18C8000AF6352EBD1C690281D7E91FE8B58" : "XLsn0wKit\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "XLsn0wKit",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "XLsn0wKit.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/XLsn0w\/XLsn0wKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AC23B18C8000AF6352EBD1C690281D7E91FE8B58"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/gsdios\/SDRefreshView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D2AC64603137AAF82DE334A615FFC6B66238791A"
+    }
+  ]
+}

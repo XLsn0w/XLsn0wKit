@@ -11,6 +11,11 @@
 		351430C31D7BAF9400AC2A2E /* XLsn0wAsyncLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 351430BE1D7BAF9400AC2A2E /* XLsn0wAsyncLayer.m */; };
 		351430C41D7BAF9400AC2A2E /* YYSentinel.m in Sources */ = {isa = PBXBuildFile; fileRef = 351430C01D7BAF9400AC2A2E /* YYSentinel.m */; };
 		351430C51D7BAF9400AC2A2E /* YYTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 351430C21D7BAF9400AC2A2E /* YYTransaction.m */; };
+		352DE6C01D7D530300C5E109 /* XLsn0wRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 352DE6B81D7D530300C5E109 /* XLsn0wRefreshFooter.m */; };
+		352DE6C11D7D530300C5E109 /* XLsn0wRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 352DE6BA1D7D530300C5E109 /* XLsn0wRefreshHeader.m */; };
+		352DE6C21D7D530300C5E109 /* XLsn0wRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 352DE6BC1D7D530300C5E109 /* XLsn0wRefresh.m */; };
+		352DE6C31D7D530300C5E109 /* UIView+XLsn0wKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 352DE6BE1D7D530300C5E109 /* UIView+XLsn0wKit.m */; };
+		352DE6C51D7D539600C5E109 /* XLsn0wKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 352DE6C41D7D539600C5E109 /* XLsn0wKit.bundle */; };
 		353B4A331D7CFE8E00E077FA /* KeyBoardHepler.m in Sources */ = {isa = PBXBuildFile; fileRef = 353B4A321D7CFE8E00E077FA /* KeyBoardHepler.m */; };
 		353B4A351D7CFED200E077FA /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 353B4A341D7CFED200E077FA /* CoreText.framework */; };
 		353B4A371D7CFED800E077FA /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 353B4A361D7CFED800E077FA /* CoreTelephony.framework */; };
@@ -45,6 +50,16 @@
 		351430C01D7BAF9400AC2A2E /* YYSentinel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYSentinel.m; sourceTree = "<group>"; };
 		351430C11D7BAF9400AC2A2E /* YYTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTransaction.h; sourceTree = "<group>"; };
 		351430C21D7BAF9400AC2A2E /* YYTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTransaction.m; sourceTree = "<group>"; };
+		352DE6B61D7D530300C5E109 /* Refresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Refresh.h; sourceTree = "<group>"; };
+		352DE6B71D7D530300C5E109 /* XLsn0wRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wRefreshFooter.h; sourceTree = "<group>"; };
+		352DE6B81D7D530300C5E109 /* XLsn0wRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wRefreshFooter.m; sourceTree = "<group>"; };
+		352DE6B91D7D530300C5E109 /* XLsn0wRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wRefreshHeader.h; sourceTree = "<group>"; };
+		352DE6BA1D7D530300C5E109 /* XLsn0wRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wRefreshHeader.m; sourceTree = "<group>"; };
+		352DE6BB1D7D530300C5E109 /* XLsn0wRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wRefresh.h; sourceTree = "<group>"; };
+		352DE6BC1D7D530300C5E109 /* XLsn0wRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wRefresh.m; sourceTree = "<group>"; };
+		352DE6BD1D7D530300C5E109 /* UIView+XLsn0wKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XLsn0wKit.h"; sourceTree = "<group>"; };
+		352DE6BE1D7D530300C5E109 /* UIView+XLsn0wKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XLsn0wKit.m"; sourceTree = "<group>"; };
+		352DE6C41D7D539600C5E109 /* XLsn0wKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = XLsn0wKit.bundle; sourceTree = "<group>"; };
 		353B4A2F1D7CFE1400E077FA /* XLsn0wView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wView.h; sourceTree = "<group>"; };
 		353B4A311D7CFE8E00E077FA /* KeyBoardHepler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyBoardHepler.h; sourceTree = "<group>"; };
 		353B4A321D7CFE8E00E077FA /* KeyBoardHepler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyBoardHepler.m; sourceTree = "<group>"; };
@@ -124,6 +139,22 @@
 				351430C21D7BAF9400AC2A2E /* YYTransaction.m */,
 			);
 			path = XLsn0wAsyncLayer;
+			sourceTree = "<group>";
+		};
+		352DE6B41D7D530300C5E109 /* XLsn0wRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				352DE6B61D7D530300C5E109 /* Refresh.h */,
+				352DE6BB1D7D530300C5E109 /* XLsn0wRefresh.h */,
+				352DE6BC1D7D530300C5E109 /* XLsn0wRefresh.m */,
+				352DE6B91D7D530300C5E109 /* XLsn0wRefreshHeader.h */,
+				352DE6BA1D7D530300C5E109 /* XLsn0wRefreshHeader.m */,
+				352DE6B71D7D530300C5E109 /* XLsn0wRefreshFooter.h */,
+				352DE6B81D7D530300C5E109 /* XLsn0wRefreshFooter.m */,
+				352DE6BD1D7D530300C5E109 /* UIView+XLsn0wKit.h */,
+				352DE6BE1D7D530300C5E109 /* UIView+XLsn0wKit.m */,
+			);
+			path = XLsn0wRefresh;
 			sourceTree = "<group>";
 		};
 		353B4A301D7CFE8E00E077FA /* KeyBoardHepler */ = {
@@ -237,6 +268,8 @@
 			children = (
 				358D3F031D7AE31C00ADE778 /* XLsn0wKit.podspec */,
 				358D3F021D7AE31C00ADE778 /* XLsn0wKit.h */,
+				352DE6C41D7D539600C5E109 /* XLsn0wKit.bundle */,
+				352DE6B41D7D530300C5E109 /* XLsn0wRefresh */,
 				358C35F41D7D1DB400B04408 /* XLsn0wMethods */,
 				358D3EF51D7AE31600ADE778 /* NSObject */,
 				357270A51D7BEB6D00886F4A /* UIView */,
@@ -327,6 +360,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				352DE6C51D7D539600C5E109 /* XLsn0wKit.bundle in Resources */,
 				358D3EED1D7AE27E00ADE778 /* LaunchScreen.storyboard in Resources */,
 				358D3F041D7AE31C00ADE778 /* XLsn0wKit.podspec in Resources */,
 				358D3EEA1D7AE27E00ADE778 /* Assets.xcassets in Resources */,
@@ -347,6 +381,8 @@
 				357270A31D7BE9DB00886F4A /* YYImageCoder.m in Sources */,
 				351430BB1D7BAD6400AC2A2E /* XLsn0wDispatchQueuePool.m in Sources */,
 				357270A11D7BE9DB00886F4A /* YYFrameImage.m in Sources */,
+				352DE6C01D7D530300C5E109 /* XLsn0wRefreshFooter.m in Sources */,
+				352DE6C31D7D530300C5E109 /* UIView+XLsn0wKit.m in Sources */,
 				351430C41D7BAF9400AC2A2E /* YYSentinel.m in Sources */,
 				357270A21D7BE9DB00886F4A /* XLsn0wImage.m in Sources */,
 				351430C51D7BAF9400AC2A2E /* YYTransaction.m in Sources */,
@@ -354,10 +390,12 @@
 				357270B21D7BEB6D00886F4A /* XLsn0w3DHierarchyWindow.m in Sources */,
 				357270A41D7BE9DB00886F4A /* YYSpriteSheetImage.m in Sources */,
 				357270A01D7BE9DB00886F4A /* YYAnimatedImageView.m in Sources */,
+				352DE6C11D7D530300C5E109 /* XLsn0wRefreshHeader.m in Sources */,
 				351430C31D7BAF9400AC2A2E /* XLsn0wAsyncLayer.m in Sources */,
 				357270B01D7BEB6D00886F4A /* UIButton+ImageTitleLayout.m in Sources */,
 				358C35F71D7D1DC900B04408 /* XLsn0wMethods.m in Sources */,
 				353B4A331D7CFE8E00E077FA /* KeyBoardHepler.m in Sources */,
+				352DE6C21D7D530300C5E109 /* XLsn0wRefresh.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
