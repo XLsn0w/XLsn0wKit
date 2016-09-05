@@ -11,7 +11,7 @@
 
 #import "XLsn0wObject.h"
 
-#import "XLsn0wButton.h"
+#import "XLsn0wView.h"
 
-#import "XLsn0wWindow.h"
+
 

@@ -9,4 +9,7 @@
  *                                                                                           *
  *********************************************************************************************/
 
+#import "UIButton+XLsn0wBadge.h"
+#import "UIButton+ImageTitleLayout.h"
+
 #import "XLsn0w3DHierarchyWindow.h"

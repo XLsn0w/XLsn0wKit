@@ -1,15 +1,6 @@
-//
-//  YYAsyncLayer.m
-//  YYKit <https://github.com/ibireme/YYKit>
-//
-//  Created by ibireme on 15/4/11.
-//  Copyright (c) 2015 ibireme.
-//
-//  This source code is licensed under the MIT-style license found in the
-//  LICENSE file in the root directory of this source tree.
-//
 
-#import "YYAsyncLayer.h"
+#import "XLsn0wAsyncLayer.h"
+
 #import "YYSentinel.h"
 
 #if __has_include("YYDispatchQueuePool.h")
@@ -63,7 +54,7 @@ static dispatch_queue_t YYAsyncLayerGetReleaseQueue() {
 @end
 
 
-@implementation YYAsyncLayer {
+@implementation XLsn0wAsyncLayer {
     YYSentinel *_sentinel;
 }
 

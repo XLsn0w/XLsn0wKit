@@ -5,11 +5,11 @@
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
 
-#if __has_include(<YYAsyncLayer/YYAsyncLayer.h>)
+#if __has_include(<XLsn0wAsyncLayer/YYAsyncLayer.h>)
 FOUNDATION_EXPORT double YYAsyncLayerVersionNumber;
 FOUNDATION_EXPORT const unsigned char YYAsyncLayerVersionString[];
-#import <YYAsyncLayer/YYSentinel.h>
-#import <YYAsyncLayer/YYTransaction.h>
+#import <XLsn0wAsyncLayer/YYSentinel.h>
+#import <XLsn0wAsyncLayer/YYTransaction.h>
 #else
 #import "YYSentinel.h"
 #import "YYTransaction.h"
@@ -25,7 +25,7 @@ NS_ASSUME_NONNULL_BEGIN
  @discussion When the layer need update it's contents, it will ask the delegate 
  for a async display task to render the contents in a background queue.
  */
-@interface YYAsyncLayer : CALayer
+@interface XLsn0wAsyncLayer : CALayer
 /// Whether the render code is executed in background. Default is YES.
 
 @property BOOL displaysAsynchronously;

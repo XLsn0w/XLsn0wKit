@@ -1,10 +1,14 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+
 @class KeyBoardHepler;
+
 @protocol KeyBoardDelegate <NSObject>
+
 -(void)keyBoardWillShowNotification:(NSNotification *)notification;
 -(void)keyBoardWillDismissNotification:(NSNotification *)notification;
+
 @end
 
 @interface KeyBoardHepler : NSObject
