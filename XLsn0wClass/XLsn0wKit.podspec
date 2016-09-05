@@ -18,13 +18,6 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  non_arc_files = 'XLsn0wClass/no-arc/NSObject+XLsn0wAddForARC.{h,m}', 'XLsn0wClass/no-arc/NSThread+XLsn0wAdd.{h,m}'
-  s.ios.exclude_files = non_arc_files
-  s.subspec 'no-arc' do |sna|
-    sna.requires_arc = false
-    sna.source_files = non_arc_files
-  end
-
   s.libraries = 'z', 'sqlite3'
   s.frameworks = 'UIKit', 'CoreFoundation', 'CoreText', 'CoreGraphics', 'CoreImage', 'QuartzCore', 'ImageIO', 'AssetsLibrary', 'Accelerate', 'MobileCoreServices', 'SystemConfiguration'
   s.ios.vendored_frameworks = 'XLsn0wClass/Frameworks/WebP.framework'
