@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 
-  s.version      = "3.2.1"
+  s.version      = "3.2.2"
 
   s.name         = "XLsn0wKit"
   s.summary      = 'A collection of iOS components from XLsn0wKit'
@@ -13,8 +13,11 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '7.0'
 
   s.source       = { :git => "https://github.com/XLsn0w/XLsn0wKit.git", :tag => s.version.to_s }
-  s.source_files = "XLsn0wClass/**/*.{h,m}"
-  s.public_header_files = 'XLsn0wClass/**/*.{h}'
+
+  s.source_files = "XLsn0w/**/*.{h,m}"
+  s.public_header_files = 'XLsn0w/**/*.{h}'
+
+  s.resources    = "XLsn0w/Resources/XLsn0wKit.bundle"
 
   s.requires_arc = true
 
