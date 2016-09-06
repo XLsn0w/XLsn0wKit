@@ -9,13 +9,26 @@
  *                                                                                           *
  *********************************************************************************************/
 
-#import "XLsn0wMethods.h"
+#import <UIKit/UIKit.h>
 
-#import "XLsn0wObject.h"
+@class  XLsn0wCollectionViewFlowLayout;
 
-#import "XLsn0wView.h"
+@protocol XLsn0wCollectionViewFlowLayoutDelegate <UICollectionViewDelegateFlowLayout>
 
-#import "UIView+XLsn0wAutoLayout.h"
-#import "UITableView+XLsn0wAutoLayoutCellHeight.h"
+@required
+/**
+ *  number of column in section protocol delegate methods
+ */
+- (NSInteger)collectionView:(UICollectionView *)collectionView
+                     layout:(XLsn0wCollectionViewFlowLayout *)layout
+   numberOfColumnsInSection:(NSInteger)section;
 
-#import "XLsn0wCollectionViewFlowLayout.h"
+@end
+
+@interface XLsn0wCollectionViewFlowLayout : UICollectionViewFlowLayout
+
+@property (nonatomic, weak) id<XLsn0wCollectionViewFlowLayoutDelegate> xlDelegate;
+
+@property (nonatomic) BOOL enableStickyHeaders; //Defalut is NO, set it's YES will sticky the section header.
+
+@end
