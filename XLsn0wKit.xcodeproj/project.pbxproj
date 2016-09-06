@@ -160,17 +160,17 @@
 			children = (
 				352DE76F1D7D5E9700C5E109 /* XLsn0wKit.podspec */,
 				352DE76E1D7D5E9700C5E109 /* XLsn0wKit.h */,
-				352DE7951D7D5EFD00C5E109 /* Resources */,
-				352DE7411D7D5E9700C5E109 /* Frameworks */,
 				352DE7441D7D5E9700C5E109 /* NSObject */,
 				352DE7491D7D5E9700C5E109 /* UIView */,
+				352DE7701D7D5E9700C5E109 /* XLsn0wMethods */,
 				35C01B921D7E5A400043E639 /* XLsn0wCollectionViewFlowLayout */,
 				352DE7531D7D5E9700C5E109 /* XLsn0wAsyncLayer */,
 				352DE75A1D7D5E9700C5E109 /* XLsn0wAutoLayout */,
 				352DE75F1D7D5E9700C5E109 /* XLsn0wDispatchQueuePool */,
 				352DE7621D7D5E9700C5E109 /* XLsn0wImage */,
-				352DE7701D7D5E9700C5E109 /* XLsn0wMethods */,
 				352DE7731D7D5E9700C5E109 /* XLsn0wRefresh */,
+				352DE7951D7D5EFD00C5E109 /* Resources */,
+				352DE7411D7D5E9700C5E109 /* Frameworks */,
 			);
 			path = XLsn0w;
 			sourceTree = "<group>";

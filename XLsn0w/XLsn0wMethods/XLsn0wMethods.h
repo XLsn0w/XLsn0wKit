@@ -26,4 +26,6 @@
 
 + (void)xl_showTimeoutWithCurrentSelf:(UIViewController *)currentSelf;
 
++ (void)xl_setURLCache;
+
 @end
