@@ -13,11 +13,9 @@
 
 @implementation XLsn0wFileHandle
 
-
-
 //将路径或者url转成base64处理的字符串
-+ (NSString *)imageNameForBase64Handle:(NSString *)path
-{
++ (NSString *)imageNameForBase64Handle:(NSString *)path {
+    
     NSData * data = [path dataUsingEncoding:NSUTF8StringEncoding];//将路径通过UTF-8编码
     
     NSString * imageNameBase = [data base64EncodedStringWithOptions:0];//将字符串进行base64处理
