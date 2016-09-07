@@ -23,6 +23,8 @@ static const CGFloat kMargin = 30;
 @property (nonatomic, strong) UIView *scanWindow;
 @property (nonatomic, strong) UIImageView *scanNetImageView;
 
+@property (nonatomic, strong) NSBundle *resourcesBundle;
+
 @end
 
 @implementation XLsn0wQRCodeViewController
@@ -82,12 +84,21 @@ static const CGFloat kMargin = 30;
     
 }
 -(void)setupNavView{
+
+    NSBundle *mainBundle = [NSBundle bundleForClass:[XLsn0wQRCodeViewController class]];
+    
+    // Check to see if the resource bundle exists inside the top level bundle
+    _resourcesBundle = [NSBundle bundleWithPath:[mainBundle pathForResource:@"XLsn0wKit" ofType:@"bundle"]];
+    
+    if (_resourcesBundle == nil) {
+        _resourcesBundle = mainBundle;
+    }
     
     //1.返回
     
     UIButton *backBtn=[UIButton buttonWithType:UIButtonTypeCustom];
     backBtn.frame = CGRectMake(20, 30, 25, 25);
-    [backBtn setBackgroundImage:[UIImage imageNamed:@"qrcode_scan_titlebar_back_nor"] forState:UIControlStateNormal];
+    [backBtn setBackgroundImage:[UIImage imageNamed:@"qrcode_scan_titlebar_back_nor" inBundle:_resourcesBundle compatibleWithTraitCollection:nil] forState:UIControlStateNormal];
     backBtn.contentMode=UIViewContentModeScaleAspectFit;
     [backBtn addTarget:self action:@selector(disMiss) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:backBtn];
@@ -97,7 +108,7 @@ static const CGFloat kMargin = 30;
     UIButton * albumBtn=[UIButton buttonWithType:UIButtonTypeCustom];
     albumBtn.frame = CGRectMake(0, 0, 35, 49);
     albumBtn.center=CGPointMake(self.view.sd_width/2, 20+49/2.0);
-    [albumBtn setBackgroundImage:[UIImage imageNamed:@"qrcode_scan_btn_photo_down"] forState:UIControlStateNormal];
+    [albumBtn setBackgroundImage:[UIImage imageNamed:@"qrcode_scan_btn_photo_down" inBundle:_resourcesBundle compatibleWithTraitCollection:nil] forState:UIControlStateNormal];
     albumBtn.contentMode=UIViewContentModeScaleAspectFit;
     [albumBtn addTarget:self action:@selector(myAlbum) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:albumBtn];
@@ -106,7 +117,7 @@ static const CGFloat kMargin = 30;
     
     UIButton * flashBtn=[UIButton buttonWithType:UIButtonTypeCustom];
     flashBtn.frame = CGRectMake(self.view.sd_width-55,20, 35, 49);
-    [flashBtn setBackgroundImage:[UIImage imageNamed:@"qrcode_scan_btn_flash_down"] forState:UIControlStateNormal];
+    [flashBtn setBackgroundImage:[UIImage imageNamed:@"qrcode_scan_btn_flash_down" inBundle:_resourcesBundle compatibleWithTraitCollection:nil] forState:UIControlStateNormal];
     flashBtn.contentMode=UIViewContentModeScaleAspectFit;
     [flashBtn addTarget:self action:@selector(openFlash:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:flashBtn];
@@ -141,7 +152,7 @@ static const CGFloat kMargin = 30;
     UIButton * myCodeBtn=[UIButton buttonWithType:UIButtonTypeCustom];
     myCodeBtn.frame = CGRectMake(0,0, self.view.sd_height * 0.1*35/49, self.view.sd_height * 0.1);
     myCodeBtn.center=CGPointMake(self.view.sd_width/2, self.view.sd_height * 0.1/2);
-    [myCodeBtn setImage:[UIImage imageNamed:@"qrcode_scan_btn_myqrcode_down"] forState:UIControlStateNormal];
+    [myCodeBtn setImage:[UIImage imageNamed:@"qrcode_scan_btn_myqrcode_down" inBundle:_resourcesBundle compatibleWithTraitCollection:nil] forState:UIControlStateNormal];
     
     myCodeBtn.contentMode=UIViewContentModeScaleAspectFit;
     
@@ -162,19 +173,19 @@ static const CGFloat kMargin = 30;
     CGFloat buttonWH = 18;
     
     UIButton *topLeft = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, buttonWH, buttonWH)];
-    [topLeft setImage:[UIImage imageNamed:@"scan_1"] forState:UIControlStateNormal];
+    [topLeft setImage:[UIImage imageNamed:@"scan_1" inBundle:_resourcesBundle compatibleWithTraitCollection:nil] forState:UIControlStateNormal];
     [_scanWindow addSubview:topLeft];
     
     UIButton *topRight = [[UIButton alloc] initWithFrame:CGRectMake(scanWindowW - buttonWH, 0, buttonWH, buttonWH)];
-    [topRight setImage:[UIImage imageNamed:@"scan_2"] forState:UIControlStateNormal];
+    [topRight setImage:[UIImage imageNamed:@"scan_2" inBundle:_resourcesBundle compatibleWithTraitCollection:nil] forState:UIControlStateNormal];
     [_scanWindow addSubview:topRight];
     
     UIButton *bottomLeft = [[UIButton alloc] initWithFrame:CGRectMake(0, scanWindowH - buttonWH, buttonWH, buttonWH)];
-    [bottomLeft setImage:[UIImage imageNamed:@"scan_3"] forState:UIControlStateNormal];
+    [bottomLeft setImage:[UIImage imageNamed:@"scan_3" inBundle:_resourcesBundle compatibleWithTraitCollection:nil] forState:UIControlStateNormal];
     [_scanWindow addSubview:bottomLeft];
     
     UIButton *bottomRight = [[UIButton alloc] initWithFrame:CGRectMake(topRight.sd_x, bottomLeft.sd_y, buttonWH, buttonWH)];
-    [bottomRight setImage:[UIImage imageNamed:@"scan_4"] forState:UIControlStateNormal];
+    [bottomRight setImage:[UIImage imageNamed:@"scan_4" inBundle:_resourcesBundle compatibleWithTraitCollection:nil] forState:UIControlStateNormal];
     [_scanWindow addSubview:bottomRight];
 }
 

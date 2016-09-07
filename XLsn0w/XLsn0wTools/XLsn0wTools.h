@@ -9,16 +9,4 @@
  *                                                                                           *
  *********************************************************************************************/
 
-#import "XLsn0wMethods.h"
-
-#import "XLsn0wObject.h"
-
-#import "XLsn0wView.h"
-
-#import "UIView+XLsn0wAutoLayout.h"
-#import "UITableView+XLsn0wAutoLayoutCellHeight.h"
-
-#import "XLsn0wCollectionViewFlowLayout.h"
-
-#import "XLsn0wTools.h"
-
+#import "XLsn0wQRCodeViewController.h"
