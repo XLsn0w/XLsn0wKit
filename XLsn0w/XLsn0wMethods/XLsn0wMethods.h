@@ -24,7 +24,6 @@
                                    tabBarItemImageName:(NSString *)imageName
                            tabBarItemSelectedImageName:(NSString *)selectedImageName currentSelf:(UIViewController *)currentSelf;
 
-+ (void)xl_showTimeoutWithCurrentSelf:(UIViewController *)currentSelf;
 
 + (void)xl_setURLCache;
 

@@ -23,13 +23,6 @@
     [currentSelf addChildViewController:childNC];
 }
 
-+ (void)xl_showTimeoutWithCurrentSelf:(UIViewController *)currentSelf {
-    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"超时提醒" message:@"网络请求超时 !" preferredStyle:UIAlertControllerStyleAlert];
-    UIAlertAction *okAlertAction = [UIAlertAction actionWithTitle:@"知道了" style:UIAlertActionStyleDefault handler:nil];
-    [alertController addAction:okAlertAction];
-    [currentSelf presentViewController:alertController animated:YES completion:nil];
-}
-
 + (void)xl_setURLCache {
     NSURLCache *URLCache = [[NSURLCache alloc] initWithMemoryCapacity:4 * 1024 * 1024 diskCapacity:20 * 1024 * 1024 diskPath:nil];
     [NSURLCache setSharedURLCache:URLCache];
