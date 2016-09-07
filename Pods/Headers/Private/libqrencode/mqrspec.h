@@ -1,1 +1,0 @@
-../../../libqrencode/mqrspec.h

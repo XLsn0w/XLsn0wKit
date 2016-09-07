@@ -1,1 +1,0 @@
-../../../libqrencode/qrencode.h

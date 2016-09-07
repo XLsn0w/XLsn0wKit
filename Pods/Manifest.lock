@@ -14,17 +14,14 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - libqrencode (3.4.2)
   - Masonry (1.0.1)
 
 DEPENDENCIES:
   - AFNetworking
-  - libqrencode
   - Masonry
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  libqrencode: 43dc34b89af83ea4b07c409cd8e09c87aa3a1c9f
   Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
 
 COCOAPODS: 0.39.0

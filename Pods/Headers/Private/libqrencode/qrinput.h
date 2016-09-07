@@ -1,1 +1,0 @@
-../../../libqrencode/qrinput.h

@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 
-  s.version      = "3.3.5"
+  s.version      = "3.3.6"
 
   s.name         = "XLsn0wKit"
   s.summary      = 'A collection of iOS components from XLsn0wKit'
@@ -27,6 +27,5 @@ Pod::Spec.new do |s|
 
   s.dependency "AFNetworking"
   s.dependency 'Masonry'
-  s.dependency 'libqrencode'
 
 end

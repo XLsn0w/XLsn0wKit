@@ -9,4 +9,13 @@
  *                                                                                           *
  *********************************************************************************************/
 
-#import "XLsn0wQRCodeViewController.h"
+#import "IQKeyboardManager.h"
+
+#import "QRCodeTool.h"
+
+#import "RegExTool.h"
+
+#import "ClearCacheTool.h"
+
+#import "UpdateVersionTool.h"
+
