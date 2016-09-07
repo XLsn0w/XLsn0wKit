@@ -522,7 +522,7 @@
     NSBundle *mainBundle = [NSBundle bundleForClass:[IQKeyboardManager class]];
     
     // Check to see if the resource bundle exists inside the top level bundle
-    NSBundle *resourcesBundle = [NSBundle bundleWithPath:[mainBundle pathForResource:@"IQKeyboardManager" ofType:@"bundle"]];
+    NSBundle *resourcesBundle = [NSBundle bundleWithPath:[mainBundle pathForResource:@"XLsn0wKit" ofType:@"bundle"]];
     
     if (resourcesBundle == nil) {
         resourcesBundle = mainBundle;
@@ -617,7 +617,7 @@
     NSBundle *mainBundle = [NSBundle bundleForClass:[IQKeyboardManager class]];
     
     // Check to see if the resource bundle exists inside the top level bundle
-    NSBundle *resourcesBundle = [NSBundle bundleWithPath:[mainBundle pathForResource:@"IQKeyboardManager" ofType:@"bundle"]];
+    NSBundle *resourcesBundle = [NSBundle bundleWithPath:[mainBundle pathForResource:@"XLsn0wKit" ofType:@"bundle"]];
     
     if (resourcesBundle == nil) {
         resourcesBundle = mainBundle;

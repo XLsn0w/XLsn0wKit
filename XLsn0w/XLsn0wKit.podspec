@@ -26,5 +26,7 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = 'XLsn0w/Frameworks/WebP.framework'
 
   s.dependency "AFNetworking"
+  s.dependency 'Masonry'
+  s.dependency 'libqrencode'
 
 end

@@ -1,2 +1,6 @@
 
-pod ‘AFNetworking’
+pod 'AFNetworking'
+
+pod 'Masonry'
+
+pod 'libqrencode'

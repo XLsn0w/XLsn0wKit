@@ -46,7 +46,6 @@
 		352DE7B11D7D600E00C5E109 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 352DE7B01D7D600E00C5E109 /* SystemConfiguration.framework */; };
 		358D3EDF1D7AE27E00ADE778 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 358D3EDE1D7AE27E00ADE778 /* main.m */; };
 		358D3EE21D7AE27E00ADE778 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 358D3EE11D7AE27E00ADE778 /* AppDelegate.m */; };
-		358D3EE51D7AE27E00ADE778 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 358D3EE41D7AE27E00ADE778 /* ViewController.m */; };
 		358D3EE81D7AE27E00ADE778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 358D3EE61D7AE27E00ADE778 /* Main.storyboard */; };
 		358D3EEA1D7AE27E00ADE778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 358D3EE91D7AE27E00ADE778 /* Assets.xcassets */; };
 		358D3EED1D7AE27E00ADE778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 358D3EEB1D7AE27E00ADE778 /* LaunchScreen.storyboard */; };
@@ -70,6 +69,9 @@
 		35C009E61D7EE2F900659C7B /* QRCodeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C009E51D7EE2F900659C7B /* QRCodeTool.m */; };
 		35C009E81D7EE38C00659C7B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35C009E71D7EE38C00659C7B /* AVFoundation.framework */; };
 		35C01B951D7E5A5F0043E639 /* XLsn0wCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C01B941D7E5A5F0043E639 /* XLsn0wCollectionViewFlowLayout.m */; };
+		35F3422C1D7FB2B100BE3786 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3422B1D7FB2B100BE3786 /* ViewController.m */; };
+		35F342381D7FB63F00BE3786 /* QRCodeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F342351D7FB63F00BE3786 /* QRCodeGenerator.m */; };
+		35F3423C1D7FB66300BE3786 /* XLsn0wQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3423B1D7FB66300BE3786 /* XLsn0wQRCodeViewController.m */; };
 		430A9DED3203AAC11D19F6A2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A38D43F4BA534A9B0E119C76 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -140,7 +142,6 @@
 		358D3EE01D7AE27E00ADE778 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		358D3EE11D7AE27E00ADE778 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		358D3EE31D7AE27E00ADE778 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		358D3EE41D7AE27E00ADE778 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		358D3EE71D7AE27E00ADE778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		358D3EE91D7AE27E00ADE778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		358D3EEC1D7AE27E00ADE778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -186,6 +187,11 @@
 		35C009E71D7EE38C00659C7B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		35C01B931D7E5A5F0043E639 /* XLsn0wCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wCollectionViewFlowLayout.h; sourceTree = "<group>"; };
 		35C01B941D7E5A5F0043E639 /* XLsn0wCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		35F3422B1D7FB2B100BE3786 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		35F342341D7FB63F00BE3786 /* QRCodeGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeGenerator.h; sourceTree = "<group>"; };
+		35F342351D7FB63F00BE3786 /* QRCodeGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeGenerator.m; sourceTree = "<group>"; };
+		35F3423A1D7FB66300BE3786 /* XLsn0wQRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wQRCodeViewController.h; sourceTree = "<group>"; };
+		35F3423B1D7FB66300BE3786 /* XLsn0wQRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wQRCodeViewController.m; sourceTree = "<group>"; };
 		470392E18AAF29458E4F8E2C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A38D43F4BA534A9B0E119C76 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F02FD23F26D498B42704CE47 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -427,7 +433,7 @@
 				358D3EE01D7AE27E00ADE778 /* AppDelegate.h */,
 				358D3EE11D7AE27E00ADE778 /* AppDelegate.m */,
 				358D3EE31D7AE27E00ADE778 /* ViewController.h */,
-				358D3EE41D7AE27E00ADE778 /* ViewController.m */,
+				35F3422B1D7FB2B100BE3786 /* ViewController.m */,
 				358D3EE61D7AE27E00ADE778 /* Main.storyboard */,
 				358D3EE91D7AE27E00ADE778 /* Assets.xcassets */,
 				358D3EEB1D7AE27E00ADE778 /* LaunchScreen.storyboard */,
@@ -517,6 +523,7 @@
 		35C009D61D7ED52100659C7B /* XLsn0wTools */ = {
 			isa = PBXGroup;
 			children = (
+				35F342331D7FB63F00BE3786 /* XLsn0wQRCode */,
 				35B6439E1D7FA0AB005BA252 /* XLsn0wAutoKeyboard */,
 				35C009E31D7EE2F900659C7B /* QRCodeTool */,
 				35C009DF1D7EDE2200659C7B /* RegExTool */,
@@ -571,6 +578,17 @@
 			path = XLsn0wCollectionViewFlowLayout;
 			sourceTree = "<group>";
 		};
+		35F342331D7FB63F00BE3786 /* XLsn0wQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				35F3423A1D7FB66300BE3786 /* XLsn0wQRCodeViewController.h */,
+				35F3423B1D7FB66300BE3786 /* XLsn0wQRCodeViewController.m */,
+				35F342341D7FB63F00BE3786 /* QRCodeGenerator.h */,
+				35F342351D7FB63F00BE3786 /* QRCodeGenerator.m */,
+			);
+			path = XLsn0wQRCode;
+			sourceTree = "<group>";
+		};
 		83A1746A7153A281C456D6D0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -614,6 +632,7 @@
 				TargetAttributes = {
 					358D3ED91D7AE27E00ADE778 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = TJFMNSFT3H;
 					};
 				};
 			};
@@ -703,11 +722,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35F3422C1D7FB2B100BE3786 /* ViewController.m in Sources */,
 				35B643CC1D7FA0AB005BA252 /* IQBarButtonItem.m in Sources */,
 				352DE77F1D7D5E9700C5E109 /* KeyBoardHepler.m in Sources */,
 				35B643C41D7FA0AB005BA252 /* IQUIScrollView+Additions.m in Sources */,
-				358D3EE51D7AE27E00ADE778 /* ViewController.m in Sources */,
 				358D3EE21D7AE27E00ADE778 /* AppDelegate.m in Sources */,
+				35F342381D7FB63F00BE3786 /* QRCodeGenerator.m in Sources */,
 				35B643CE1D7FA0AB005BA252 /* IQTitleBarButtonItem.m in Sources */,
 				35B643CF1D7FA0AB005BA252 /* IQToolbar.m in Sources */,
 				35C009E61D7EE2F900659C7B /* QRCodeTool.m in Sources */,
@@ -740,6 +760,7 @@
 				352DE7941D7D5E9700C5E109 /* XLsn0wRefreshHeader.m in Sources */,
 				352DE7811D7D5E9700C5E109 /* UIButton+XLsn0wBadge.m in Sources */,
 				352DE7861D7D5E9700C5E109 /* UITableView+XLsn0wAutoLayoutCellHeight.m in Sources */,
+				35F3423C1D7FB66300BE3786 /* XLsn0wQRCodeViewController.m in Sources */,
 				352DE7911D7D5E9700C5E109 /* UIView+XLsn0wKit.m in Sources */,
 				352DE7931D7D5E9700C5E109 /* XLsn0wRefreshFooter.m in Sources */,
 				352DE7921D7D5E9700C5E109 /* XLsn0wRefresh.m in Sources */,
@@ -859,6 +880,8 @@
 			baseConfigurationReference = F02FD23F26D498B42704CE47 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/XLsn0wClass/Frameworks",
@@ -869,6 +892,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xlsn0w.XLsn0wKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -877,6 +901,8 @@
 			baseConfigurationReference = 470392E18AAF29458E4F8E2C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/XLsn0wClass/Frameworks",
@@ -887,6 +913,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xlsn0w.XLsn0wKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
