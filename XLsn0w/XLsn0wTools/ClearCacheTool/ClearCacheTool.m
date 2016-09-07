@@ -79,7 +79,7 @@
     //拿到path路径的下一级目录的子文件夹
     NSArray *subPathArr = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:path error:nil];
     
-    NSString *message  = nil;
+//    NSString *message  = nil;
     NSString *filePath = nil;
     
     NSError *error = nil;

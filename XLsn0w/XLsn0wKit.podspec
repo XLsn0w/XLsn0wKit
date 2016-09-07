@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 
-  s.version      = "3.2.9"
+  s.version      = "3.3.1"
 
   s.name         = "XLsn0wKit"
   s.summary      = 'A collection of iOS components from XLsn0wKit'
@@ -24,5 +24,7 @@ Pod::Spec.new do |s|
   s.libraries = 'z', 'sqlite3'
   s.frameworks = 'UIKit', 'CoreFoundation', 'CoreText', 'CoreGraphics', 'CoreImage', 'QuartzCore', 'ImageIO', 'AssetsLibrary', 'Accelerate', 'MobileCoreServices', 'SystemConfiguration'
   s.ios.vendored_frameworks = 'XLsn0w/Frameworks/WebP.framework'
+
+  s.dependency "AFNetworking"
 
 end
