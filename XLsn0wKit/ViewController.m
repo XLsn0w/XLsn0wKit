@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 #import "UIImageView+XLsn0wWebImage.h"
-#import "XLsn0wFileStore.h"
+#import "XLsn0wImageCache.h"
 
 @interface ViewController ()
 
@@ -49,16 +49,15 @@
 //开始计算文件大小
 - (IBAction)lookFileSize:(id)sender
 {
-    NSString * fileSize = [NSString stringWithFormat:@"缓存大小为:%@MB",[[XLsn0wFileStore shareInstance] fileSize]];
+    NSString * fileSize = [NSString stringWithFormat:@"缓存大小为:%@MB", [[XLsn0wImageCache sharedImageCache] fileSize]];
     
     self.lblFileSize.text = fileSize;
 }
 
 
 //删除所有的文件
-- (IBAction)deleteAllFile:(id)sender
-{
-    [[XLsn0wFileStore shareInstance] deleteAllCAchesProgress:^(NSString *fileName) {
+- (IBAction)deleteAllFile:(id)sender {
+    [[XLsn0wImageCache sharedImageCache] deleteAllCAchesProgress:^(NSString *fileName) {
         
         //更改lable的显示
         self.label.text = [NSString stringWithFormat:@"正在删除%@",fileName];

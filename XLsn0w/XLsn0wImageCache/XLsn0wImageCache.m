@@ -9,33 +9,30 @@
  *                                                                                           *
  *********************************************************************************************/
 
-#import "XLsn0wFileStore.h"
+#import "XLsn0wImageCache.h"
 
 #import "XLsn0wFileHandle.h"
 
-@interface XLsn0wFileStore ()
+@interface XLsn0wImageCache ()
 
 @property (nonatomic, strong) NSFileManager * fileManager; //文件管理者的单例
 
 @end
 
-@implementation XLsn0wFileStore
+@implementation XLsn0wImageCache
 
-+ (instancetype)shareInstance {
++ (instancetype)sharedImageCache {
     
-    static XLsn0wFileStore * yWebFileManager = nil;
+    static XLsn0wImageCache *xlsn0wImageCache = nil;
     
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        
         //初始化单例对象
-        yWebFileManager = [[XLsn0wFileStore alloc]init];
-        
-        
+        xlsn0wImageCache = [[XLsn0wImageCache alloc] init];
         
     });
     
-    return yWebFileManager;
+    return xlsn0wImageCache;
 }
 
 

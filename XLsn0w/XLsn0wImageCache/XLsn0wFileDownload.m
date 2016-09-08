@@ -12,7 +12,7 @@
 #import "XLsn0wFileDownload.h"
 
 #import "XLsn0wFileHandle.h"
-#import "XLsn0wFileStore.h"
+#import "XLsn0wImageCache.h"
 
 @interface XLsn0wFileDownload () <NSURLSessionDownloadDelegate>
 
@@ -71,8 +71,7 @@
     [self pauseDown];
     
     //根据url检测是否存在本地图片
-    if ([[XLsn0wFileStore shareInstance] fileIsExist:imagePath])
-    {
+    if ([[XLsn0wImageCache sharedImageCache] fileIsExist:imagePath]) {
         
         //拼接路径
         NSString * path = [XLsn0wFileHandle documentYWebImageFileAppendBase64File:imagePath];
@@ -168,7 +167,7 @@ didFinishDownloadingToURL:(NSURL *)location
     NSString * path = [XLsn0wFileHandle documentYWebImageFileAppendFile:self.imageName];
     
     //创建相关文件夹
-    [[XLsn0wFileStore shareInstance] createDownFile];
+    [[XLsn0wImageCache sharedImageCache] createDownFile];
     
     //获取创建下载到的路径url
     NSURL * url = [NSURL fileURLWithPath:path];

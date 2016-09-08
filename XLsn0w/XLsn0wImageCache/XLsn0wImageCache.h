@@ -26,29 +26,25 @@ typedef void(^YWebManagerDeleteFileBlock)(NSString * fileName);
 typedef void(^YWebManagerCompleteBlock)(void);
 
 
-
-
 /**
  *  负责处理本地文件(沙盒存储)的管理者
  */
-NS_CLASS_AVAILABLE_IOS(7_0) @interface XLsn0wFileStore : NSObject
-
+@interface XLsn0wImageCache : NSObject
 
 
 /**
  *  默认存储文件夹的大小,单位为MB
  */
-@property (nonatomic, copy, readonly)NSString * fileSize;
+@property (nonatomic, copy, readonly) NSString *fileSize;
 
 
 
 /**
  *  单例方法
  *
- *  @return YWebFileManager单例对象
+ *  @return 单例对象
  */
-+ (instancetype)shareInstance NS_AVAILABLE_IOS(7_0);
-
++ (instancetype)sharedImageCache;
 
 
 /**
@@ -58,9 +54,7 @@ NS_CLASS_AVAILABLE_IOS(7_0) @interface XLsn0wFileStore : NSObject
  *
  *  @return true表示存在，false表示不存在
  */
-- (BOOL)fileIsExist:(NSString *)url NS_AVAILABLE_IOS(7_0);
-
-
+- (BOOL)fileIsExist:(NSString *)url;
 
 
 /**
@@ -68,7 +62,7 @@ NS_CLASS_AVAILABLE_IOS(7_0) @interface XLsn0wFileStore : NSObject
  *
  *  @return true表示创建成功，false表示创建失败
  */
-- (BOOL)createDownFile NS_AVAILABLE_IOS(7_0);
+- (BOOL)createDownFile;
 
 
 /**

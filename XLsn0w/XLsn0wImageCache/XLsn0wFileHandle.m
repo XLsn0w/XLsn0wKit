@@ -39,9 +39,8 @@
 
 
 //获得应用的沙盒路径
-+(NSString *)documentPath
-{
-    return [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, true) firstObject];
++ (NSString *)documentPath {
+    return [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, true) firstObject];
 }
 
 
@@ -69,9 +68,8 @@
 
 
 //获得当前存放下载图片的文件目录
-+(NSString *)documentYWebImageFile
-{
-    return [[self class] documentAppendPath:@"YWebImageFile"];
++(NSString *)documentYWebImageFile {
+    return [[self class] documentAppendPath:@"XLsn0wImageCache"];
 }
 
 
