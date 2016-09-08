@@ -25,7 +25,7 @@
 /**
  *  XLsn0w Custom Download Image File Store
  */
+#import "XLsn0wImageCache.h"
 #import "XLsn0wFileHandle.h"
 #import "XLsn0wFileDownload.h"
-#import "XLsn0wFileStore.h"
 #import "UIImageView+XLsn0wWebImage.h"
