@@ -74,13 +74,7 @@ typedef void(^YWebManagerCompleteBlock)(void);
  */
 - (UIImage *)imageWithURL:(NSString *)url NS_AVAILABLE_IOS(7_0);
 
-
-
-
-
-
-/*** 删除缓存文件的方法***/
-
+#pragma mark - 删除缓存文件的方法
 
 /**
  *  删除所有的缓存在本地的文件
