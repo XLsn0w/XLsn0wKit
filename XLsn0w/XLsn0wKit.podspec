@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 
-  s.version      = "3.4.0"
+  s.version      = "3.4.1"
 
   s.name         = "XLsn0wKit"
   s.summary      = 'A collection of iOS components from XLsn0wKit'
@@ -15,7 +15,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/XLsn0w/XLsn0wKit.git", :tag => s.version.to_s }
 
   s.source_files = "XLsn0w/**/*.{h,m}"
-  s.public_header_files = 'XLsn0w/**/*.{h}'
 
   s.resources    = "XLsn0w/Resources/XLsn0wKit.bundle"
 
@@ -23,7 +22,6 @@ Pod::Spec.new do |s|
 
   s.libraries = 'z', 'sqlite3'
   s.frameworks = 'UIKit', 'CoreFoundation', 'CoreText', 'CoreGraphics', 'CoreImage', 'QuartzCore', 'ImageIO', 'AssetsLibrary', 'Accelerate', 'MobileCoreServices', 'SystemConfiguration'
-  s.ios.vendored_frameworks = 'XLsn0w/Frameworks/WebP.framework'
 
   s.dependency "AFNetworking"
   s.dependency 'Masonry'
