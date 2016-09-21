@@ -23,11 +23,6 @@
 		352DE7861D7D5E9700C5E109 /* UITableView+XLsn0wAutoLayoutCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 352DE75C1D7D5E9700C5E109 /* UITableView+XLsn0wAutoLayoutCellHeight.m */; };
 		352DE7871D7D5E9700C5E109 /* UIView+XLsn0wAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 352DE75E1D7D5E9700C5E109 /* UIView+XLsn0wAutoLayout.m */; };
 		352DE7881D7D5E9700C5E109 /* XLsn0wDispatchQueuePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 352DE7611D7D5E9700C5E109 /* XLsn0wDispatchQueuePool.m */; };
-		352DE7891D7D5E9700C5E109 /* XLsn0wImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 352DE7641D7D5E9700C5E109 /* XLsn0wImage.m */; };
-		352DE78A1D7D5E9700C5E109 /* YYAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 352DE7661D7D5E9700C5E109 /* YYAnimatedImageView.m */; };
-		352DE78B1D7D5E9700C5E109 /* YYFrameImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 352DE7681D7D5E9700C5E109 /* YYFrameImage.m */; };
-		352DE78C1D7D5E9700C5E109 /* YYImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 352DE76A1D7D5E9700C5E109 /* YYImageCoder.m */; };
-		352DE78D1D7D5E9700C5E109 /* YYSpriteSheetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 352DE76C1D7D5E9700C5E109 /* YYSpriteSheetImage.m */; };
 		352DE78F1D7D5E9700C5E109 /* XLsn0wKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 352DE76F1D7D5E9700C5E109 /* XLsn0wKit.podspec */; };
 		352DE7901D7D5E9700C5E109 /* XLsn0wMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 352DE7721D7D5E9700C5E109 /* XLsn0wMethods.m */; };
 		352DE7911D7D5E9700C5E109 /* UIView+XLsn0wKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 352DE7761D7D5E9700C5E109 /* UIView+XLsn0wKit.m */; };
@@ -115,16 +110,6 @@
 		352DE75E1D7D5E9700C5E109 /* UIView+XLsn0wAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XLsn0wAutoLayout.m"; sourceTree = "<group>"; };
 		352DE7601D7D5E9700C5E109 /* XLsn0wDispatchQueuePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wDispatchQueuePool.h; sourceTree = "<group>"; };
 		352DE7611D7D5E9700C5E109 /* XLsn0wDispatchQueuePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wDispatchQueuePool.m; sourceTree = "<group>"; };
-		352DE7631D7D5E9700C5E109 /* XLsn0wImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wImage.h; sourceTree = "<group>"; };
-		352DE7641D7D5E9700C5E109 /* XLsn0wImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wImage.m; sourceTree = "<group>"; };
-		352DE7651D7D5E9700C5E109 /* YYAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYAnimatedImageView.h; sourceTree = "<group>"; };
-		352DE7661D7D5E9700C5E109 /* YYAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYAnimatedImageView.m; sourceTree = "<group>"; };
-		352DE7671D7D5E9700C5E109 /* YYFrameImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFrameImage.h; sourceTree = "<group>"; };
-		352DE7681D7D5E9700C5E109 /* YYFrameImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFrameImage.m; sourceTree = "<group>"; };
-		352DE7691D7D5E9700C5E109 /* YYImageCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYImageCoder.h; sourceTree = "<group>"; };
-		352DE76A1D7D5E9700C5E109 /* YYImageCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYImageCoder.m; sourceTree = "<group>"; };
-		352DE76B1D7D5E9700C5E109 /* YYSpriteSheetImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYSpriteSheetImage.h; sourceTree = "<group>"; };
-		352DE76C1D7D5E9700C5E109 /* YYSpriteSheetImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYSpriteSheetImage.m; sourceTree = "<group>"; };
 		352DE76E1D7D5E9700C5E109 /* XLsn0wKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wKit.h; sourceTree = "<group>"; };
 		352DE76F1D7D5E9700C5E109 /* XLsn0wKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XLsn0wKit.podspec; sourceTree = "<group>"; };
 		352DE7711D7D5E9700C5E109 /* XLsn0wMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wMethods.h; sourceTree = "<group>"; };
@@ -295,7 +280,6 @@
 				352DE7531D7D5E9700C5E109 /* XLsn0wAsyncLayer */,
 				352DE75A1D7D5E9700C5E109 /* XLsn0wAutoLayout */,
 				352DE75F1D7D5E9700C5E109 /* XLsn0wDispatchQueuePool */,
-				352DE7621D7D5E9700C5E109 /* XLsn0wImage */,
 				352DE7731D7D5E9700C5E109 /* XLsn0wRefresh */,
 				352DE7441D7D5E9700C5E109 /* NSObject */,
 				352DE7491D7D5E9700C5E109 /* UIView */,
@@ -405,23 +389,6 @@
 				352DE7611D7D5E9700C5E109 /* XLsn0wDispatchQueuePool.m */,
 			);
 			path = XLsn0wDispatchQueuePool;
-			sourceTree = "<group>";
-		};
-		352DE7621D7D5E9700C5E109 /* XLsn0wImage */ = {
-			isa = PBXGroup;
-			children = (
-				352DE7631D7D5E9700C5E109 /* XLsn0wImage.h */,
-				352DE7641D7D5E9700C5E109 /* XLsn0wImage.m */,
-				352DE7651D7D5E9700C5E109 /* YYAnimatedImageView.h */,
-				352DE7661D7D5E9700C5E109 /* YYAnimatedImageView.m */,
-				352DE7671D7D5E9700C5E109 /* YYFrameImage.h */,
-				352DE7681D7D5E9700C5E109 /* YYFrameImage.m */,
-				352DE7691D7D5E9700C5E109 /* YYImageCoder.h */,
-				352DE76A1D7D5E9700C5E109 /* YYImageCoder.m */,
-				352DE76B1D7D5E9700C5E109 /* YYSpriteSheetImage.h */,
-				352DE76C1D7D5E9700C5E109 /* YYSpriteSheetImage.m */,
-			);
-			path = XLsn0wImage;
 			sourceTree = "<group>";
 		};
 		352DE7701D7D5E9700C5E109 /* XLsn0wMethods */ = {
@@ -798,7 +765,6 @@
 				35B643CD1D7FA0AB005BA252 /* IQPreviousNextView.m in Sources */,
 				35B643C81D7FA0AB005BA252 /* IQUIWindow+Hierarchy.m in Sources */,
 				35B643C31D7FA0AB005BA252 /* IQNSArray+Sort.m in Sources */,
-				352DE78C1D7D5E9700C5E109 /* YYImageCoder.m in Sources */,
 				35C009E21D7EDE2200659C7B /* RegExTool.m in Sources */,
 				352DE7851D7D5E9700C5E109 /* YYTransaction.m in Sources */,
 				35C01B951D7E5A5F0043E639 /* XLsn0wCollectionViewFlowLayout.m in Sources */,
@@ -817,11 +783,7 @@
 				35C009DA1D7ED54600659C7B /* UpdateVersionTool.m in Sources */,
 				352DE7881D7D5E9700C5E109 /* XLsn0wDispatchQueuePool.m in Sources */,
 				352DE7901D7D5E9700C5E109 /* XLsn0wMethods.m in Sources */,
-				352DE78B1D7D5E9700C5E109 /* YYFrameImage.m in Sources */,
-				352DE78A1D7D5E9700C5E109 /* YYAnimatedImageView.m in Sources */,
 				35B643D01D7FA0AB005BA252 /* IQUIView+IQKeyboardToolbar.m in Sources */,
-				352DE78D1D7D5E9700C5E109 /* YYSpriteSheetImage.m in Sources */,
-				352DE7891D7D5E9700C5E109 /* XLsn0wImage.m in Sources */,
 				350E46161D922AE700299279 /* ScanSuccessJumpVC.m in Sources */,
 				352DE7941D7D5E9700C5E109 /* XLsn0wRefreshHeader.m in Sources */,
 				352DE7811D7D5E9700C5E109 /* UIButton+XLsn0wBadge.m in Sources */,
