@@ -9,20 +9,21 @@
  *                                                                                           *
  *********************************************************************************************/
 
-#import "UIView+XLsn0wAutoLayout.h"
-#import "UITableView+XLsn0wAutoLayoutCellHeight.h"
-#import "XLsn0wCollectionViewFlowLayout.h"
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <CoreImage/CoreImage.h>
 
-#import "IQKeyboardManager.h"
+@interface XLsn0wUtility : NSObject
 
-#import "QRCodeTool.h"
+@end
 
-#import "RegExTool.h"
+/**************************************************************************************************/
 
-#import "ClearCacheTool.h"
+@interface CIImage (XLsn0wUtility)
 
-#import "UpdateVersionTool.h"
+/** 将CIImage转换成UIImage */
+- (UIImage *)xlsn0w_createNonInterpolatedWithSize:(CGFloat)size;
 
-#import "Reachability.h"
+@end
 
-#import "XLsn0wQRCodeViewController.h"
+/**************************************************************************************************/
