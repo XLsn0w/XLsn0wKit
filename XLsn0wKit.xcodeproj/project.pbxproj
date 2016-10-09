@@ -17,9 +17,6 @@
 		352DE7801D7D5E9700C5E109 /* UIButton+ImageTitleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 352DE74C1D7D5E9700C5E109 /* UIButton+ImageTitleLayout.m */; };
 		352DE7811D7D5E9700C5E109 /* UIButton+XLsn0wBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 352DE74E1D7D5E9700C5E109 /* UIButton+XLsn0wBadge.m */; };
 		352DE7821D7D5E9700C5E109 /* XLsn0w3DHierarchyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 352DE7511D7D5E9700C5E109 /* XLsn0w3DHierarchyWindow.m */; };
-		352DE7831D7D5E9700C5E109 /* XLsn0wAsyncLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 352DE7551D7D5E9700C5E109 /* XLsn0wAsyncLayer.m */; };
-		352DE7841D7D5E9700C5E109 /* YYSentinel.m in Sources */ = {isa = PBXBuildFile; fileRef = 352DE7571D7D5E9700C5E109 /* YYSentinel.m */; };
-		352DE7851D7D5E9700C5E109 /* YYTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 352DE7591D7D5E9700C5E109 /* YYTransaction.m */; };
 		352DE7861D7D5E9700C5E109 /* UITableView+XLsn0wAutoLayoutCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 352DE75C1D7D5E9700C5E109 /* UITableView+XLsn0wAutoLayoutCellHeight.m */; };
 		352DE7871D7D5E9700C5E109 /* UIView+XLsn0wAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 352DE75E1D7D5E9700C5E109 /* UIView+XLsn0wAutoLayout.m */; };
 		352DE7881D7D5E9700C5E109 /* XLsn0wDispatchQueuePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 352DE7611D7D5E9700C5E109 /* XLsn0wDispatchQueuePool.m */; };
@@ -99,12 +96,6 @@
 		352DE7501D7D5E9700C5E109 /* XLsn0w3DHierarchyWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0w3DHierarchyWindow.h; sourceTree = "<group>"; };
 		352DE7511D7D5E9700C5E109 /* XLsn0w3DHierarchyWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0w3DHierarchyWindow.m; sourceTree = "<group>"; };
 		352DE7521D7D5E9700C5E109 /* XLsn0wView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wView.h; sourceTree = "<group>"; };
-		352DE7541D7D5E9700C5E109 /* XLsn0wAsyncLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wAsyncLayer.h; sourceTree = "<group>"; };
-		352DE7551D7D5E9700C5E109 /* XLsn0wAsyncLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wAsyncLayer.m; sourceTree = "<group>"; };
-		352DE7561D7D5E9700C5E109 /* YYSentinel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYSentinel.h; sourceTree = "<group>"; };
-		352DE7571D7D5E9700C5E109 /* YYSentinel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYSentinel.m; sourceTree = "<group>"; };
-		352DE7581D7D5E9700C5E109 /* YYTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTransaction.h; sourceTree = "<group>"; };
-		352DE7591D7D5E9700C5E109 /* YYTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTransaction.m; sourceTree = "<group>"; };
 		352DE75B1D7D5E9700C5E109 /* UITableView+XLsn0wAutoLayoutCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+XLsn0wAutoLayoutCellHeight.h"; sourceTree = "<group>"; };
 		352DE75C1D7D5E9700C5E109 /* UITableView+XLsn0wAutoLayoutCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+XLsn0wAutoLayoutCellHeight.m"; sourceTree = "<group>"; };
 		352DE75D1D7D5E9700C5E109 /* UIView+XLsn0wAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XLsn0wAutoLayout.h"; sourceTree = "<group>"; };
@@ -280,7 +271,6 @@
 				35C009D61D7ED52100659C7B /* XLsn0wTools */,
 				352DE7701D7D5E9700C5E109 /* XLsn0wMethods */,
 				35C01B921D7E5A400043E639 /* XLsn0wCollectionViewFlowLayout */,
-				352DE7531D7D5E9700C5E109 /* XLsn0wAsyncLayer */,
 				352DE75A1D7D5E9700C5E109 /* XLsn0wAutoLayout */,
 				352DE75F1D7D5E9700C5E109 /* XLsn0wDispatchQueuePool */,
 				352DE7731D7D5E9700C5E109 /* XLsn0wRefresh */,
@@ -315,8 +305,8 @@
 		352DE7441D7D5E9700C5E109 /* NSObject */ = {
 			isa = PBXGroup;
 			children = (
-				352DE7451D7D5E9700C5E109 /* KeyBoardHepler */,
 				352DE7481D7D5E9700C5E109 /* XLsn0wObject.h */,
+				352DE7451D7D5E9700C5E109 /* KeyBoardHepler */,
 			);
 			path = NSObject;
 			sourceTree = "<group>";
@@ -359,19 +349,6 @@
 				352DE7511D7D5E9700C5E109 /* XLsn0w3DHierarchyWindow.m */,
 			);
 			path = UIWindow;
-			sourceTree = "<group>";
-		};
-		352DE7531D7D5E9700C5E109 /* XLsn0wAsyncLayer */ = {
-			isa = PBXGroup;
-			children = (
-				352DE7541D7D5E9700C5E109 /* XLsn0wAsyncLayer.h */,
-				352DE7551D7D5E9700C5E109 /* XLsn0wAsyncLayer.m */,
-				352DE7561D7D5E9700C5E109 /* YYSentinel.h */,
-				352DE7571D7D5E9700C5E109 /* YYSentinel.m */,
-				352DE7581D7D5E9700C5E109 /* YYTransaction.h */,
-				352DE7591D7D5E9700C5E109 /* YYTransaction.m */,
-			);
-			path = XLsn0wAsyncLayer;
 			sourceTree = "<group>";
 		};
 		352DE75A1D7D5E9700C5E109 /* XLsn0wAutoLayout */ = {
@@ -779,7 +756,6 @@
 				35B643C81D7FA0AB005BA252 /* IQUIWindow+Hierarchy.m in Sources */,
 				35B643C31D7FA0AB005BA252 /* IQNSArray+Sort.m in Sources */,
 				35C009E21D7EDE2200659C7B /* RegExTool.m in Sources */,
-				352DE7851D7D5E9700C5E109 /* YYTransaction.m in Sources */,
 				35C01B951D7E5A5F0043E639 /* XLsn0wCollectionViewFlowLayout.m in Sources */,
 				35B643CA1D7FA0AB005BA252 /* IQKeyboardReturnKeyHandler.m in Sources */,
 				35B643C61D7FA0AB005BA252 /* IQUIView+Hierarchy.m in Sources */,
@@ -791,7 +767,6 @@
 				35C009DE1D7EDC2300659C7B /* ClearCacheTool.m in Sources */,
 				350E461C1D922AFC00299279 /* XLsn0wUtility.m in Sources */,
 				35B643C51D7FA0AB005BA252 /* IQUITextFieldView+Additions.m in Sources */,
-				352DE7831D7D5E9700C5E109 /* XLsn0wAsyncLayer.m in Sources */,
 				352DE7801D7D5E9700C5E109 /* UIButton+ImageTitleLayout.m in Sources */,
 				35C009DA1D7ED54600659C7B /* UpdateVersionTool.m in Sources */,
 				352DE7881D7D5E9700C5E109 /* XLsn0wDispatchQueuePool.m in Sources */,
@@ -808,7 +783,6 @@
 				35C3CCDF1D8537B20002DDF1 /* Reachability.m in Sources */,
 				352DE7921D7D5E9700C5E109 /* XLsn0wRefresh.m in Sources */,
 				354CBC051D8468D7008BFF97 /* IMYLanguageManager.m in Sources */,
-				352DE7841D7D5E9700C5E109 /* YYSentinel.m in Sources */,
 				352DE7821D7D5E9700C5E109 /* XLsn0w3DHierarchyWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
