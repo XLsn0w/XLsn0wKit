@@ -1,17 +1,14 @@
-/*********************************************************************************************
- *   __      __   _         _________     _ _     _    _________   __         _         __   *
- *	 \ \    / /  | |        | _______|   | | \   | |  |  ______ |  \ \       / \       / /   *
- *	  \ \  / /   | |        | |          | |\ \  | |  | |     | |   \ \     / \ \     / /    *
- *     \ \/ /    | |        | |______    | | \ \ | |  | |     | |    \ \   / / \ \   / /     *
- *     /\/\/\    | |        |_______ |   | |  \ \| |  | |     | |     \ \ / /   \ \ / /      *
- *    / /  \ \   | |______   ______| |   | |   \ \ |  | |_____| |      \ \ /     \ \ /       *
- *   /_/    \_\  |________| |________|   |_|    \__|  |_________|       \_/       \_/        *
- *                                                                                           *
- *********************************************************************************************/
+//
+//  XLsn0wClassMethods.m
+//  XLsn0wKit
+//
+//  Created by XLsn0w on 2016/10/10.
+//  Copyright © 2016年 XLsn0w. All rights reserved.
+//
 
-#import "XLsn0wMethods.h"
+#import "XLsn0wClassMethods.h"
 
-@implementation XLsn0wMethods
+@implementation XLsn0wClassMethods
 
 + (void)initNavigationControllerWithRootViewController:(UIViewController *)viewController
                                        tabBarItemTitle:(NSString *)title
@@ -27,5 +24,6 @@
     NSURLCache *URLCache = [[NSURLCache alloc] initWithMemoryCapacity:4 * 1024 * 1024 diskCapacity:20 * 1024 * 1024 diskPath:nil];
     [NSURLCache setSharedURLCache:URLCache];
 }
+
 
 @end

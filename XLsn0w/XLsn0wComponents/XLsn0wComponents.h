@@ -12,7 +12,6 @@
 #import "UIView+XLsn0wAutoLayout.h"
 #import "UITableView+XLsn0wAutoLayoutCellHeight.h"
 #import "XLsn0wCollectionViewFlowLayout.h"
-
 #import "IQKeyboardManager.h"
 #import "QRCodeTool.h"
 #import "RegExTool.h"

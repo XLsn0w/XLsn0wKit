@@ -9,8 +9,11 @@
  *                                                                                           *
  *********************************************************************************************/
 
-#import "XLsn0wTools.h"
-#import "XLsn0wMethods.h"
+#import "XLsn0wComponents.h"
+
+#import "XLsn0wInstanceMethods.h"
+#import "XLsn0wClassMethods.h"
+
 #import "XLsn0wObject.h"
 #import "XLsn0wView.h"
 
