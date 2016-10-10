@@ -1,7 +1,7 @@
 
 #import "SGGenerateQRCodeVC.h"
 
-#import "XLsn0wUtility.h"
+#import "XLsn0wInstanceMethods.h"
 
 @interface SGGenerateQRCodeVC ()
 
