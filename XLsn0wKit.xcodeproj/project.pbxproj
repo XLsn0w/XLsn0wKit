@@ -48,8 +48,6 @@
 		358D3EE21D7AE27E00ADE778 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 358D3EE11D7AE27E00ADE778 /* AppDelegate.m */; };
 		358D3EEA1D7AE27E00ADE778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 358D3EE91D7AE27E00ADE778 /* Assets.xcassets */; };
 		358D3EED1D7AE27E00ADE778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 358D3EEB1D7AE27E00ADE778 /* LaunchScreen.storyboard */; };
-		35A5A94A1DA9F0B500080AA2 /* XLsn0wDropMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A5A9491DA9F0B500080AA2 /* XLsn0wDropMenu.m */; };
-		35A78BEE1DAB68C800D9D180 /* PopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A78BED1DAB68C800D9D180 /* PopMenu.m */; };
 		35B643C31D7FA0AB005BA252 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B643A11D7FA0AB005BA252 /* IQNSArray+Sort.m */; };
 		35B643C41D7FA0AB005BA252 /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B643A31D7FA0AB005BA252 /* IQUIScrollView+Additions.m */; };
 		35B643C51D7FA0AB005BA252 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B643A51D7FA0AB005BA252 /* IQUITextFieldView+Additions.m */; };
@@ -144,10 +142,6 @@
 		358D3EE91D7AE27E00ADE778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		358D3EEC1D7AE27E00ADE778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		358D3EEE1D7AE27E00ADE778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		35A5A9481DA9F0B500080AA2 /* XLsn0wDropMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wDropMenu.h; sourceTree = "<group>"; };
-		35A5A9491DA9F0B500080AA2 /* XLsn0wDropMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wDropMenu.m; sourceTree = "<group>"; };
-		35A78BEC1DAB68C800D9D180 /* PopMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopMenu.h; sourceTree = "<group>"; };
-		35A78BED1DAB68C800D9D180 /* PopMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopMenu.m; sourceTree = "<group>"; };
 		35B643A01D7FA0AB005BA252 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
 		35B643A11D7FA0AB005BA252 /* IQNSArray+Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQNSArray+Sort.m"; sourceTree = "<group>"; };
 		35B643A21D7FA0AB005BA252 /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
@@ -461,24 +455,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		35A5A9471DA9F0B500080AA2 /* XLsn0wDropMenu */ = {
-			isa = PBXGroup;
-			children = (
-				35A5A9481DA9F0B500080AA2 /* XLsn0wDropMenu.h */,
-				35A5A9491DA9F0B500080AA2 /* XLsn0wDropMenu.m */,
-			);
-			path = XLsn0wDropMenu;
-			sourceTree = "<group>";
-		};
-		35A78BEB1DAB68C800D9D180 /* XLsn0wPopMenu */ = {
-			isa = PBXGroup;
-			children = (
-				35A78BEC1DAB68C800D9D180 /* PopMenu.h */,
-				35A78BED1DAB68C800D9D180 /* PopMenu.m */,
-			);
-			path = XLsn0wPopMenu;
-			sourceTree = "<group>";
-		};
 		35B6439E1D7FA0AB005BA252 /* XLsn0wAutoKeyboard */ = {
 			isa = PBXGroup;
 			children = (
@@ -552,8 +528,6 @@
 			isa = PBXGroup;
 			children = (
 				35F3423D1D7FB97600BE3786 /* XLsn0wTools.h */,
-				35A78BEB1DAB68C800D9D180 /* XLsn0wPopMenu */,
-				35A5A9471DA9F0B500080AA2 /* XLsn0wDropMenu */,
 				350E460C1D922AE700299279 /* XLsn0wQRCode */,
 				35C3CCDC1D8537B20002DDF1 /* Reachability */,
 				354CBB521D8468D6008BFF97 /* LanguagesManager */,
@@ -792,8 +766,6 @@
 				352DE7861D7D5E9700C5E109 /* UITableView+XLsn0wAutoLayoutCellHeight.m in Sources */,
 				352DE7911D7D5E9700C5E109 /* UIView+XLsn0wKit.m in Sources */,
 				352DE7931D7D5E9700C5E109 /* XLsn0wRefreshFooter.m in Sources */,
-				35A78BEE1DAB68C800D9D180 /* PopMenu.m in Sources */,
-				35A5A94A1DA9F0B500080AA2 /* XLsn0wDropMenu.m in Sources */,
 				35C3CCDF1D8537B20002DDF1 /* Reachability.m in Sources */,
 				352DE7921D7D5E9700C5E109 /* XLsn0wRefresh.m in Sources */,
 				354CBC051D8468D7008BFF97 /* IMYLanguageManager.m in Sources */,
