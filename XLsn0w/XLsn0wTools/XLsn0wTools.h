@@ -21,6 +21,7 @@
 #import "Reachability.h"
 #import "XLsn0wQRCodeViewController.h"
 #import "XLsn0wDropMenu.h"
+#import "PopMenu.h"
 
 /*********************************************************************************************
  *   __      __   _         _________     _ _     _    _________   __         _         __   *
