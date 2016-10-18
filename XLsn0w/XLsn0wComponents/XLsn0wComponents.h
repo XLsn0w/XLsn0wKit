@@ -20,6 +20,7 @@
 #import "XLsn0wQRCodeViewController.h"
 #import "XLsn0wCollectionViewFlowLayout.h"
 #import "UITableView+XLsn0wAutoLayoutCellHeight.h"
+#import "XLsn0wStarRating.h"
 
 /*********************************************************************************************
  *   __      __   _         _________     _ _     _    _________   __         _         __   *

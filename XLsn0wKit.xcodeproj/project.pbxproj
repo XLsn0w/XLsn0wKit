@@ -54,6 +54,7 @@
 		35A78C9E1DAB809000D9D180 /* XLsn0wRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A78C891DAB809000D9D180 /* XLsn0wRefreshFooter.m */; };
 		35A78C9F1DAB809000D9D180 /* XLsn0wRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A78C8B1DAB809000D9D180 /* XLsn0wRefreshHeader.m */; };
 		35C009E81D7EE38C00659C7B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35C009E71D7EE38C00659C7B /* AVFoundation.framework */; };
+		35C3A5C21DB64F7800CB3331 /* XLsn0wStarRating.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C3A5C11DB64F7800CB3331 /* XLsn0wStarRating.m */; };
 		430A9DED3203AAC11D19F6A2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A38D43F4BA534A9B0E119C76 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -138,6 +139,8 @@
 		35A78C8B1DAB809000D9D180 /* XLsn0wRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wRefreshHeader.m; sourceTree = "<group>"; };
 		35A78C8C1DAB809000D9D180 /* XLsn0wComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wComponents.h; sourceTree = "<group>"; };
 		35C009E71D7EE38C00659C7B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		35C3A5C01DB64F7800CB3331 /* XLsn0wStarRating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wStarRating.h; sourceTree = "<group>"; };
+		35C3A5C11DB64F7800CB3331 /* XLsn0wStarRating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wStarRating.m; sourceTree = "<group>"; };
 		470392E18AAF29458E4F8E2C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A38D43F4BA534A9B0E119C76 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F02FD23F26D498B42704CE47 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -334,6 +337,7 @@
 			isa = PBXGroup;
 			children = (
 				35A78C8C1DAB809000D9D180 /* XLsn0wComponents.h */,
+				35C3A5BF1DB64F7800CB3331 /* XLsn0wStarRating */,
 				357AE6C71DACD2CB006BEB7A /* XLsn0wControls */,
 				357AE6C31DACD22A006BEB7A /* KeyBoardHepler */,
 				35A78C5A1DAB809000D9D180 /* ClearCacheTool */,
@@ -455,6 +459,15 @@
 				35A78C8B1DAB809000D9D180 /* XLsn0wRefreshHeader.m */,
 			);
 			path = XLsn0wRefresh;
+			sourceTree = "<group>";
+		};
+		35C3A5BF1DB64F7800CB3331 /* XLsn0wStarRating */ = {
+			isa = PBXGroup;
+			children = (
+				35C3A5C01DB64F7800CB3331 /* XLsn0wStarRating.h */,
+				35C3A5C11DB64F7800CB3331 /* XLsn0wStarRating.m */,
+			);
+			path = XLsn0wStarRating;
 			sourceTree = "<group>";
 		};
 		83A1746A7153A281C456D6D0 /* Pods */ = {
@@ -614,6 +627,7 @@
 				35A78C8F1DAB809000D9D180 /* LanguagesManager.m in Sources */,
 				35A78C961DAB809000D9D180 /* XLsn0wCollectionViewFlowLayout.m in Sources */,
 				35A78C8E1DAB809000D9D180 /* IMYLanguageManager.m in Sources */,
+				35C3A5C21DB64F7800CB3331 /* XLsn0wStarRating.m in Sources */,
 				35A78C581DAB7FA200D9D180 /* XLsn0wInstanceMethods.m in Sources */,
 				357AE6C61DACD22A006BEB7A /* KeyBoardHepler.m in Sources */,
 				35A78C921DAB809000D9D180 /* RegExTool.m in Sources */,
