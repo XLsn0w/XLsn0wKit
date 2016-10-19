@@ -21,6 +21,8 @@
 #import "XLsn0wCollectionViewFlowLayout.h"
 #import "UITableView+XLsn0wAutoLayoutCellHeight.h"
 #import "XLsn0wStarRating.h"
+#import "XLsn0wTimeShaftCell.h"
+#import "XLsn0wTimeShaftModel.h"
 
 /*********************************************************************************************
  *   __      __   _         _________     _ _     _    _________   __         _         __   *

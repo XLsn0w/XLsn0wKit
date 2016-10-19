@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		350373CE1DB74FC400D09C52 /* XLsn0wTimeShaftCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 350373CB1DB74FC400D09C52 /* XLsn0wTimeShaftCell.m */; };
+		350373CF1DB74FC400D09C52 /* XLsn0wTimeShaftModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 350373CD1DB74FC400D09C52 /* XLsn0wTimeShaftModel.m */; };
 		352DE78F1D7D5E9700C5E109 /* XLsn0wKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 352DE76F1D7D5E9700C5E109 /* XLsn0wKit.podspec */; };
 		352DE7971D7D5EFD00C5E109 /* XLsn0wKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 352DE7961D7D5EFD00C5E109 /* XLsn0wKit.bundle */; };
 		352DE7991D7D5F8200C5E109 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 352DE7981D7D5F8200C5E109 /* libz.tbd */; };
@@ -59,6 +61,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		350373CA1DB74FC400D09C52 /* XLsn0wTimeShaftCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wTimeShaftCell.h; sourceTree = "<group>"; };
+		350373CB1DB74FC400D09C52 /* XLsn0wTimeShaftCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wTimeShaftCell.m; sourceTree = "<group>"; };
+		350373CC1DB74FC400D09C52 /* XLsn0wTimeShaftModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wTimeShaftModel.h; sourceTree = "<group>"; };
+		350373CD1DB74FC400D09C52 /* XLsn0wTimeShaftModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wTimeShaftModel.m; sourceTree = "<group>"; };
 		352DE76E1D7D5E9700C5E109 /* XLsn0wKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wKit.h; sourceTree = "<group>"; };
 		352DE76F1D7D5E9700C5E109 /* XLsn0wKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XLsn0wKit.podspec; sourceTree = "<group>"; };
 		352DE7961D7D5EFD00C5E109 /* XLsn0wKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = XLsn0wKit.bundle; sourceTree = "<group>"; };
@@ -179,6 +185,17 @@
 				A38D43F4BA534A9B0E119C76 /* libPods.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		350373C91DB74FC400D09C52 /* XLsn0wTimeShaft */ = {
+			isa = PBXGroup;
+			children = (
+				350373CA1DB74FC400D09C52 /* XLsn0wTimeShaftCell.h */,
+				350373CB1DB74FC400D09C52 /* XLsn0wTimeShaftCell.m */,
+				350373CC1DB74FC400D09C52 /* XLsn0wTimeShaftModel.h */,
+				350373CD1DB74FC400D09C52 /* XLsn0wTimeShaftModel.m */,
+			);
+			path = XLsn0wTimeShaft;
 			sourceTree = "<group>";
 		};
 		352DE7401D7D5E9700C5E109 /* XLsn0w */ = {
@@ -337,6 +354,7 @@
 			isa = PBXGroup;
 			children = (
 				35A78C8C1DAB809000D9D180 /* XLsn0wComponents.h */,
+				350373C91DB74FC400D09C52 /* XLsn0wTimeShaft */,
 				35C3A5BF1DB64F7800CB3331 /* XLsn0wStarRating */,
 				357AE6C71DACD2CB006BEB7A /* XLsn0wControls */,
 				357AE6C31DACD22A006BEB7A /* KeyBoardHepler */,
@@ -612,6 +630,7 @@
 				357AE6D71DACD2CB006BEB7A /* XLsn0w3DHierarchyWindow.m in Sources */,
 				35A78C9F1DAB809000D9D180 /* XLsn0wRefreshHeader.m in Sources */,
 				35A78C901DAB809000D9D180 /* QRCodeTool.m in Sources */,
+				350373CE1DB74FC400D09C52 /* XLsn0wTimeShaftCell.m in Sources */,
 				35A78C951DAB809000D9D180 /* UIView+XLsn0wAutoLayout.m in Sources */,
 				357AE6D51DACD2CB006BEB7A /* UIButton+XLsn0wBadge.m in Sources */,
 				357AE6D41DACD2CB006BEB7A /* UIButton+ImageTitleLayout.m in Sources */,
@@ -623,6 +642,7 @@
 				358D3EDF1D7AE27E00ADE778 /* main.m in Sources */,
 				35A78C991DAB809000D9D180 /* ScanSuccessJumpVC.m in Sources */,
 				35A78C9C1DAB809000D9D180 /* UIView+XLsn0wKit.m in Sources */,
+				350373CF1DB74FC400D09C52 /* XLsn0wTimeShaftModel.m in Sources */,
 				357AE6D61DACD2CB006BEB7A /* XLsn0wTextView.m in Sources */,
 				35A78C8F1DAB809000D9D180 /* LanguagesManager.m in Sources */,
 				35A78C961DAB809000D9D180 /* XLsn0wCollectionViewFlowLayout.m in Sources */,
