@@ -15,9 +15,18 @@
 
 @interface XLsn0wTimeShaftCell : UITableViewCell
 
+/**************************************************************************************************/
 @property (assign, nonatomic) BOOL hasUpLine;
 @property (assign, nonatomic) BOOL hasDownLine;
 @property (assign, nonatomic) BOOL currented;
+/**************************************************************************************************/
+@property(nonatomic, strong) UILabel *titleLabel;
+@property(nonatomic, strong) UILabel *contentLabel;
+@property(nonatomic, strong) UILabel *statusLabel;
+@property(nonatomic, strong) UILabel *timeLabel;
+/**************************************************************************************************/
+@property (nonatomic, strong) UIImageView *recordImageView;
+/**************************************************************************************************/
 
 /** XLsn0wTimeShaftModel作为属性 重写setter方法 在里面进行赋值操作 */
 @property (nonatomic, strong) XLsn0wTimeShaftModel *model;

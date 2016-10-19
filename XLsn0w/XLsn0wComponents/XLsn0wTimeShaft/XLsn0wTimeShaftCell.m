@@ -11,25 +11,17 @@
 
 #import "XLsn0wTimeShaftCell.h"
 
+/**************************************************************************************************/
 #import "XLsn0wTimeShaftModel.h"
-
-#import <Masonry/Masonry.h>
-#import <UIImageView+WebCache.h>
-
+/**************************************************************************************************/
+#import "UIImageView+WebCache.h"
+#import "Masonry.h"
+/**************************************************************************************************/
 #define leftSpace 50
-//R G B 颜色
 #define XLsn0wTimeShaftCellRGBColor(r,g,b)    [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
+/**************************************************************************************************/
 
 @interface XLsn0wTimeShaftCell ()
-
-@property(nonatomic, strong) UILabel *titleLabel;
-@property(nonatomic, strong) UILabel *contentLabel;
-@property(nonatomic, strong) UILabel *statusLabel;
-@property(nonatomic, strong) UILabel *phoneNumberLabel;
-@property(nonatomic, strong) UILabel *timeLabel;
-
-/** 图片 */
-@property (nonatomic, strong) UIImageView *recordImageView;
 
 @end
 
@@ -51,7 +43,6 @@
 //        self.contentLabel.textColor = LZRGBColor(139, 139, 139);
     }
 }
-
 
 - (void)drawCellUI {
     _titleLabel = [[UILabel alloc] init];
