@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 
-  s.version               = "3.5.5"
+  s.version               = "3.5.6"
 
   s.name                  = "XLsn0wKit"
   s.summary               = 'A collection of iOS components from XLsn0wKit'
@@ -24,6 +24,7 @@ Pod::Spec.new do |s|
   s.frameworks            = 'UIKit', 'CoreFoundation', 'CoreText', 'CoreGraphics', 'CoreImage', 'QuartzCore', 'ImageIO', 'AssetsLibrary', 'Accelerate', 'MobileCoreServices', 'SystemConfiguration', 'AVFoundation'
 
   s.dependency "AFNetworking"
+  s.dependency 'SDWebImage'
   s.dependency 'Masonry'
 
 end
