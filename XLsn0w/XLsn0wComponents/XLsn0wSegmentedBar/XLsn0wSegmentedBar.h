@@ -12,8 +12,17 @@
 #import <UIKit/UIKit.h>
 
 @class XLsn0wSegmentedView;
+@class XLsn0wSegmentedBar;
+
+@protocol XLsn0wSegmentedBarDelegate <NSObject>
+
+- (void)segmentedBar:(XLsn0wSegmentedBar *)segmentedBar didSelectAtIndex:(NSInteger)index;
+
+@end
 
 @interface XLsn0wSegmentedBar : UIView
+
+@property (nonatomic, weak) id<XLsn0wSegmentedBarDelegate> xlsn0wDelegate;
 
 @property (strong, nonatomic) XLsn0wSegmentedView *xlsn0wSegmentedView;
 @property (strong, nonatomic) UIScrollView *bottomScrollView;
@@ -39,6 +48,12 @@
 typedef void(^btnClickBlock)(NSInteger index);
 
 @interface XLsn0wSegmentedView : UIView
+
+/**
+ *  是否开启下划线动画 默认开启
+ */
+@property (nonatomic, assign) BOOL isLoadAnimation;
+
 /**
  *  未选中时的文字颜色,默认黑色
  */
@@ -122,7 +137,7 @@ typedef void(^btnClickBlock)(NSInteger index);
 
 /**************************************************************************************************/
 
-@interface NSString (Size)
+@interface NSString (XLsn0wSegmentedBar)
 /**
  *  @brief 计算文字的高度
  *

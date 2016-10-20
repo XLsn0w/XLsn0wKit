@@ -33,7 +33,8 @@
         
         //Click XLsn0wSegmentedBar Event
         _xlsn0wSegmentedView=[[XLsn0wSegmentedView alloc] initWithFrame:CGRectMake(0, 0, MainScreen_W, 35) titles:titleArray clickBlick:^void(NSInteger index) {
-            [_bottomScrollView setContentOffset:CGPointMake(MainScreen_W*(index-1), 0)];
+            [_bottomScrollView setContentOffset:CGPointMake(MainScreen_W * (index-1), 0)];
+            [self.xlsn0wDelegate segmentedBar:self didSelectAtIndex:(index-1)];
         }];
         [self addSubview:_xlsn0wSegmentedView];
         
@@ -49,15 +50,14 @@
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView{
     CGPoint point = scrollView.contentOffset;
-    
     [_xlsn0wSegmentedView updateselectLineFrameWithoffset:point.x];
-    
 }
 
 -(void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
-    if (scrollView==_bottomScrollView) {
-        NSInteger p=_bottomScrollView.contentOffset.x/MainScreen_W;
-        _xlsn0wSegmentedView.defaultIndex=p+1;
+    if (scrollView == _bottomScrollView) {
+        NSInteger index = _bottomScrollView.contentOffset.x/MainScreen_W;
+        _xlsn0wSegmentedView.defaultIndex = index+1;
+        [self.xlsn0wDelegate segmentedBar:self didSelectAtIndex:index];
     }
     
 }
@@ -85,7 +85,7 @@
 @property (nonatomic,strong) NSArray *titles;
 @property (nonatomic,strong) NSMutableArray *titlesStrWidthArray;
 @property (nonatomic,strong) UIButton *titleBtn;
-@property (nonatomic,strong) UIScrollView *bgScrollView;
+@property (nonatomic,strong) UIScrollView *backScrollView;
 @property (nonatomic,strong) UIView *selectLine;
 @property (nonatomic,assign) CGFloat btn_w;
 @end
@@ -93,29 +93,25 @@
 @implementation XLsn0wSegmentedView
 
 
-- (instancetype)initWithFrame:(CGRect)frame titles:(NSArray *)titleArray clickBlick:(btnClickBlock)block{
-    self = [super initWithFrame:frame];
-    if (self) {
+- (instancetype)initWithFrame:(CGRect)frame titles:(NSArray *)titleArray clickBlick:(btnClickBlock)block {
+    if (self = [super initWithFrame:frame]) {
         
         self.layer.shadowColor=[UIColor blackColor].CGColor;
         self.layer.shadowOffset=CGSizeMake(2, 2);
         self.layer.shadowRadius=2;
         self.layer.shadowOpacity=.2;
         
-        _titles=titleArray;
-        
-        [self initData];
-        
-        [self initViews];
-        
+        self.isLoadAnimation = YES;
+        self.titles=titleArray;
         self.block=block;
         
+        [self initData];
+        [self initViews];
     }
-    
     return self;
 }
 
--(void)initData{
+- (void)initData {
     _btn_w=0.0;
     if (_titles.count<MAX_TitleNumInWindow+1) {
         _btn_w=windowContentWidth/_titles.count;
@@ -130,11 +126,11 @@
     _titleSelectColor=SFQRedColor;
 }
 
--(void)initViews{
-    self.bgScrollView.contentSize=CGSizeMake(_btn_w*_titles.count, self.frame.size.height);
-    [self addSubview:_bgScrollView];
+- (void)initViews {
+    self.backScrollView.contentSize=CGSizeMake(_btn_w*_titles.count, self.frame.size.height);
+    [self addSubview:_backScrollView];
     
-    [self.bgScrollView addSubview:self.selectLine];
+    [self.backScrollView addSubview:self.selectLine];
     
     for (int i=0; i<_titles.count; i++) {
         UIButton *btn=[UIButton buttonWithType:UIButtonTypeCustom];
@@ -146,7 +142,7 @@
         [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchDown];
         [btn setBackgroundColor:[UIColor whiteColor]];
         btn.titleLabel.font=_titleFont;
-        [_bgScrollView addSubview:btn];
+        [_backScrollView addSubview:btn];
         [_btns addObject:btn];
         if (i==0) {
             _titleBtn=btn;
@@ -159,7 +155,7 @@
     }
 }
 
--(void)btnClick:(UIButton *)btn{
+- (void)btnClick:(UIButton *)btn {
     
     if (self.block) {
         self.block(btn.tag);
@@ -179,7 +175,7 @@
     if (offsetX<0) {
         offsetX=0;
     }
-    CGFloat maxOffsetX= _bgScrollView.contentSize.width-windowContentWidth;
+    CGFloat maxOffsetX= _backScrollView.contentSize.width-windowContentWidth;
     if (offsetX>maxOffsetX) {
         offsetX=maxOffsetX;
     }
@@ -187,17 +183,16 @@
     [UIView animateWithDuration:.2 animations:^{
         
         CGFloat lineW = [self.titlesStrWidthArray[btn.tag-1] floatValue];
-        [_bgScrollView setContentOffset:CGPointMake(offsetX, 0) animated:YES];
+        [_backScrollView setContentOffset:CGPointMake(offsetX, 0) animated:YES];
         _selectLine.frame=CGRectMake(btn.frame.origin.x+(_btn_w-lineW)/2, self.frame.size.height-2, lineW, 2);
         
     } completion:^(BOOL finished) {
         
     }];
-    
 }
 
--(void)updateselectLineFrameWithoffset:(CGFloat)offsetx{
-    //    NSLog(@"====%f",offsetx);
+- (void)updateselectLineFrameWithoffset:(CGFloat)offsetx {//NSLog(@"====%f",offsetx);
+    
     for (UIButton *btn in _btns) {
         
         if (btn.tag-1==_defaultIndex-1) {
@@ -206,31 +201,35 @@
             CGFloat w = [self.titlesStrWidthArray[btn.tag-1] floatValue];//字的宽度
             CGFloat line_x = (_btn_w-w)/2+(btn.tag-1)*_btn_w;
             CGFloat nextw=0;
-            if (offsetx<(btn.tag-1)*windowContentWidth) {
-                NSLog(@"向左");
+            
+            if (offsetx<(btn.tag-1)*windowContentWidth) {//NSLog(@"向左");
+
                 nextw = [self.titlesStrWidthArray[btn.tag-2] floatValue];
                 CGFloat max_w = (_btn_w*2 + w +nextw)/2;
                 CGFloat endoffsetx = (btn.tag-1)*windowContentWidth-offsetx;
                 
-                if (_selectLine.layer.width<max_w) {
-                    _selectLine.layer.width=w+MIN(endoffsetx, max_w);
-                }else{
-                    
-                    _selectLine.layer.width=max_w;
+                if (_isLoadAnimation == YES) {
+                    if (_selectLine.layer.width<max_w) {
+                        _selectLine.layer.width=w+MIN(endoffsetx, max_w);
+                    }else{
+                        _selectLine.layer.width=max_w;
+                    }
+                    _selectLine.layer.right=line_x+w;
                 }
-                _selectLine.layer.right=line_x+w;
                 
-            }else{
-                NSLog(@"向右");
+            } else {//NSLog(@"向右");
+                
                 nextw = [self.titlesStrWidthArray[btn.tag] floatValue];
                 CGFloat max_w = (_btn_w*2 + w +nextw)/2;
                 CGFloat endoffsetx = offsetx - (btn.tag-1)*windowContentWidth;
-                if (_selectLine.layer.width<max_w) {
-                    _selectLine.layer.width=w+MIN(endoffsetx, max_w);
-                }else{
-                    _selectLine.layer.width=max_w;
-                }
                 
+                if (_isLoadAnimation == YES) {
+                    if (_selectLine.layer.width<max_w) {
+                        _selectLine.layer.width=w+MIN(endoffsetx, max_w);
+                    }else{
+                        _selectLine.layer.width=max_w;
+                    }
+                }
             }
             
         }else{
@@ -239,27 +238,28 @@
     }
 }
 
--(void)setTitleNomalColor:(UIColor *)titleNomalColor{
+- (void)setTitleNomalColor:(UIColor *)titleNomalColor {
     _titleNomalColor=titleNomalColor;
     [self updateView];
 }
 
--(void)setTitleSelectColor:(UIColor *)titleSelectColor{
+- (void)setTitleSelectColor:(UIColor *)titleSelectColor {
     _titleSelectColor=titleSelectColor;
     [self updateView];
 }
 
--(void)setTitleFont:(UIFont *)titleFont{
+- (void)setTitleFont:(UIFont *)titleFont {
     _titleFont=titleFont;
     [self updateView];
 }
 
--(void)setDefaultIndex:(NSInteger)defaultIndex{
+- (void)setDefaultIndex:(NSInteger)defaultIndex {
     _defaultIndex=defaultIndex;
     [self updateView];
 }
 
--(void)updateView{
+- (void)updateView {
+    
     for (UIButton *btn in _btns) {
         [btn setTitleColor:_titleNomalColor forState:UIControlStateNormal];
         [btn setTitleColor:_titleSelectColor forState:UIControlStateSelected];
@@ -283,33 +283,33 @@
 }
 
 //获取线的宽度
--(CGFloat)getlineWidth:(NSInteger )strIndex{
+- (CGFloat)getlineWidth:(NSInteger )strIndex {
     NSString *firstStr = _titles[strIndex];
     CGFloat lineW = [firstStr widthWithFont:_titleFont constrainedToHeight:self.frame.size.height-2]+4;
-    
+
     return lineW;
 }
 
-#pragma mark ---INITUI---
+#pragma mark - 懒加载
 
--(NSMutableArray *)titlesStrWidthArray{
+- (NSMutableArray *)titlesStrWidthArray {
     if (!_titlesStrWidthArray) {
         _titlesStrWidthArray = [[NSMutableArray alloc] init];
     }
     return _titlesStrWidthArray;
 }
 
--(UIScrollView *)bgScrollView{
-    if (!_bgScrollView) {
-        _bgScrollView=[[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, windowContentWidth, self.frame.size.height)];
-        _bgScrollView.backgroundColor=[UIColor whiteColor];
-        _bgScrollView.showsHorizontalScrollIndicator=NO;
+- (UIScrollView *)backScrollView {
+    if (!_backScrollView) {
+        _backScrollView=[[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, windowContentWidth, self.frame.size.height)];
+        _backScrollView.backgroundColor=[UIColor whiteColor];
+        _backScrollView.showsHorizontalScrollIndicator=NO;
         
     }
-    return _bgScrollView;
+    return _backScrollView;
 }
 
--(UIView *)selectLine{
+- (UIView *)selectLine {
     if (!_selectLine) {
         CGFloat lineW = [self getlineWidth:0];
         _selectLine=[[UIView alloc] initWithFrame:CGRectMake((_btn_w-lineW)/2, self.frame.size.height-2, lineW, 2)];
@@ -317,7 +317,6 @@
     }
     return _selectLine;
 }
-
 
 @end
 
@@ -543,7 +542,7 @@
 
 /**************************************************************************************************/
 
-@implementation NSString (Size)
+@implementation NSString (XLsn0wSegmentedBar)
 /**
  *  @brief 计算文字的高度
  *
