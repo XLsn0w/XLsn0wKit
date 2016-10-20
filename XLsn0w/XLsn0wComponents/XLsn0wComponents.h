@@ -23,6 +23,7 @@
 #import "XLsn0wStarRating.h"
 #import "XLsn0wTimeShaftCell.h"
 #import "XLsn0wTimeShaftModel.h"
+#import "XLsn0wSegmentedBar.h"
 
 /*********************************************************************************************
  *   __      __   _         _________     _ _     _    _________   __         _         __   *

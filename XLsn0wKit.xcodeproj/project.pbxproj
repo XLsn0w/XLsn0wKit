@@ -56,6 +56,7 @@
 		35A78C9E1DAB809000D9D180 /* XLsn0wRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A78C891DAB809000D9D180 /* XLsn0wRefreshFooter.m */; };
 		35A78C9F1DAB809000D9D180 /* XLsn0wRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A78C8B1DAB809000D9D180 /* XLsn0wRefreshHeader.m */; };
 		35C009E81D7EE38C00659C7B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35C009E71D7EE38C00659C7B /* AVFoundation.framework */; };
+		35C0DB591DB8B760009BCF8A /* XLsn0wSegmentedBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C0DB581DB8B760009BCF8A /* XLsn0wSegmentedBar.m */; };
 		35C3A5C21DB64F7800CB3331 /* XLsn0wStarRating.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C3A5C11DB64F7800CB3331 /* XLsn0wStarRating.m */; };
 		430A9DED3203AAC11D19F6A2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A38D43F4BA534A9B0E119C76 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -145,6 +146,8 @@
 		35A78C8B1DAB809000D9D180 /* XLsn0wRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wRefreshHeader.m; sourceTree = "<group>"; };
 		35A78C8C1DAB809000D9D180 /* XLsn0wComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wComponents.h; sourceTree = "<group>"; };
 		35C009E71D7EE38C00659C7B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		35C0DB571DB8B760009BCF8A /* XLsn0wSegmentedBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wSegmentedBar.h; sourceTree = "<group>"; };
+		35C0DB581DB8B760009BCF8A /* XLsn0wSegmentedBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wSegmentedBar.m; sourceTree = "<group>"; };
 		35C3A5C01DB64F7800CB3331 /* XLsn0wStarRating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wStarRating.h; sourceTree = "<group>"; };
 		35C3A5C11DB64F7800CB3331 /* XLsn0wStarRating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wStarRating.m; sourceTree = "<group>"; };
 		470392E18AAF29458E4F8E2C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -354,6 +357,7 @@
 			isa = PBXGroup;
 			children = (
 				35A78C8C1DAB809000D9D180 /* XLsn0wComponents.h */,
+				35C0DB561DB8B760009BCF8A /* XLsn0wSegmentedBar */,
 				350373C91DB74FC400D09C52 /* XLsn0wTimeShaft */,
 				35C3A5BF1DB64F7800CB3331 /* XLsn0wStarRating */,
 				357AE6C71DACD2CB006BEB7A /* XLsn0wControls */,
@@ -477,6 +481,15 @@
 				35A78C8B1DAB809000D9D180 /* XLsn0wRefreshHeader.m */,
 			);
 			path = XLsn0wRefresh;
+			sourceTree = "<group>";
+		};
+		35C0DB561DB8B760009BCF8A /* XLsn0wSegmentedBar */ = {
+			isa = PBXGroup;
+			children = (
+				35C0DB571DB8B760009BCF8A /* XLsn0wSegmentedBar.h */,
+				35C0DB581DB8B760009BCF8A /* XLsn0wSegmentedBar.m */,
+			);
+			path = XLsn0wSegmentedBar;
 			sourceTree = "<group>";
 		};
 		35C3A5BF1DB64F7800CB3331 /* XLsn0wStarRating */ = {
@@ -633,6 +646,7 @@
 				350373CE1DB74FC400D09C52 /* XLsn0wTimeShaftCell.m in Sources */,
 				35A78C951DAB809000D9D180 /* UIView+XLsn0wAutoLayout.m in Sources */,
 				357AE6D51DACD2CB006BEB7A /* UIButton+XLsn0wBadge.m in Sources */,
+				35C0DB591DB8B760009BCF8A /* XLsn0wSegmentedBar.m in Sources */,
 				357AE6D41DACD2CB006BEB7A /* UIButton+ImageTitleLayout.m in Sources */,
 				35A78C911DAB809000D9D180 /* Reachability.m in Sources */,
 				35A78C9B1DAB809000D9D180 /* XLsn0wQRCodeViewController.m in Sources */,
