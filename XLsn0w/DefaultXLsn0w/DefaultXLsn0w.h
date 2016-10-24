@@ -9,17 +9,7 @@
  *                                                                                           *
  *********************************************************************************************/
 
-/*! XLsn0w Custom Components */
-#import "XLsn0wComponents.h"
-
-/*! XLsn0w Custom Class Methods */
-#import "XLsn0wClassMethods.h"
-
-/*! XLsn0w Custom Instance Methods */
-#import "XLsn0wInstanceMethods.h"
-
-/*! XLsn0w Custom DefaultXLsn0w Methods */
-#import "DefaultXLsn0w.h"
+#import "XLsn0wAnimation.h"
 
 /*********************************************************************************************
  *   __      __   _         _________     _ _     _    _________   __         _         __   *

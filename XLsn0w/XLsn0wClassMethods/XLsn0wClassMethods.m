@@ -1,12 +1,22 @@
-//
-//  XLsn0wClassMethods.m
-//  XLsn0wKit
-//
-//  Created by XLsn0w on 2016/10/10.
-//  Copyright © 2016年 XLsn0w. All rights reserved.
-//
+/*********************************************************************************************
+ *   __      __   _         _________     _ _     _    _________   __         _         __   *
+ *	 \ \    / /  | |        | _______|   | | \   | |  |  ______ |  \ \       / \       / /   *
+ *	  \ \  / /   | |        | |          | |\ \  | |  | |     | |   \ \     / \ \     / /    *
+ *     \ \/ /    | |        | |______    | | \ \ | |  | |     | |    \ \   / / \ \   / /     *
+ *     /\/\/\    | |        |_______ |   | |  \ \| |  | |     | |     \ \ / /   \ \ / /      *
+ *    / /  \ \   | |______   ______| |   | |   \ \ |  | |_____| |      \ \ /     \ \ /       *
+ *   /_/    \_\  |________| |________|   |_|    \__|  |_________|       \_/       \_/        *
+ *                                                                                           *
+ *********************************************************************************************/
 
 #import "XLsn0wClassMethods.h"
+
+#if __IPHONE_OS_VERSION_MAX_ALLOWED >= 100000 //假如固件是iOS10 控制器self就遵守CAAnimationDelegate协议
+@interface XLsn0wClassMethods () <CAAnimationDelegate>
+#else //固件低于iOS 10, 否则就不遵守CAAnimationDelegate协议 无需填写
+@interface XLsn0wClassMethods ()
+#endif
+@end
 
 @implementation XLsn0wClassMethods
 
@@ -25,5 +35,5 @@
     [NSURLCache setSharedURLCache:URLCache];
 }
 
-
 @end
+

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		350373CE1DB74FC400D09C52 /* XLsn0wTimeShaftCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 350373CB1DB74FC400D09C52 /* XLsn0wTimeShaftCell.m */; };
 		350373CF1DB74FC400D09C52 /* XLsn0wTimeShaftModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 350373CD1DB74FC400D09C52 /* XLsn0wTimeShaftModel.m */; };
+		3527DF3F1DBDFCF20097A085 /* XLsn0wAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3527DF3E1DBDFCF20097A085 /* XLsn0wAnimation.m */; };
 		352DE78F1D7D5E9700C5E109 /* XLsn0wKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 352DE76F1D7D5E9700C5E109 /* XLsn0wKit.podspec */; };
 		352DE7971D7D5EFD00C5E109 /* XLsn0wKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 352DE7961D7D5EFD00C5E109 /* XLsn0wKit.bundle */; };
 		352DE7991D7D5F8200C5E109 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 352DE7981D7D5F8200C5E109 /* libz.tbd */; };
@@ -66,6 +67,9 @@
 		350373CB1DB74FC400D09C52 /* XLsn0wTimeShaftCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wTimeShaftCell.m; sourceTree = "<group>"; };
 		350373CC1DB74FC400D09C52 /* XLsn0wTimeShaftModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wTimeShaftModel.h; sourceTree = "<group>"; };
 		350373CD1DB74FC400D09C52 /* XLsn0wTimeShaftModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wTimeShaftModel.m; sourceTree = "<group>"; };
+		3527DF3B1DBDFC6E0097A085 /* DefaultXLsn0w.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultXLsn0w.h; sourceTree = "<group>"; };
+		3527DF3D1DBDFCF20097A085 /* XLsn0wAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wAnimation.h; sourceTree = "<group>"; };
+		3527DF3E1DBDFCF20097A085 /* XLsn0wAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wAnimation.m; sourceTree = "<group>"; };
 		352DE76E1D7D5E9700C5E109 /* XLsn0wKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wKit.h; sourceTree = "<group>"; };
 		352DE76F1D7D5E9700C5E109 /* XLsn0wKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XLsn0wKit.podspec; sourceTree = "<group>"; };
 		352DE7961D7D5EFD00C5E109 /* XLsn0wKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = XLsn0wKit.bundle; sourceTree = "<group>"; };
@@ -201,14 +205,33 @@
 			path = XLsn0wTimeShaft;
 			sourceTree = "<group>";
 		};
+		3527DF371DBDFC1E0097A085 /* DefaultXLsn0w */ = {
+			isa = PBXGroup;
+			children = (
+				3527DF3B1DBDFC6E0097A085 /* DefaultXLsn0w.h */,
+				3527DF3C1DBDFCF20097A085 /* XLsn0wAnimation */,
+			);
+			path = DefaultXLsn0w;
+			sourceTree = "<group>";
+		};
+		3527DF3C1DBDFCF20097A085 /* XLsn0wAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				3527DF3D1DBDFCF20097A085 /* XLsn0wAnimation.h */,
+				3527DF3E1DBDFCF20097A085 /* XLsn0wAnimation.m */,
+			);
+			path = XLsn0wAnimation;
+			sourceTree = "<group>";
+		};
 		352DE7401D7D5E9700C5E109 /* XLsn0w */ = {
 			isa = PBXGroup;
 			children = (
 				352DE76F1D7D5E9700C5E109 /* XLsn0wKit.podspec */,
 				352DE76E1D7D5E9700C5E109 /* XLsn0wKit.h */,
-				35A78C591DAB809000D9D180 /* XLsn0wComponents */,
+				3527DF371DBDFC1E0097A085 /* DefaultXLsn0w */,
 				35A78C521DAB7F7900D9D180 /* XLsn0wClassMethods */,
 				35A78C511DAB7F6D00D9D180 /* XLsn0wInstanceMethods */,
+				35A78C591DAB809000D9D180 /* XLsn0wComponents */,
 				352DE7951D7D5EFD00C5E109 /* Resources */,
 				352DE7411D7D5E9700C5E109 /* Frameworks */,
 			);
@@ -655,6 +678,7 @@
 				35A78C9A1DAB809000D9D180 /* SGGenerateQRCodeVC.m in Sources */,
 				358D3EDF1D7AE27E00ADE778 /* main.m in Sources */,
 				35A78C991DAB809000D9D180 /* ScanSuccessJumpVC.m in Sources */,
+				3527DF3F1DBDFCF20097A085 /* XLsn0wAnimation.m in Sources */,
 				35A78C9C1DAB809000D9D180 /* UIView+XLsn0wKit.m in Sources */,
 				350373CF1DB74FC400D09C52 /* XLsn0wTimeShaftModel.m in Sources */,
 				357AE6D61DACD2CB006BEB7A /* XLsn0wTextView.m in Sources */,
