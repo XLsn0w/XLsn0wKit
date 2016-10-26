@@ -22,9 +22,10 @@
  *  评分改变
  *
  *  @param ratingBar 评分控件
- *  @param newRating 评分值
+ *  @param selectedScore 评分值
  */
-- (void)starRating:(XLsn0wStarRating *)starRating ratingChanged:(float)newRating;
+- (void)starRating:(XLsn0wStarRating *)starRating selectedScore:(NSNumber *)selectedScore;
+
 @end
 
 @interface XLsn0wStarRating : UIView

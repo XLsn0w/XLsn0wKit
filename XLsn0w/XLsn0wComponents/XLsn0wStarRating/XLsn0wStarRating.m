@@ -170,7 +170,10 @@
     
     starRating = rating;
     lastRating = rating;
-    [_delegate starRating:self ratingChanged:rating];
+    
+    NSNumber *selectedScore = [NSNumber numberWithFloat:rating];//float -> NSNumber
+
+    [self.delegate starRating:self selectedScore:selectedScore];
 }
 
 /**
