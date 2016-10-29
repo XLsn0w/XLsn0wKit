@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		350373CE1DB74FC400D09C52 /* XLsn0wTimeShaftCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 350373CB1DB74FC400D09C52 /* XLsn0wTimeShaftCell.m */; };
-		350373CF1DB74FC400D09C52 /* XLsn0wTimeShaftModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 350373CD1DB74FC400D09C52 /* XLsn0wTimeShaftModel.m */; };
 		3527DF3F1DBDFCF20097A085 /* XLsn0wAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3527DF3E1DBDFCF20097A085 /* XLsn0wAnimation.m */; };
 		352DE78F1D7D5E9700C5E109 /* XLsn0wKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 352DE76F1D7D5E9700C5E109 /* XLsn0wKit.podspec */; };
 		352DE7971D7D5EFD00C5E109 /* XLsn0wKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 352DE7961D7D5EFD00C5E109 /* XLsn0wKit.bundle */; };
@@ -63,10 +61,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		350373CA1DB74FC400D09C52 /* XLsn0wTimeShaftCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wTimeShaftCell.h; sourceTree = "<group>"; };
-		350373CB1DB74FC400D09C52 /* XLsn0wTimeShaftCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wTimeShaftCell.m; sourceTree = "<group>"; };
-		350373CC1DB74FC400D09C52 /* XLsn0wTimeShaftModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wTimeShaftModel.h; sourceTree = "<group>"; };
-		350373CD1DB74FC400D09C52 /* XLsn0wTimeShaftModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wTimeShaftModel.m; sourceTree = "<group>"; };
 		3527DF3B1DBDFC6E0097A085 /* DefaultXLsn0w.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultXLsn0w.h; sourceTree = "<group>"; };
 		3527DF3D1DBDFCF20097A085 /* XLsn0wAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wAnimation.h; sourceTree = "<group>"; };
 		3527DF3E1DBDFCF20097A085 /* XLsn0wAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wAnimation.m; sourceTree = "<group>"; };
@@ -192,17 +186,6 @@
 				A38D43F4BA534A9B0E119C76 /* libPods.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		350373C91DB74FC400D09C52 /* XLsn0wTimeShaft */ = {
-			isa = PBXGroup;
-			children = (
-				350373CA1DB74FC400D09C52 /* XLsn0wTimeShaftCell.h */,
-				350373CB1DB74FC400D09C52 /* XLsn0wTimeShaftCell.m */,
-				350373CC1DB74FC400D09C52 /* XLsn0wTimeShaftModel.h */,
-				350373CD1DB74FC400D09C52 /* XLsn0wTimeShaftModel.m */,
-			);
-			path = XLsn0wTimeShaft;
 			sourceTree = "<group>";
 		};
 		3527DF371DBDFC1E0097A085 /* DefaultXLsn0w */ = {
@@ -381,7 +364,6 @@
 			children = (
 				35A78C8C1DAB809000D9D180 /* XLsn0wComponents.h */,
 				35C0DB561DB8B760009BCF8A /* XLsn0wSegmentedBar */,
-				350373C91DB74FC400D09C52 /* XLsn0wTimeShaft */,
 				35C3A5BF1DB64F7800CB3331 /* XLsn0wStarRating */,
 				357AE6C71DACD2CB006BEB7A /* XLsn0wControls */,
 				357AE6C31DACD22A006BEB7A /* KeyBoardHepler */,
@@ -666,7 +648,6 @@
 				357AE6D71DACD2CB006BEB7A /* XLsn0w3DHierarchyWindow.m in Sources */,
 				35A78C9F1DAB809000D9D180 /* XLsn0wRefreshHeader.m in Sources */,
 				35A78C901DAB809000D9D180 /* QRCodeTool.m in Sources */,
-				350373CE1DB74FC400D09C52 /* XLsn0wTimeShaftCell.m in Sources */,
 				35A78C951DAB809000D9D180 /* UIView+XLsn0wAutoLayout.m in Sources */,
 				357AE6D51DACD2CB006BEB7A /* UIButton+XLsn0wBadge.m in Sources */,
 				357AE0AE1DB8F28200B87510 /* XLsn0wSegmentedBar.m in Sources */,
@@ -680,7 +661,6 @@
 				35A78C991DAB809000D9D180 /* ScanSuccessJumpVC.m in Sources */,
 				3527DF3F1DBDFCF20097A085 /* XLsn0wAnimation.m in Sources */,
 				35A78C9C1DAB809000D9D180 /* UIView+XLsn0wKit.m in Sources */,
-				350373CF1DB74FC400D09C52 /* XLsn0wTimeShaftModel.m in Sources */,
 				357AE6D61DACD2CB006BEB7A /* XLsn0wTextView.m in Sources */,
 				35A78C8F1DAB809000D9D180 /* LanguagesManager.m in Sources */,
 				35A78C961DAB809000D9D180 /* XLsn0wCollectionViewFlowLayout.m in Sources */,
