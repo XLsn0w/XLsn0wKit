@@ -41,7 +41,6 @@
 		35A78C8E1DAB809000D9D180 /* IMYLanguageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A78C5F1DAB809000D9D180 /* IMYLanguageManager.m */; };
 		35A78C8F1DAB809000D9D180 /* LanguagesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A78C611DAB809000D9D180 /* LanguagesManager.m */; };
 		35A78C901DAB809000D9D180 /* QRCodeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A78C641DAB809000D9D180 /* QRCodeTool.m */; };
-		35A78C911DAB809000D9D180 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A78C671DAB809000D9D180 /* Reachability.m */; };
 		35A78C921DAB809000D9D180 /* RegExTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A78C6A1DAB809000D9D180 /* RegExTool.m */; };
 		35A78C931DAB809000D9D180 /* UpdateVersionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A78C6D1DAB809000D9D180 /* UpdateVersionTool.m */; };
 		35A78C941DAB809000D9D180 /* UITableView+XLsn0wAutoLayoutCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A78C701DAB809000D9D180 /* UITableView+XLsn0wAutoLayoutCellHeight.m */; };
@@ -115,8 +114,6 @@
 		35A78C611DAB809000D9D180 /* LanguagesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanguagesManager.m; sourceTree = "<group>"; };
 		35A78C631DAB809000D9D180 /* QRCodeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeTool.h; sourceTree = "<group>"; };
 		35A78C641DAB809000D9D180 /* QRCodeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeTool.m; sourceTree = "<group>"; };
-		35A78C661DAB809000D9D180 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		35A78C671DAB809000D9D180 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		35A78C691DAB809000D9D180 /* RegExTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegExTool.h; sourceTree = "<group>"; };
 		35A78C6A1DAB809000D9D180 /* RegExTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegExTool.m; sourceTree = "<group>"; };
 		35A78C6C1DAB809000D9D180 /* UpdateVersionTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateVersionTool.h; sourceTree = "<group>"; };
@@ -370,7 +367,6 @@
 				35A78C5A1DAB809000D9D180 /* ClearCacheTool */,
 				35A78C5D1DAB809000D9D180 /* LanguagesManager */,
 				35A78C621DAB809000D9D180 /* QRCodeTool */,
-				35A78C651DAB809000D9D180 /* Reachability */,
 				35A78C681DAB809000D9D180 /* RegExTool */,
 				35A78C6B1DAB809000D9D180 /* UpdateVersionTool */,
 				35A78C6E1DAB809000D9D180 /* XLsn0wAutoLayout */,
@@ -408,15 +404,6 @@
 				35A78C641DAB809000D9D180 /* QRCodeTool.m */,
 			);
 			path = QRCodeTool;
-			sourceTree = "<group>";
-		};
-		35A78C651DAB809000D9D180 /* Reachability */ = {
-			isa = PBXGroup;
-			children = (
-				35A78C661DAB809000D9D180 /* Reachability.h */,
-				35A78C671DAB809000D9D180 /* Reachability.m */,
-			);
-			path = Reachability;
 			sourceTree = "<group>";
 		};
 		35A78C681DAB809000D9D180 /* RegExTool */ = {
@@ -652,7 +639,6 @@
 				357AE6D51DACD2CB006BEB7A /* UIButton+XLsn0wBadge.m in Sources */,
 				357AE0AE1DB8F28200B87510 /* XLsn0wSegmentedBar.m in Sources */,
 				357AE6D41DACD2CB006BEB7A /* UIButton+ImageTitleLayout.m in Sources */,
-				35A78C911DAB809000D9D180 /* Reachability.m in Sources */,
 				35A78C9B1DAB809000D9D180 /* XLsn0wQRCodeViewController.m in Sources */,
 				358D3EE21D7AE27E00ADE778 /* AppDelegate.m in Sources */,
 				356DD8C61D8546AC000BDB95 /* ViewController.m in Sources */,
