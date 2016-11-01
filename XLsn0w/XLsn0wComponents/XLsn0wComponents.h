@@ -22,6 +22,8 @@
 #import "UITableView+XLsn0wAutoLayoutCellHeight.h"
 #import "XLsn0wStarRating.h"
 #import "XLsn0wSegmentedBar.h"
+#import "XLsn0wQRCodeReader.h"
+#import "QRCodeReaderSupport.h"
 
 /*********************************************************************************************
  *   __      __   _         _________     _ _     _    _________   __         _         __   *

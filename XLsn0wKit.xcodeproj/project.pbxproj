@@ -54,6 +54,8 @@
 		35A78C9D1DAB809000D9D180 /* XLsn0wRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A78C871DAB809000D9D180 /* XLsn0wRefresh.m */; };
 		35A78C9E1DAB809000D9D180 /* XLsn0wRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A78C891DAB809000D9D180 /* XLsn0wRefreshFooter.m */; };
 		35A78C9F1DAB809000D9D180 /* XLsn0wRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A78C8B1DAB809000D9D180 /* XLsn0wRefreshHeader.m */; };
+		35AD5F801DC8D2350072EDDC /* QRCodeReaderSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AD5F7D1DC8D2350072EDDC /* QRCodeReaderSupport.m */; };
+		35AD5F811DC8D2350072EDDC /* XLsn0wQRCodeReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AD5F7F1DC8D2350072EDDC /* XLsn0wQRCodeReader.m */; };
 		35C009E81D7EE38C00659C7B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35C009E71D7EE38C00659C7B /* AVFoundation.framework */; };
 		35C3A5C21DB64F7800CB3331 /* XLsn0wStarRating.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C3A5C11DB64F7800CB3331 /* XLsn0wStarRating.m */; };
 		430A9DED3203AAC11D19F6A2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A38D43F4BA534A9B0E119C76 /* libPods.a */; };
@@ -142,6 +144,10 @@
 		35A78C8A1DAB809000D9D180 /* XLsn0wRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wRefreshHeader.h; sourceTree = "<group>"; };
 		35A78C8B1DAB809000D9D180 /* XLsn0wRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wRefreshHeader.m; sourceTree = "<group>"; };
 		35A78C8C1DAB809000D9D180 /* XLsn0wComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wComponents.h; sourceTree = "<group>"; };
+		35AD5F7C1DC8D2350072EDDC /* QRCodeReaderSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeReaderSupport.h; sourceTree = "<group>"; };
+		35AD5F7D1DC8D2350072EDDC /* QRCodeReaderSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeReaderSupport.m; sourceTree = "<group>"; };
+		35AD5F7E1DC8D2350072EDDC /* XLsn0wQRCodeReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wQRCodeReader.h; sourceTree = "<group>"; };
+		35AD5F7F1DC8D2350072EDDC /* XLsn0wQRCodeReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wQRCodeReader.m; sourceTree = "<group>"; };
 		35C009E71D7EE38C00659C7B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		35C3A5C01DB64F7800CB3331 /* XLsn0wStarRating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wStarRating.h; sourceTree = "<group>"; };
 		35C3A5C11DB64F7800CB3331 /* XLsn0wStarRating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wStarRating.m; sourceTree = "<group>"; };
@@ -360,6 +366,7 @@
 			isa = PBXGroup;
 			children = (
 				35A78C8C1DAB809000D9D180 /* XLsn0wComponents.h */,
+				35AD5F7B1DC8D2350072EDDC /* XLsn0wQRCodeReader */,
 				35C0DB561DB8B760009BCF8A /* XLsn0wSegmentedBar */,
 				35C3A5BF1DB64F7800CB3331 /* XLsn0wStarRating */,
 				357AE6C71DACD2CB006BEB7A /* XLsn0wControls */,
@@ -473,6 +480,17 @@
 				35A78C8B1DAB809000D9D180 /* XLsn0wRefreshHeader.m */,
 			);
 			path = XLsn0wRefresh;
+			sourceTree = "<group>";
+		};
+		35AD5F7B1DC8D2350072EDDC /* XLsn0wQRCodeReader */ = {
+			isa = PBXGroup;
+			children = (
+				35AD5F7E1DC8D2350072EDDC /* XLsn0wQRCodeReader.h */,
+				35AD5F7F1DC8D2350072EDDC /* XLsn0wQRCodeReader.m */,
+				35AD5F7C1DC8D2350072EDDC /* QRCodeReaderSupport.h */,
+				35AD5F7D1DC8D2350072EDDC /* QRCodeReaderSupport.m */,
+			);
+			path = XLsn0wQRCodeReader;
 			sourceTree = "<group>";
 		};
 		35C0DB561DB8B760009BCF8A /* XLsn0wSegmentedBar */ = {
@@ -634,9 +652,11 @@
 				35A78C9E1DAB809000D9D180 /* XLsn0wRefreshFooter.m in Sources */,
 				357AE6D71DACD2CB006BEB7A /* XLsn0w3DHierarchyWindow.m in Sources */,
 				35A78C9F1DAB809000D9D180 /* XLsn0wRefreshHeader.m in Sources */,
+				35AD5F801DC8D2350072EDDC /* QRCodeReaderSupport.m in Sources */,
 				35A78C901DAB809000D9D180 /* QRCodeTool.m in Sources */,
 				35A78C951DAB809000D9D180 /* UIView+XLsn0wAutoLayout.m in Sources */,
 				357AE6D51DACD2CB006BEB7A /* UIButton+XLsn0wBadge.m in Sources */,
+				35AD5F811DC8D2350072EDDC /* XLsn0wQRCodeReader.m in Sources */,
 				357AE0AE1DB8F28200B87510 /* XLsn0wSegmentedBar.m in Sources */,
 				357AE6D41DACD2CB006BEB7A /* UIButton+ImageTitleLayout.m in Sources */,
 				35A78C9B1DAB809000D9D180 /* XLsn0wQRCodeViewController.m in Sources */,
