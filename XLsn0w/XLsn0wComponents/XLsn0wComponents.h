@@ -11,7 +11,6 @@
 
 #import "RegExTool.h"
 #import "QRCodeTool.h"
-#import "Reachability.h"
 #import "XLsn0wControls.h"
 #import "ClearCacheTool.h"
 #import "KeyBoardHepler.h"
@@ -24,6 +23,7 @@
 #import "XLsn0wSegmentedBar.h"
 #import "XLsn0wQRCodeReader.h"
 #import "QRCodeReaderSupport.h"
+#import "XLsn0wFilterMenu.h"
 
 /*********************************************************************************************
  *   __      __   _         _________     _ _     _    _________   __         _         __   *
