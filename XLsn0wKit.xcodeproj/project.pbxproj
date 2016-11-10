@@ -23,6 +23,7 @@
 		352DE7AD1D7D5FFB00C5E109 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 352DE7AC1D7D5FFB00C5E109 /* Accelerate.framework */; };
 		352DE7AF1D7D600500C5E109 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 352DE7AE1D7D600500C5E109 /* MobileCoreServices.framework */; };
 		352DE7B11D7D600E00C5E109 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 352DE7B01D7D600E00C5E109 /* SystemConfiguration.framework */; };
+		3547EAA81DD4648C00F7648A /* XLsn0wGuidePager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3547EAA71DD4648C00F7648A /* XLsn0wGuidePager.m */; };
 		355CD5AB1DCEF9A500AD8096 /* XLsn0wFilterMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 355CD5AA1DCEF9A500AD8096 /* XLsn0wFilterMenu.m */; };
 		356DD8C61D8546AC000BDB95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356DD8C41D8546AC000BDB95 /* ViewController.m */; };
 		356DD8C71D8546AC000BDB95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356DD8C51D8546AC000BDB95 /* Main.storyboard */; };
@@ -82,6 +83,8 @@
 		352DE7AC1D7D5FFB00C5E109 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		352DE7AE1D7D600500C5E109 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		352DE7B01D7D600E00C5E109 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3547EAA61DD4648C00F7648A /* XLsn0wGuidePager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wGuidePager.h; sourceTree = "<group>"; };
+		3547EAA71DD4648C00F7648A /* XLsn0wGuidePager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wGuidePager.m; sourceTree = "<group>"; };
 		355CD5A91DCEF9A500AD8096 /* XLsn0wFilterMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wFilterMenu.h; sourceTree = "<group>"; };
 		355CD5AA1DCEF9A500AD8096 /* XLsn0wFilterMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wFilterMenu.m; sourceTree = "<group>"; };
 		356DD8C41D8546AC000BDB95 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -255,6 +258,15 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		3547EA9E1DD45D4D00F7648A /* XLsn0wGuidePager */ = {
+			isa = PBXGroup;
+			children = (
+				3547EAA61DD4648C00F7648A /* XLsn0wGuidePager.h */,
+				3547EAA71DD4648C00F7648A /* XLsn0wGuidePager.m */,
+			);
+			path = XLsn0wGuidePager;
+			sourceTree = "<group>";
+		};
 		355CD5A81DCEF9A500AD8096 /* XLsn0wFilterMenu */ = {
 			isa = PBXGroup;
 			children = (
@@ -378,6 +390,7 @@
 			isa = PBXGroup;
 			children = (
 				35A78C8C1DAB809000D9D180 /* XLsn0wComponents.h */,
+				3547EA9E1DD45D4D00F7648A /* XLsn0wGuidePager */,
 				355CD5A81DCEF9A500AD8096 /* XLsn0wFilterMenu */,
 				35AD5F7B1DC8D2350072EDDC /* XLsn0wQRCodeReader */,
 				35C0DB561DB8B760009BCF8A /* XLsn0wSegmentedBar */,
@@ -681,6 +694,7 @@
 				35A78C991DAB809000D9D180 /* ScanSuccessJumpVC.m in Sources */,
 				3527DF3F1DBDFCF20097A085 /* XLsn0wAnimation.m in Sources */,
 				35A78C9C1DAB809000D9D180 /* UIView+XLsn0wKit.m in Sources */,
+				3547EAA81DD4648C00F7648A /* XLsn0wGuidePager.m in Sources */,
 				357AE6D61DACD2CB006BEB7A /* XLsn0wTextView.m in Sources */,
 				35A78C8F1DAB809000D9D180 /* LanguagesManager.m in Sources */,
 				35A78C961DAB809000D9D180 /* XLsn0wCollectionViewFlowLayout.m in Sources */,

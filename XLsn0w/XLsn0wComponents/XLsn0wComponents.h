@@ -24,6 +24,7 @@
 #import "XLsn0wQRCodeReader.h"
 #import "QRCodeReaderSupport.h"
 #import "XLsn0wFilterMenu.h"
+#import "XLsn0wGuidePager.h"
 
 /*********************************************************************************************
  *   __      __   _         _________     _ _     _    _________   __         _         __   *
