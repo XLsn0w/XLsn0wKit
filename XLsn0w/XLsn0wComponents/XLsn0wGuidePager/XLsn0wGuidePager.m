@@ -117,7 +117,7 @@
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     XLsn0wGuidePagerCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"XLsn0wGuidePagerCell" forIndexPath:indexPath];
     
-    cell.image = [UIImage imageNamed:[NSString stringWithFormat:@"XLsn0wGuidePager%ld",indexPath.item + 1]];
+    cell.image = [UIImage imageNamed:[NSString stringWithFormat:@"XLsn0wGuidePager%ld", (long)(indexPath.item + 1)]];
     [cell setStartBtn:indexPath pageCount:self.pageCount];
     
     return cell;
