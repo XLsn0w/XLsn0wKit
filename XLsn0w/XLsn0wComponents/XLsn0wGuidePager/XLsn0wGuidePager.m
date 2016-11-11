@@ -97,11 +97,11 @@
     NSInteger page = scrollView.contentOffset.x / self.collectionView.width;
     
     //给guide1ImageV重新设置图片
-    self.guideImageV.image = [UIImage imageNamed:[NSString stringWithFormat:@"guide%ld",page + 1]];
+    self.guideImageV.image = [UIImage imageNamed:[NSString stringWithFormat:@"guide%ld",(long)(page + 1)]];
     
     
-    _pageControl.currentPage = page;
-    _pageControl.frame = CGRectMake(200+self.preOffsetX*page, W-80, 30, 30);
+    _pageControl.currentPage = (long)page;
+    _pageControl.frame = CGRectMake(200+self.preOffsetX*(long)page, W-80, 30, 30);
 }
 
 #pragma mark - UICollectionViewDataSource Delegate Methods
