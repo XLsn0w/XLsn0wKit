@@ -60,7 +60,7 @@
 		35AD5F811DC8D2350072EDDC /* XLsn0wQRCodeReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AD5F7F1DC8D2350072EDDC /* XLsn0wQRCodeReader.m */; };
 		35C009E81D7EE38C00659C7B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35C009E71D7EE38C00659C7B /* AVFoundation.framework */; };
 		35C3A5C21DB64F7800CB3331 /* XLsn0wStarRating.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C3A5C11DB64F7800CB3331 /* XLsn0wStarRating.m */; };
-		35DF9BB21DE304B5007E045E /* XLsn0wPictureCacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DF9BB11DE304B5007E045E /* XLsn0wPictureCacher.m */; };
+		35DF9C981DE309ED007E045E /* XLsn0wPictureCacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DF9C971DE309ED007E045E /* XLsn0wPictureCacher.m */; };
 		E92B541FDB30E114A6A3ED5E /* libPods-XLsn0wKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F79EBEE22F2614ABAE1CA049 /* libPods-XLsn0wKit.a */; };
 /* End PBXBuildFile section */
 
@@ -158,8 +158,8 @@
 		35C009E71D7EE38C00659C7B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		35C3A5C01DB64F7800CB3331 /* XLsn0wStarRating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wStarRating.h; sourceTree = "<group>"; };
 		35C3A5C11DB64F7800CB3331 /* XLsn0wStarRating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wStarRating.m; sourceTree = "<group>"; };
-		35DF9BB01DE304B5007E045E /* XLsn0wPictureCacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wPictureCacher.h; sourceTree = "<group>"; };
-		35DF9BB11DE304B5007E045E /* XLsn0wPictureCacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wPictureCacher.m; sourceTree = "<group>"; };
+		35DF9C961DE309ED007E045E /* XLsn0wPictureCacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wPictureCacher.h; sourceTree = "<group>"; };
+		35DF9C971DE309ED007E045E /* XLsn0wPictureCacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wPictureCacher.m; sourceTree = "<group>"; };
 		869A33EE511FC74F45811282 /* Pods-XLsn0wKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLsn0wKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-XLsn0wKit/Pods-XLsn0wKit.release.xcconfig"; sourceTree = "<group>"; };
 		D33CB49D6ADA1DE69AB79DEF /* Pods-XLsn0wKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLsn0wKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XLsn0wKit/Pods-XLsn0wKit.debug.xcconfig"; sourceTree = "<group>"; };
 		F79EBEE22F2614ABAE1CA049 /* libPods-XLsn0wKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XLsn0wKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -393,7 +393,7 @@
 			isa = PBXGroup;
 			children = (
 				35A78C8C1DAB809000D9D180 /* XLsn0wComponents.h */,
-				35DF9BAF1DE304B5007E045E /* XLsn0wCacher */,
+				35DF9C951DE309ED007E045E /* XLsn0wPictureCacher */,
 				3547EA9E1DD45D4D00F7648A /* XLsn0wGuidePager */,
 				355CD5A81DCEF9A500AD8096 /* XLsn0wFilterMenu */,
 				35AD5F7B1DC8D2350072EDDC /* XLsn0wQRCodeReader */,
@@ -541,13 +541,13 @@
 			path = XLsn0wStarRating;
 			sourceTree = "<group>";
 		};
-		35DF9BAF1DE304B5007E045E /* XLsn0wCacher */ = {
+		35DF9C951DE309ED007E045E /* XLsn0wPictureCacher */ = {
 			isa = PBXGroup;
 			children = (
-				35DF9BB01DE304B5007E045E /* XLsn0wPictureCacher.h */,
-				35DF9BB11DE304B5007E045E /* XLsn0wPictureCacher.m */,
+				35DF9C961DE309ED007E045E /* XLsn0wPictureCacher.h */,
+				35DF9C971DE309ED007E045E /* XLsn0wPictureCacher.m */,
 			);
-			path = XLsn0wCacher;
+			path = XLsn0wPictureCacher;
 			sourceTree = "<group>";
 		};
 		E68A79AFE846EDB82E7DA2E5 /* Pods */ = {
@@ -698,7 +698,6 @@
 				357AE6D51DACD2CB006BEB7A /* UIButton+XLsn0wBadge.m in Sources */,
 				35AD5F811DC8D2350072EDDC /* XLsn0wQRCodeReader.m in Sources */,
 				357AE0AE1DB8F28200B87510 /* XLsn0wSegmentedBar.m in Sources */,
-				35DF9BB21DE304B5007E045E /* XLsn0wPictureCacher.m in Sources */,
 				357AE6D41DACD2CB006BEB7A /* UIButton+ImageTitleLayout.m in Sources */,
 				35A78C9B1DAB809000D9D180 /* XLsn0wQRCodeViewController.m in Sources */,
 				358D3EE21D7AE27E00ADE778 /* AppDelegate.m in Sources */,
@@ -706,6 +705,7 @@
 				35A78C9A1DAB809000D9D180 /* SGGenerateQRCodeVC.m in Sources */,
 				358D3EDF1D7AE27E00ADE778 /* main.m in Sources */,
 				35A78C991DAB809000D9D180 /* ScanSuccessJumpVC.m in Sources */,
+				35DF9C981DE309ED007E045E /* XLsn0wPictureCacher.m in Sources */,
 				3527DF3F1DBDFCF20097A085 /* XLsn0wAnimation.m in Sources */,
 				35A78C9C1DAB809000D9D180 /* UIView+XLsn0wKit.m in Sources */,
 				3547EAA81DD4648C00F7648A /* XLsn0wGuidePager.m in Sources */,
