@@ -23,7 +23,6 @@
     UIEdgeInsets            currentEdgeInsets;
 }
 
-
 @end
 
 @implementation XLsn0wCollectionViewFlowLayout

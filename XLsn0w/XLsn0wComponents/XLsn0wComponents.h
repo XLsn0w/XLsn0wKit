@@ -9,21 +9,18 @@
  *                                                                                           *
  *********************************************************************************************/
 
-#import "RegExTool.h"
-#import "QRCodeTool.h"
-#import "XLsn0wControls.h"
-#import "ClearCacheTool.h"
-#import "KeyBoardHepler.h"
-#import "UpdateVersionTool.h"
-#import "UIView+XLsn0wAutoLayout.h"
-#import "XLsn0wQRCodeViewController.h"
-#import "XLsn0wCollectionViewFlowLayout.h"
-#import "UITableView+XLsn0wAutoLayoutCellHeight.h"
-#import "XLsn0wStarRating.h"
-#import "XLsn0wSegmentedBar.h"
+#import "XLsn0wVersionManager.h"
+#import "XLsn0wFilterMenu.h"
 #import "XLsn0wQRCodeReader.h"
 #import "QRCodeReaderSupport.h"
-#import "XLsn0wFilterMenu.h"
+#import "XLsn0wSegmentedBar.h"
+#import "XLsn0wStarRating.h"
+#import "XLsn0wTextView.h"
+
+#import "UIView+XLsn0wAutoLayout.h"
+#import "UITableView+XLsn0wAutoLayoutCellHeight.h"
+
+#import "XLsn0wCollectionViewFlowLayout.h"
 
 /*********************************************************************************************
  *   __      __   _         _________     _ _     _    _________   __         _         __   *

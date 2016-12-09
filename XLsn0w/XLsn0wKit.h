@@ -9,17 +9,30 @@
  *                                                                                           *
  *********************************************************************************************/
 
-/*! XLsn0w Custom Components */
+/*
+ 单例方法
+ */
+#import "DefaultXLsn0w.h"
+
+/*
+ 分类|延展方法
+ */
+#import "XLsn0wExtensionKit.h"
+
+/*
+ 自定义组件
+ */
 #import "XLsn0wComponents.h"
 
-/*! XLsn0w Custom Class Methods */
+/*
+ 类方法
+ */
 #import "XLsn0wClassMethods.h"
 
-/*! XLsn0w Custom Instance Methods */
+/*
+ 实例方法
+ */
 #import "XLsn0wInstanceMethods.h"
-
-/*! XLsn0w Custom DefaultXLsn0w Methods */
-#import "DefaultXLsn0w.h"
 
 /*********************************************************************************************
  *   __      __   _         _________     _ _     _    _________   __         _         __   *

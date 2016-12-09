@@ -11,20 +11,19 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import <AVFoundation/AVFoundation.h>
 
-@interface QRCodeTool : NSObject
-
+@interface XLsn0wVersionManager : NSObject
 
 /**
- *  生成二维码
+ *  版本更新
  *
- *  @param message 二维码信息
- *  @param width   宽
- *  @param height  高
- *
- *  @return 二维码图片
+ *  @param appid              该app的id (在itunes connect中获取)
+ *  @param isShowReleaseNotes 是否显示版本注释
+ *  @param controller         要显示的controller
  */
-+(UIImage *)createQRCodeWithMessage:(NSString *)message size:(CGFloat)size;
++(void)updateVersionForAppID:(NSString *)appid
+          isShowReleaseNotes:(BOOL)isShowReleaseNotes
+              showController:(UIViewController *)controller;
+
 
 @end

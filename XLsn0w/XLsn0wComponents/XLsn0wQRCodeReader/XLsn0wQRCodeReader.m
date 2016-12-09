@@ -12,6 +12,7 @@
 #import "XLsn0wQRCodeReader.h"
 
 @interface XLsn0wQRCodeReader ()
+
 @property (strong, nonatomic) QRCameraSwitchButton *switchCameraButton;
 @property (strong, nonatomic) QRCodeReaderView     *cameraView;
 @property (strong, nonatomic) UIButton             *cancelButton;

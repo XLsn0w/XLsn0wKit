@@ -9,27 +9,24 @@
  *                                                                                           *
  *********************************************************************************************/
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface ClearCacheTool : NSObject
+typedef NS_ENUM(NSUInteger, MKButtonEdgeInsetsStyle) {
+    MKButtonEdgeInsetsStyleTop, // image在上，label在下
+    MKButtonEdgeInsetsStyleLeft, // image在左，label在右
+    MKButtonEdgeInsetsStyleBottom, // image在下，label在上
+    MKButtonEdgeInsetsStyleRight // image在右，label在左
+};
 
-/*s*
- *  获取path路径下文件夹的大小
- *
- *  @param path 要获取的文件夹 路径
- *
- *  @return 返回path路径下文件夹的大小
- */
-+ (NSString *)getCacheSizeWithFilePath:(NSString *)path;
+@interface UIButton (ImageTitleLayout)
 
 /**
- *  清除path路径下文件夹的缓存
+ *  设置button的titleLabel和imageView的布局样式，及间距
  *
- *  @param path  要清除缓存的文件夹 路径
- *
- *  @return 是否清除成功
+ *  @param style titleLabel和imageView的布局样式
+ *  @param space titleLabel和imageView的间距
  */
-+ (BOOL)clearCacheWithFilePath:(NSString *)path;
-
+- (void)layoutButtonWithEdgeInsetsStyle:(MKButtonEdgeInsetsStyle)style
+                        imageTitleSpace:(CGFloat)space;
 
 @end

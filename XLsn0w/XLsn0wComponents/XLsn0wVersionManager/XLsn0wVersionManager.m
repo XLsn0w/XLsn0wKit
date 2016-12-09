@@ -9,15 +9,15 @@
  *                                                                                           *
  *********************************************************************************************/
 
-#import "UpdateVersionTool.h"
+#import "XLsn0wVersionManager.h"
 
 #import "AFNetworking.h"
 
-@interface UpdateVersionTool()
+@interface XLsn0wVersionManager ()
 
 @end
 
-@implementation UpdateVersionTool
+@implementation XLsn0wVersionManager
 
 /**
  *      网址问题:
@@ -33,8 +33,7 @@
 
 +(void)updateVersionForAppID:(NSString *)appid
           isShowReleaseNotes:(BOOL)isShowReleaseNotes
-              showController:(UIViewController *)controller
-{
+              showController:(UIViewController *)controller {
     // 获取网络状态
     NSString *status = [self getNetWorkStatus];
     NSLog(@"%@", status);
