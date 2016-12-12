@@ -23,6 +23,7 @@
 		352DE7AD1D7D5FFB00C5E109 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 352DE7AC1D7D5FFB00C5E109 /* Accelerate.framework */; };
 		352DE7AF1D7D600500C5E109 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 352DE7AE1D7D600500C5E109 /* MobileCoreServices.framework */; };
 		352DE7B11D7D600E00C5E109 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 352DE7B01D7D600E00C5E109 /* SystemConfiguration.framework */; };
+		3558A5C61DFE8C8C00CE7CEA /* NSObject+GetCurrentScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3558A5C51DFE8C8C00CE7CEA /* NSObject+GetCurrentScreenViewController.m */; };
 		355CD5AB1DCEF9A500AD8096 /* XLsn0wFilterMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 355CD5AA1DCEF9A500AD8096 /* XLsn0wFilterMenu.m */; };
 		356DD8C61D8546AC000BDB95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356DD8C41D8546AC000BDB95 /* ViewController.m */; };
 		356DD8C71D8546AC000BDB95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356DD8C51D8546AC000BDB95 /* Main.storyboard */; };
@@ -67,6 +68,8 @@
 		352DE7AC1D7D5FFB00C5E109 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		352DE7AE1D7D600500C5E109 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		352DE7B01D7D600E00C5E109 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3558A5C41DFE8C8C00CE7CEA /* NSObject+GetCurrentScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+GetCurrentScreenViewController.h"; sourceTree = "<group>"; };
+		3558A5C51DFE8C8C00CE7CEA /* NSObject+GetCurrentScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GetCurrentScreenViewController.m"; sourceTree = "<group>"; };
 		355CD5A91DCEF9A500AD8096 /* XLsn0wFilterMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wFilterMenu.h; sourceTree = "<group>"; };
 		355CD5AA1DCEF9A500AD8096 /* XLsn0wFilterMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wFilterMenu.m; sourceTree = "<group>"; };
 		356DD8C41D8546AC000BDB95 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -210,6 +213,15 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		3558A5C31DFE8C8C00CE7CEA /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				3558A5C41DFE8C8C00CE7CEA /* NSObject+GetCurrentScreenViewController.h */,
+				3558A5C51DFE8C8C00CE7CEA /* NSObject+GetCurrentScreenViewController.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
 		355CD5A81DCEF9A500AD8096 /* XLsn0wFilterMenu */ = {
 			isa = PBXGroup;
 			children = (
@@ -241,6 +253,7 @@
 			isa = PBXGroup;
 			children = (
 				3582BFB81DFA86C900B1512D /* XLsn0wExtensionKit.h */,
+				3558A5C31DFE8C8C00CE7CEA /* NSObject */,
 				3582BFB31DFA86C900B1512D /* UIButton */,
 			);
 			path = XLsn0wExtensionKit;
@@ -519,6 +532,7 @@
 				35A78C551DAB7F9200D9D180 /* XLsn0wClassMethods.m in Sources */,
 				3582BFB01DFA845000B1512D /* XLsn0wTextView.m in Sources */,
 				3582BFA41DFA82C800B1512D /* XLsn0wVersionManager.m in Sources */,
+				3558A5C61DFE8C8C00CE7CEA /* NSObject+GetCurrentScreenViewController.m in Sources */,
 				355CD5AB1DCEF9A500AD8096 /* XLsn0wFilterMenu.m in Sources */,
 				35AD5F801DC8D2350072EDDC /* QRCodeReaderSupport.m in Sources */,
 				3582BFBA1DFA86C900B1512D /* UIButton+XLsn0wBadge.m in Sources */,
