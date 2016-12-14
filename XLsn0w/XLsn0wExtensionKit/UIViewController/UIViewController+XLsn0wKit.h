@@ -11,7 +11,8 @@
 
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
-#import "MBProgressHUD.h"
+
+@class MBProgressHUD;
 
 @interface UIViewController (XLsn0wKit)
 /** Gif加载状态 */
