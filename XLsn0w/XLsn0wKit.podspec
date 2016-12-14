@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 
-  s.version               = "3.8.4"
+  s.version               = "3.8.6"
 
   s.summary               = 'An iOS Components Framework Born Of XLsn0wKit'
 
@@ -27,5 +27,6 @@ Pod::Spec.new do |s|
   s.dependency "AFNetworking"
   s.dependency 'SDWebImage'
   s.dependency 'Masonry'
+  s.dependency 'MBProgressHUD'
 
 end

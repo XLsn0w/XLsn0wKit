@@ -6,5 +6,6 @@ target 'XLsn0wKit' do
 pod 'AFNetworking'
 pod 'SDWebImage'
 pod 'Masonry'
+pod 'MBProgressHUD'
 
 end

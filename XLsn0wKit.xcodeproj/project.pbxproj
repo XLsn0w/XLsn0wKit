@@ -28,6 +28,13 @@
 		356DD8C61D8546AC000BDB95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356DD8C41D8546AC000BDB95 /* ViewController.m */; };
 		356DD8C71D8546AC000BDB95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356DD8C51D8546AC000BDB95 /* Main.storyboard */; };
 		357AE0AE1DB8F28200B87510 /* XLsn0wSegmentedBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 357AE0AD1DB8F28200B87510 /* XLsn0wSegmentedBar.m */; };
+		357CF8C31E00DF100009FE07 /* NSObject+XLsn0wKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 357CF8C11E00DF100009FE07 /* NSObject+XLsn0wKit.m */; };
+		357CF8CB1E00DF4D0009FE07 /* UIImage+XLsn0wKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 357CF8CA1E00DF4D0009FE07 /* UIImage+XLsn0wKit.m */; };
+		357CF8CE1E00DF5B0009FE07 /* UIViewController+XLsn0wKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 357CF8CD1E00DF5B0009FE07 /* UIViewController+XLsn0wKit.m */; };
+		357CF8D21E00DF7F0009FE07 /* UIView+XLsn0wKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 357CF8D11E00DF7F0009FE07 /* UIView+XLsn0wKit.m */; };
+		357CF8D61E00DFAE0009FE07 /* UIDevice+XLsn0wKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 357CF8D51E00DFAE0009FE07 /* UIDevice+XLsn0wKit.m */; };
+		357CF8DA1E00DFB60009FE07 /* UIImageView+XLsn0wKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 357CF8D91E00DFB60009FE07 /* UIImageView+XLsn0wKit.m */; };
+		357CF8DE1E00E0F50009FE07 /* XLsn0wTopSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 357CF8DD1E00E0F50009FE07 /* XLsn0wTopSlider.m */; };
 		3582BFA41DFA82C800B1512D /* XLsn0wVersionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3582BFA31DFA82C800B1512D /* XLsn0wVersionManager.m */; };
 		3582BFB01DFA845000B1512D /* XLsn0wTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3582BFAF1DFA845000B1512D /* XLsn0wTextView.m */; };
 		3582BFB91DFA86C900B1512D /* UIButton+ImageTitleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3582BFB51DFA86C900B1512D /* UIButton+ImageTitleLayout.m */; };
@@ -76,6 +83,20 @@
 		356DD8C51D8546AC000BDB95 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		357AE0AC1DB8F28200B87510 /* XLsn0wSegmentedBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wSegmentedBar.h; sourceTree = "<group>"; };
 		357AE0AD1DB8F28200B87510 /* XLsn0wSegmentedBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wSegmentedBar.m; sourceTree = "<group>"; };
+		357CF8C11E00DF100009FE07 /* NSObject+XLsn0wKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XLsn0wKit.m"; sourceTree = "<group>"; };
+		357CF8C21E00DF100009FE07 /* NSObject+XLsn0wKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+XLsn0wKit.h"; sourceTree = "<group>"; };
+		357CF8C91E00DF4D0009FE07 /* UIImage+XLsn0wKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XLsn0wKit.h"; sourceTree = "<group>"; };
+		357CF8CA1E00DF4D0009FE07 /* UIImage+XLsn0wKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XLsn0wKit.m"; sourceTree = "<group>"; };
+		357CF8CC1E00DF5B0009FE07 /* UIViewController+XLsn0wKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XLsn0wKit.h"; sourceTree = "<group>"; };
+		357CF8CD1E00DF5B0009FE07 /* UIViewController+XLsn0wKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XLsn0wKit.m"; sourceTree = "<group>"; };
+		357CF8D01E00DF7F0009FE07 /* UIView+XLsn0wKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XLsn0wKit.h"; sourceTree = "<group>"; };
+		357CF8D11E00DF7F0009FE07 /* UIView+XLsn0wKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XLsn0wKit.m"; sourceTree = "<group>"; };
+		357CF8D41E00DFAE0009FE07 /* UIDevice+XLsn0wKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+XLsn0wKit.h"; sourceTree = "<group>"; };
+		357CF8D51E00DFAE0009FE07 /* UIDevice+XLsn0wKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+XLsn0wKit.m"; sourceTree = "<group>"; };
+		357CF8D81E00DFB60009FE07 /* UIImageView+XLsn0wKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+XLsn0wKit.h"; sourceTree = "<group>"; };
+		357CF8D91E00DFB60009FE07 /* UIImageView+XLsn0wKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+XLsn0wKit.m"; sourceTree = "<group>"; };
+		357CF8DC1E00E0F50009FE07 /* XLsn0wTopSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wTopSlider.h; sourceTree = "<group>"; };
+		357CF8DD1E00E0F50009FE07 /* XLsn0wTopSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wTopSlider.m; sourceTree = "<group>"; };
 		3582BFA21DFA82C800B1512D /* XLsn0wVersionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wVersionManager.h; sourceTree = "<group>"; };
 		3582BFA31DFA82C800B1512D /* XLsn0wVersionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wVersionManager.m; sourceTree = "<group>"; };
 		3582BFAE1DFA845000B1512D /* XLsn0wTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wTextView.h; sourceTree = "<group>"; };
@@ -216,6 +237,8 @@
 		3558A5C31DFE8C8C00CE7CEA /* NSObject */ = {
 			isa = PBXGroup;
 			children = (
+				357CF8C21E00DF100009FE07 /* NSObject+XLsn0wKit.h */,
+				357CF8C11E00DF100009FE07 /* NSObject+XLsn0wKit.m */,
 				3558A5C41DFE8C8C00CE7CEA /* NSObject+GetCurrentScreenViewController.h */,
 				3558A5C51DFE8C8C00CE7CEA /* NSObject+GetCurrentScreenViewController.m */,
 			);
@@ -229,6 +252,60 @@
 				355CD5AA1DCEF9A500AD8096 /* XLsn0wFilterMenu.m */,
 			);
 			path = XLsn0wFilterMenu;
+			sourceTree = "<group>";
+		};
+		357CF8C41E00DF1F0009FE07 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				357CF8CC1E00DF5B0009FE07 /* UIViewController+XLsn0wKit.h */,
+				357CF8CD1E00DF5B0009FE07 /* UIViewController+XLsn0wKit.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		357CF8C81E00DF4D0009FE07 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				357CF8C91E00DF4D0009FE07 /* UIImage+XLsn0wKit.h */,
+				357CF8CA1E00DF4D0009FE07 /* UIImage+XLsn0wKit.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		357CF8CF1E00DF7F0009FE07 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				357CF8D01E00DF7F0009FE07 /* UIView+XLsn0wKit.h */,
+				357CF8D11E00DF7F0009FE07 /* UIView+XLsn0wKit.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		357CF8D31E00DFAD0009FE07 /* UIDevice */ = {
+			isa = PBXGroup;
+			children = (
+				357CF8D41E00DFAE0009FE07 /* UIDevice+XLsn0wKit.h */,
+				357CF8D51E00DFAE0009FE07 /* UIDevice+XLsn0wKit.m */,
+			);
+			path = UIDevice;
+			sourceTree = "<group>";
+		};
+		357CF8D71E00DFB60009FE07 /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				357CF8D81E00DFB60009FE07 /* UIImageView+XLsn0wKit.h */,
+				357CF8D91E00DFB60009FE07 /* UIImageView+XLsn0wKit.m */,
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		357CF8DB1E00E0F50009FE07 /* XLsn0wTopSlider */ = {
+			isa = PBXGroup;
+			children = (
+				357CF8DC1E00E0F50009FE07 /* XLsn0wTopSlider.h */,
+				357CF8DD1E00E0F50009FE07 /* XLsn0wTopSlider.m */,
+			);
+			path = XLsn0wTopSlider;
 			sourceTree = "<group>";
 		};
 		3582BFA11DFA82C800B1512D /* XLsn0wVersionManager */ = {
@@ -254,6 +331,11 @@
 			children = (
 				3582BFB81DFA86C900B1512D /* XLsn0wExtensionKit.h */,
 				3558A5C31DFE8C8C00CE7CEA /* NSObject */,
+				357CF8CF1E00DF7F0009FE07 /* UIView */,
+				357CF8D31E00DFAD0009FE07 /* UIDevice */,
+				357CF8C81E00DF4D0009FE07 /* UIImage */,
+				357CF8D71E00DFB60009FE07 /* UIImageView */,
+				357CF8C41E00DF1F0009FE07 /* UIViewController */,
 				3582BFB31DFA86C900B1512D /* UIButton */,
 			);
 			path = XLsn0wExtensionKit;
@@ -335,6 +417,7 @@
 			isa = PBXGroup;
 			children = (
 				35A78C8C1DAB809000D9D180 /* XLsn0wComponents.h */,
+				357CF8DB1E00E0F50009FE07 /* XLsn0wTopSlider */,
 				3582BFAD1DFA845000B1512D /* XLsn0wTextView */,
 				3582BFA11DFA82C800B1512D /* XLsn0wVersionManager */,
 				355CD5A81DCEF9A500AD8096 /* XLsn0wFilterMenu */,
@@ -434,7 +517,7 @@
 		358D3ED21D7AE27E00ADE778 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = XLsn0w;
 				TargetAttributes = {
 					358D3ED91D7AE27E00ADE778 = {
@@ -530,9 +613,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				35A78C551DAB7F9200D9D180 /* XLsn0wClassMethods.m in Sources */,
+				357CF8C31E00DF100009FE07 /* NSObject+XLsn0wKit.m in Sources */,
 				3582BFB01DFA845000B1512D /* XLsn0wTextView.m in Sources */,
 				3582BFA41DFA82C800B1512D /* XLsn0wVersionManager.m in Sources */,
 				3558A5C61DFE8C8C00CE7CEA /* NSObject+GetCurrentScreenViewController.m in Sources */,
+				357CF8DA1E00DFB60009FE07 /* UIImageView+XLsn0wKit.m in Sources */,
+				357CF8CE1E00DF5B0009FE07 /* UIViewController+XLsn0wKit.m in Sources */,
+				357CF8D61E00DFAE0009FE07 /* UIDevice+XLsn0wKit.m in Sources */,
 				355CD5AB1DCEF9A500AD8096 /* XLsn0wFilterMenu.m in Sources */,
 				35AD5F801DC8D2350072EDDC /* QRCodeReaderSupport.m in Sources */,
 				3582BFBA1DFA86C900B1512D /* UIButton+XLsn0wBadge.m in Sources */,
@@ -541,7 +628,10 @@
 				357AE0AE1DB8F28200B87510 /* XLsn0wSegmentedBar.m in Sources */,
 				358D3EE21D7AE27E00ADE778 /* AppDelegate.m in Sources */,
 				356DD8C61D8546AC000BDB95 /* ViewController.m in Sources */,
+				357CF8D21E00DF7F0009FE07 /* UIView+XLsn0wKit.m in Sources */,
 				358D3EDF1D7AE27E00ADE778 /* main.m in Sources */,
+				357CF8CB1E00DF4D0009FE07 /* UIImage+XLsn0wKit.m in Sources */,
+				357CF8DE1E00E0F50009FE07 /* XLsn0wTopSlider.m in Sources */,
 				3527DF3F1DBDFCF20097A085 /* XLsn0wAnimation.m in Sources */,
 				35A78C961DAB809000D9D180 /* XLsn0wCollectionViewFlowLayout.m in Sources */,
 				35C3A5C21DB64F7800CB3331 /* XLsn0wStarRating.m in Sources */,
@@ -579,8 +669,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -624,8 +716,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -662,7 +756,7 @@
 					"$(PROJECT_DIR)/XLsn0w/Frameworks",
 				);
 				INFOPLIST_FILE = XLsn0wKit/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xlsn0w.XLsn0wKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -684,7 +778,7 @@
 					"$(PROJECT_DIR)/XLsn0w/Frameworks",
 				);
 				INFOPLIST_FILE = XLsn0wKit/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xlsn0w.XLsn0wKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
