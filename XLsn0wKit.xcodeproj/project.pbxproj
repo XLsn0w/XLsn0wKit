@@ -50,6 +50,7 @@
 		35A78C961DAB809000D9D180 /* XLsn0wCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A78C751DAB809000D9D180 /* XLsn0wCollectionViewFlowLayout.m */; };
 		35AD5F801DC8D2350072EDDC /* QRCodeReaderSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AD5F7D1DC8D2350072EDDC /* QRCodeReaderSupport.m */; };
 		35AD5F811DC8D2350072EDDC /* XLsn0wQRCodeReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AD5F7F1DC8D2350072EDDC /* XLsn0wQRCodeReader.m */; };
+		35BF9DAE1E01172B0044EBCF /* XLsn0wNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BF9DAD1E01172B0044EBCF /* XLsn0wNavigationController.m */; };
 		35C009E81D7EE38C00659C7B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35C009E71D7EE38C00659C7B /* AVFoundation.framework */; };
 		35C3A5C21DB64F7800CB3331 /* XLsn0wStarRating.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C3A5C11DB64F7800CB3331 /* XLsn0wStarRating.m */; };
 		E92B541FDB30E114A6A3ED5E /* libPods-XLsn0wKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F79EBEE22F2614ABAE1CA049 /* libPods-XLsn0wKit.a */; };
@@ -129,6 +130,8 @@
 		35AD5F7D1DC8D2350072EDDC /* QRCodeReaderSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeReaderSupport.m; sourceTree = "<group>"; };
 		35AD5F7E1DC8D2350072EDDC /* XLsn0wQRCodeReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wQRCodeReader.h; sourceTree = "<group>"; };
 		35AD5F7F1DC8D2350072EDDC /* XLsn0wQRCodeReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wQRCodeReader.m; sourceTree = "<group>"; };
+		35BF9DAC1E01172B0044EBCF /* XLsn0wNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wNavigationController.h; sourceTree = "<group>"; };
+		35BF9DAD1E01172B0044EBCF /* XLsn0wNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wNavigationController.m; sourceTree = "<group>"; };
 		35C009E71D7EE38C00659C7B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		35C3A5C01DB64F7800CB3331 /* XLsn0wStarRating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wStarRating.h; sourceTree = "<group>"; };
 		35C3A5C11DB64F7800CB3331 /* XLsn0wStarRating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wStarRating.m; sourceTree = "<group>"; };
@@ -417,6 +420,7 @@
 			isa = PBXGroup;
 			children = (
 				35A78C8C1DAB809000D9D180 /* XLsn0wComponents.h */,
+				35BF9DAB1E01172B0044EBCF /* XLsn0wNavigationController */,
 				357CF8DB1E00E0F50009FE07 /* XLsn0wTopSlider */,
 				3582BFAD1DFA845000B1512D /* XLsn0wTextView */,
 				3582BFA11DFA82C800B1512D /* XLsn0wVersionManager */,
@@ -459,6 +463,15 @@
 				35AD5F7D1DC8D2350072EDDC /* QRCodeReaderSupport.m */,
 			);
 			path = XLsn0wQRCodeReader;
+			sourceTree = "<group>";
+		};
+		35BF9DAB1E01172B0044EBCF /* XLsn0wNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				35BF9DAC1E01172B0044EBCF /* XLsn0wNavigationController.h */,
+				35BF9DAD1E01172B0044EBCF /* XLsn0wNavigationController.m */,
+			);
+			path = XLsn0wNavigationController;
 			sourceTree = "<group>";
 		};
 		35C0DB561DB8B760009BCF8A /* XLsn0wSegmentedBar */ = {
@@ -635,6 +648,7 @@
 				3527DF3F1DBDFCF20097A085 /* XLsn0wAnimation.m in Sources */,
 				35A78C961DAB809000D9D180 /* XLsn0wCollectionViewFlowLayout.m in Sources */,
 				35C3A5C21DB64F7800CB3331 /* XLsn0wStarRating.m in Sources */,
+				35BF9DAE1E01172B0044EBCF /* XLsn0wNavigationController.m in Sources */,
 				35A78C581DAB7FA200D9D180 /* XLsn0wInstanceMethods.m in Sources */,
 				35A78C941DAB809000D9D180 /* UITableView+XLsn0wAutoLayoutCellHeight.m in Sources */,
 				3582BFB91DFA86C900B1512D /* UIButton+ImageTitleLayout.m in Sources */,

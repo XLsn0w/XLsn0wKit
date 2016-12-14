@@ -33,7 +33,7 @@ typedef void(^ChangeLocationBlock) (CLPlacemark *location,NSString *desc);
 
 @interface XLsn0wClassMethods : NSObject <CLLocationManagerDelegate>
 
-
++ (void)adjustInterfaceOrientation:(UIInterfaceOrientation)orientation;
 /**
  *  邮箱验证
  *
