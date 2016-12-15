@@ -11,6 +11,8 @@
 
 #import "XLsn0wClassMethods.h"
 
+#import "XLsn0wKit.h"
+
 #import <sys/utsname.h>
 #import <UIkit/UIDevice.h>
 
@@ -163,7 +165,7 @@ static NSString * const kVersion = @"version";
                                    tabBarItemImageName:(NSString *)imageName
                            tabBarItemSelectedImageName:(NSString *)selectedImageName
                                            currentSelf:(UIViewController *)currentSelf {
-    UINavigationController *childNC = [[UINavigationController alloc] initWithRootViewController:viewController];
+    XLsn0wNavigationController *childNC = [[XLsn0wNavigationController alloc] initWithRootViewController:viewController];
     childNC.tabBarItem = [[UITabBarItem alloc] initWithTitle:title image:[[UIImage imageNamed:imageName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] selectedImage:[[UIImage imageNamed:selectedImageName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
     [currentSelf addChildViewController:childNC];
 }
