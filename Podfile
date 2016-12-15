@@ -7,5 +7,6 @@ pod 'AFNetworking'
 pod 'SDWebImage'
 pod 'Masonry'
 pod 'MBProgressHUD'
+pod 'Aspects'
 
 end

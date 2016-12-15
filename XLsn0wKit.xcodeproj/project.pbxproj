@@ -27,6 +27,8 @@
 		355CD5AB1DCEF9A500AD8096 /* XLsn0wFilterMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 355CD5AA1DCEF9A500AD8096 /* XLsn0wFilterMenu.m */; };
 		356DD8C61D8546AC000BDB95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356DD8C41D8546AC000BDB95 /* ViewController.m */; };
 		356DD8C71D8546AC000BDB95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356DD8C51D8546AC000BDB95 /* Main.storyboard */; };
+		357822201E022C3100B47D71 /* UINavigationController+AddXLsn0wShouldAutorotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3578221F1E022C3100B47D71 /* UINavigationController+AddXLsn0wShouldAutorotate.m */; };
+		357822271E022C7100B47D71 /* UIViewController+AddIsAutorotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 357822261E022C7100B47D71 /* UIViewController+AddIsAutorotate.m */; };
 		357AE0AE1DB8F28200B87510 /* XLsn0wSegmentedBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 357AE0AD1DB8F28200B87510 /* XLsn0wSegmentedBar.m */; };
 		357CF8C31E00DF100009FE07 /* NSObject+XLsn0wKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 357CF8C11E00DF100009FE07 /* NSObject+XLsn0wKit.m */; };
 		357CF8CB1E00DF4D0009FE07 /* UIImage+XLsn0wKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 357CF8CA1E00DF4D0009FE07 /* UIImage+XLsn0wKit.m */; };
@@ -82,6 +84,10 @@
 		355CD5AA1DCEF9A500AD8096 /* XLsn0wFilterMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wFilterMenu.m; sourceTree = "<group>"; };
 		356DD8C41D8546AC000BDB95 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		356DD8C51D8546AC000BDB95 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3578221E1E022C3100B47D71 /* UINavigationController+AddXLsn0wShouldAutorotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+AddXLsn0wShouldAutorotate.h"; sourceTree = "<group>"; };
+		3578221F1E022C3100B47D71 /* UINavigationController+AddXLsn0wShouldAutorotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+AddXLsn0wShouldAutorotate.m"; sourceTree = "<group>"; };
+		357822251E022C7100B47D71 /* UIViewController+AddIsAutorotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AddIsAutorotate.h"; sourceTree = "<group>"; };
+		357822261E022C7100B47D71 /* UIViewController+AddIsAutorotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AddIsAutorotate.m"; sourceTree = "<group>"; };
 		357AE0AC1DB8F28200B87510 /* XLsn0wSegmentedBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wSegmentedBar.h; sourceTree = "<group>"; };
 		357AE0AD1DB8F28200B87510 /* XLsn0wSegmentedBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wSegmentedBar.m; sourceTree = "<group>"; };
 		357CF8C11E00DF100009FE07 /* NSObject+XLsn0wKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XLsn0wKit.m"; sourceTree = "<group>"; };
@@ -257,9 +263,20 @@
 			path = XLsn0wFilterMenu;
 			sourceTree = "<group>";
 		};
+		3578221D1E022C3100B47D71 /* UINavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				3578221E1E022C3100B47D71 /* UINavigationController+AddXLsn0wShouldAutorotate.h */,
+				3578221F1E022C3100B47D71 /* UINavigationController+AddXLsn0wShouldAutorotate.m */,
+			);
+			path = UINavigationController;
+			sourceTree = "<group>";
+		};
 		357CF8C41E00DF1F0009FE07 /* UIViewController */ = {
 			isa = PBXGroup;
 			children = (
+				357822251E022C7100B47D71 /* UIViewController+AddIsAutorotate.h */,
+				357822261E022C7100B47D71 /* UIViewController+AddIsAutorotate.m */,
 				357CF8CC1E00DF5B0009FE07 /* UIViewController+XLsn0wKit.h */,
 				357CF8CD1E00DF5B0009FE07 /* UIViewController+XLsn0wKit.m */,
 			);
@@ -335,11 +352,12 @@
 				3582BFB81DFA86C900B1512D /* XLsn0wExtensionKit.h */,
 				3558A5C31DFE8C8C00CE7CEA /* NSObject */,
 				357CF8CF1E00DF7F0009FE07 /* UIView */,
+				3582BFB31DFA86C900B1512D /* UIButton */,
 				357CF8D31E00DFAD0009FE07 /* UIDevice */,
 				357CF8C81E00DF4D0009FE07 /* UIImage */,
 				357CF8D71E00DFB60009FE07 /* UIImageView */,
 				357CF8C41E00DF1F0009FE07 /* UIViewController */,
-				3582BFB31DFA86C900B1512D /* UIButton */,
+				3578221D1E022C3100B47D71 /* UINavigationController */,
 			);
 			path = XLsn0wExtensionKit;
 			sourceTree = "<group>";
@@ -626,6 +644,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35A78C551DAB7F9200D9D180 /* XLsn0wClassMethods.m in Sources */,
+				357822201E022C3100B47D71 /* UINavigationController+AddXLsn0wShouldAutorotate.m in Sources */,
 				357CF8C31E00DF100009FE07 /* NSObject+XLsn0wKit.m in Sources */,
 				3582BFB01DFA845000B1512D /* XLsn0wTextView.m in Sources */,
 				3582BFA41DFA82C800B1512D /* XLsn0wVersionManager.m in Sources */,
@@ -636,6 +655,7 @@
 				355CD5AB1DCEF9A500AD8096 /* XLsn0wFilterMenu.m in Sources */,
 				35AD5F801DC8D2350072EDDC /* QRCodeReaderSupport.m in Sources */,
 				3582BFBA1DFA86C900B1512D /* UIButton+XLsn0wBadge.m in Sources */,
+				357822271E022C7100B47D71 /* UIViewController+AddIsAutorotate.m in Sources */,
 				35A78C951DAB809000D9D180 /* UIView+XLsn0wAutoLayout.m in Sources */,
 				35AD5F811DC8D2350072EDDC /* XLsn0wQRCodeReader.m in Sources */,
 				357AE0AE1DB8F28200B87510 /* XLsn0wSegmentedBar.m in Sources */,

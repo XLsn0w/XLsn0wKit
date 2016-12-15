@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Aspects.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MBProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,12 +37,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>586F2DFA9BDCC6675C2546793A69E5CC</key>
+		<key>25B11DCA576612BFDB6867A104243B3A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>69EB9EC528E44E20A0925284A1DB93EE</key>
+		<key>586F2DFA9BDCC6675C2546793A69E5CC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -52,7 +57,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D372C61252858AD1E8A5E8AF494C62BD</key>
+		<key>C7C5FD310966070D9553E5B95C59641B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F2FF34D7118C68177FCAA797621CC324</key>
 		<dict>
 			<key>primary</key>
 			<true/>

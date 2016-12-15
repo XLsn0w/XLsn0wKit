@@ -18,6 +18,9 @@
 #import "UIViewController+XLsn0wKit.h"
 #import "NSObject+XLsn0wKit.h"
 
+#import "UIViewController+AddIsAutorotate.h"
+#import "UINavigationController+AddXLsn0wShouldAutorotate.h"
+
 /*********************************************************************************************
  *   __      __   _         _________     _ _     _    _________   __         _         __   *
  *	 \ \    / /  | |        | _______|   | | \   | |  |  ______ |  \ \       / \       / /   *
