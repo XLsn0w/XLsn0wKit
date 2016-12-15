@@ -49,7 +49,7 @@ static NSString * const kVersion = @"version";
 
 @implementation XLsn0wClassMethods
 
-+ (void)adjustInterfaceOrientation:(UIInterfaceOrientation)orientation {
++ (void)xlsn0w_adjustInterfaceOrientation:(UIInterfaceOrientation)orientation {
     if ([[UIDevice currentDevice] respondsToSelector:@selector(setOrientation:)]) {
         SEL selector = NSSelectorFromString(@"setOrientation:");
         NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:[UIDevice instanceMethodSignatureForSelector:selector]];
