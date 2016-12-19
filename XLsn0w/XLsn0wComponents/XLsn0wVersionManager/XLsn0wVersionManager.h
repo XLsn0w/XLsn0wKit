@@ -15,15 +15,10 @@
 @interface XLsn0wVersionManager : NSObject
 
 /**
- *  版本更新
- *
- *  @param appid              该app的id (在itunes connect中获取)
- *  @param isShowReleaseNotes 是否显示版本注释
- *  @param controller         要显示的controller
+ *  @param appStoreID          应用在AppStore里面的ID (在iTunes Connect中获取)
+ *  @param currentController   要显示的controller
  */
-+(void)updateVersionForAppID:(NSString *)appid
-          isShowReleaseNotes:(BOOL)isShowReleaseNotes
-              showController:(UIViewController *)controller;
-
++ (void)xlsn0w_updateVersionWithAppStoreID:(NSString *)appStoreID
+                   showInCurrentController:(UIViewController *)currentController;
 
 @end
