@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "XLsn0wComponents.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (IBAction)show:(id)sender {
+//    [XLsn0wShow showTopWithText:@"Top"];
+//    [XLsn0wShow showBottomWithText:@"Bottom"];
+//    [XLsn0wShow showTopWithText:@"Top" duration:5];
+    [XLsn0wShow showBottomWithText:@"Bottom" duration:3];
 }
 
 - (void)didReceiveMemoryWarning {

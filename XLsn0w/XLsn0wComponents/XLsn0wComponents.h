@@ -17,6 +17,7 @@
 #import "XLsn0wStarRating.h"
 #import "XLsn0wTextView.h"
 #import "XLsn0wTopSlider.h"
+#import "XLsn0wShow.h"
 
 /**************************************************************************************************/
 

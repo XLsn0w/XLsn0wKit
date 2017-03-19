@@ -45,6 +45,7 @@
 		358D3EE21D7AE27E00ADE778 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 358D3EE11D7AE27E00ADE778 /* AppDelegate.m */; };
 		358D3EEA1D7AE27E00ADE778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 358D3EE91D7AE27E00ADE778 /* Assets.xcassets */; };
 		358D3EED1D7AE27E00ADE778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 358D3EEB1D7AE27E00ADE778 /* LaunchScreen.storyboard */; };
+		3597CD0B1E7E56CC0060BE6B /* XLsn0wShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3597CD0A1E7E56CC0060BE6B /* XLsn0wShow.m */; };
 		35A78C551DAB7F9200D9D180 /* XLsn0wClassMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A78C531DAB7F9200D9D180 /* XLsn0wClassMethods.m */; };
 		35A78C581DAB7FA200D9D180 /* XLsn0wInstanceMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A78C561DAB7FA200D9D180 /* XLsn0wInstanceMethods.m */; };
 		35A78C941DAB809000D9D180 /* UITableView+XLsn0wAutoLayoutCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A78C701DAB809000D9D180 /* UITableView+XLsn0wAutoLayoutCellHeight.m */; };
@@ -121,6 +122,8 @@
 		358D3EE91D7AE27E00ADE778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		358D3EEC1D7AE27E00ADE778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		358D3EEE1D7AE27E00ADE778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3597CD091E7E56CC0060BE6B /* XLsn0wShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wShow.h; sourceTree = "<group>"; };
+		3597CD0A1E7E56CC0060BE6B /* XLsn0wShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wShow.m; sourceTree = "<group>"; };
 		35A78C531DAB7F9200D9D180 /* XLsn0wClassMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wClassMethods.m; sourceTree = "<group>"; };
 		35A78C541DAB7F9200D9D180 /* XLsn0wClassMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wClassMethods.h; sourceTree = "<group>"; };
 		35A78C561DAB7FA200D9D180 /* XLsn0wInstanceMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wInstanceMethods.m; sourceTree = "<group>"; };
@@ -416,6 +419,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3597CD081E7E56CC0060BE6B /* XLsn0wShow */ = {
+			isa = PBXGroup;
+			children = (
+				3597CD091E7E56CC0060BE6B /* XLsn0wShow.h */,
+				3597CD0A1E7E56CC0060BE6B /* XLsn0wShow.m */,
+			);
+			path = XLsn0wShow;
+			sourceTree = "<group>";
+		};
 		35A78C511DAB7F6D00D9D180 /* XLsn0wInstanceMethods */ = {
 			isa = PBXGroup;
 			children = (
@@ -438,6 +450,7 @@
 			isa = PBXGroup;
 			children = (
 				35A78C8C1DAB809000D9D180 /* XLsn0wComponents.h */,
+				3597CD081E7E56CC0060BE6B /* XLsn0wShow */,
 				35BF9DAB1E01172B0044EBCF /* XLsn0wNavigationController */,
 				357CF8DB1E00E0F50009FE07 /* XLsn0wTopSlider */,
 				3582BFAD1DFA845000B1512D /* XLsn0wTextView */,
@@ -668,6 +681,7 @@
 				3527DF3F1DBDFCF20097A085 /* XLsn0wAnimation.m in Sources */,
 				35A78C961DAB809000D9D180 /* XLsn0wCollectionViewFlowLayout.m in Sources */,
 				35C3A5C21DB64F7800CB3331 /* XLsn0wStarRating.m in Sources */,
+				3597CD0B1E7E56CC0060BE6B /* XLsn0wShow.m in Sources */,
 				35BF9DAE1E01172B0044EBCF /* XLsn0wNavigationController.m in Sources */,
 				35A78C581DAB7FA200D9D180 /* XLsn0wInstanceMethods.m in Sources */,
 				35A78C941DAB809000D9D180 /* UITableView+XLsn0wAutoLayoutCellHeight.m in Sources */,
