@@ -57,6 +57,7 @@
 		35C009E81D7EE38C00659C7B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35C009E71D7EE38C00659C7B /* AVFoundation.framework */; };
 		35C3A5C21DB64F7800CB3331 /* XLsn0wStarRating.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C3A5C11DB64F7800CB3331 /* XLsn0wStarRating.m */; };
 		E92B541FDB30E114A6A3ED5E /* libPods-XLsn0wKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F79EBEE22F2614ABAE1CA049 /* libPods-XLsn0wKit.a */; };
+		FD7D0A3128AF16B800ABB966 /* UIView+shadowPath.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7D0A2F28AF16B800ABB966 /* UIView+shadowPath.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -147,6 +148,8 @@
 		869A33EE511FC74F45811282 /* Pods-XLsn0wKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLsn0wKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-XLsn0wKit/Pods-XLsn0wKit.release.xcconfig"; sourceTree = "<group>"; };
 		D33CB49D6ADA1DE69AB79DEF /* Pods-XLsn0wKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLsn0wKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XLsn0wKit/Pods-XLsn0wKit.debug.xcconfig"; sourceTree = "<group>"; };
 		F79EBEE22F2614ABAE1CA049 /* libPods-XLsn0wKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XLsn0wKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7D0A2F28AF16B800ABB966 /* UIView+shadowPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+shadowPath.m"; sourceTree = "<group>"; };
+		FD7D0A3028AF16B800ABB966 /* UIView+shadowPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+shadowPath.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -300,6 +303,8 @@
 			children = (
 				357CF8D01E00DF7F0009FE07 /* UIView+XLsn0wKit.h */,
 				357CF8D11E00DF7F0009FE07 /* UIView+XLsn0wKit.m */,
+				FD7D0A3028AF16B800ABB966 /* UIView+shadowPath.h */,
+				FD7D0A2F28AF16B800ABB966 /* UIView+shadowPath.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -575,6 +580,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -657,6 +663,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35A78C551DAB7F9200D9D180 /* XLsn0wClassMethods.m in Sources */,
+				FD7D0A3128AF16B800ABB966 /* UIView+shadowPath.m in Sources */,
 				357822201E022C3100B47D71 /* UINavigationController+AddXLsn0wShouldAutorotate.m in Sources */,
 				357CF8C31E00DF100009FE07 /* NSObject+XLsn0wKit.m in Sources */,
 				3582BFB01DFA845000B1512D /* XLsn0wTextView.m in Sources */,
